@@ -11,8 +11,27 @@
     </div>
     <script>
         function init() { alert("init") }
+        function readResult(param) {
+            alert(param)
+        }
 function findAll() {
-    alert("findAll")
+    $.ajax({
+        url: "api/Clienti/GetAllClients",
+        type: "GET",
+        contentType: "application/json",
+        success: function (result) {
+            //readResult(result)
+            var elem = JSON.parse(result) 
+            readResult(elem);
+            
+        },
+        error: function (xhr, status, p3, p4) {
+            var err = "Error " + " " + status + " " + p3;
+            if (xhr.responseText && xhr.responseText[0] == "{")
+                err = JSON.parse(xhr.responseText).message;
+            alert(err);
+        }
+    });
 }
     </script>
 </body>

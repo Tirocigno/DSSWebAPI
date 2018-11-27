@@ -29,8 +29,7 @@ namespace DSSWebApp
             );
 
             // per far restituire json e non xml
-            config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new
-            MediaTypeHeaderValue("text/html"));
+            config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
         }
     }
 }
