@@ -16,5 +16,18 @@ namespace DSSWebApp.Controllers
             res = "{\"nome\":\"pippo\"}";
             return res;
         }
+
+        [HttpGet] // in esecuzione solo con un get dal client
+        [ActionName("GetCustQuantities")] // nome del metodo esposto
+        public IHttpActionResult GetCustQuantities(int id)
+        {
+            string queryText = "select id,req from clienti where id=" + id;
+            /*string s = P.readTableViaF(connString, queryText, factory);
+            lstClienti = JsonConvert.DeserializeObject<List<Clienti>>(s);
+            var user = lstClienti.FirstOrDefault((u) => u.id == id);
+            if (user == null)
+                return NotFound();*/
+            return Ok(queryText);
+        }
     }
 }

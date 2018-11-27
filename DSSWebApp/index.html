@@ -8,6 +8,8 @@
 <body onload="init()">
     <div>
         <input type="button" value="Read all" onclick="findAll();" />
+        <input type="text" id="txtId" />
+        <input type="button" value="FindByID" onclick="findById();" />
     </div>
     <script>
         function init() { alert("init") }
@@ -32,6 +34,25 @@ function findAll() {
             alert(err);
         }
     });
+}
+function findById() {
+    var id = $('#txtId').val();
+    $.ajax(
+    {
+        url: "api/Clienti/GetCustQuantities/" + id, //api/nomeclasse/nomemetodo
+        type: "GET",
+        contentType: "application/json",
+        data: "",
+        success: function (result) {
+            readResult(result);
+        },
+        error: function (xhr, status, p3, p4) {
+            var err = "Error " + " " + status + " " + p3;
+            if (xhr.responseText && xhr.responseText[0] == "{")
+                err = JSON.parse(xhr.responseText).message;
+            alert(err);
+        }
+    });
 }
     </script>
 </body>
