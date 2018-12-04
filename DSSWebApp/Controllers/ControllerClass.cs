@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DSSWebApp.Models.Database;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +9,8 @@ namespace DSSWebApp.Controllers
 {
     public class ClientiController : ApiController
     {
+        private DBConnection dbConnection = new DBConnection();
+
         [HttpGet] // Metodo http per l'api
         [ActionName("GetAllClients")] // path dell'api.
         public string GetAllClients()
@@ -32,13 +35,10 @@ namespace DSSWebApp.Controllers
 
         [HttpPost]
         [ActionName("insertCustomer")]
-        public string insertCustomer(object obj)
+        public string insertCustomer(string tableToRead)
         {
-            /* string queryString = "insert into clienti (id, req, mag) values(";
-             queryString += obj.id + "," + obj.req + ",'" + obj.mag + "')";
-             P.execNonQueryViaF(connString, queryString, factory, true);
-             return "Customer inserted"; // oppure dichiararla static*/
-            return "fatto";
+            string query = "select * from " + tableToRead;
+            return dbConnection.readTableViaFactory(query);
         }        
     }
 }

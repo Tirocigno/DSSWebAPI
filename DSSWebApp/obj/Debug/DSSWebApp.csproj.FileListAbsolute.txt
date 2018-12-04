@@ -88,3 +88,7 @@ c:\users\feden\documents\visual studio 2015\Projects\DSSWebApp\DSSWebApp\bin\Sys
 c:\users\feden\documents\visual studio 2015\Projects\DSSWebApp\DSSWebApp\obj\Debug\DSSWebApp.csprojResolveAssemblyReference.cache
 c:\users\feden\documents\visual studio 2015\Projects\DSSWebApp\DSSWebApp\obj\Debug\DSSWebApp.dll
 c:\users\feden\documents\visual studio 2015\Projects\DSSWebApp\DSSWebApp\obj\Debug\DSSWebApp.pdb
+C:\Users\feden\Documents\Visual Studio 2015\Projects\DSSWebApp\DSSWebApp\bin\System.Data.SQLite.dll
+C:\Users\feden\Documents\Visual Studio 2015\Projects\DSSWebApp\DSSWebApp\bin\System.Data.SQLite.EF6.dll
+C:\Users\feden\Documents\Visual Studio 2015\Projects\DSSWebApp\DSSWebApp\bin\System.Data.SQLite.Linq.dll
+C:\Users\feden\Documents\Visual Studio 2015\Projects\DSSWebApp\DSSWebApp\bin\System.Data.SQLite.xml
