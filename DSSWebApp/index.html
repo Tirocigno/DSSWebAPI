@@ -11,6 +11,7 @@
         <input type="text" id="txtId" />
         <input type="button" value="FindByID" onclick="findById();" />
         <input type="button" value="POSTMETHOD" onclick="postFunction();" />
+        <input type="button" value="SIMPLEPOSTMETHOD" onclick="simplePostFunction();" />
     </div>
     <script>
         function init() { alert("init") }
@@ -39,14 +40,31 @@ function findAll() {
 
 function postFunction() {
     var cacio = "clienti"
+    var options = {};
+    options.url = "/api/Clienti/insertCustomer";
+    options.type = "POST";
+    options.data = JSON.stringify({
+        "tableId": cacio
+    });
+    options.dataType = "json";
+    options.contentType = "application/json";
+    options.success = function (msg) {
+        alert(msg);
+    };
+    options.error = function (err) { alert(err.statusText); };
+    $.ajax(options);
+
+}
+
+function simplePostFunction() {
     $.ajax({
-        url: "api/Clienti/insertCustomer/" + cacio,
+        url: "api/Clienti/simplePost",
         type: "POST",
         contentType: "application/json",
         success: function (result) {
             readResult(result)
             //var elem = JSON.parse(result)
-           // readResult(elem)
+            // readResult(elem)
         },
         error: function (xhr, status, p3, p4) {
             var err = "Error " + " " + status + " " + p3;

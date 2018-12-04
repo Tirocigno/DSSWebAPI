@@ -35,10 +35,18 @@ namespace DSSWebApp.Controllers
 
         [HttpPost]
         [ActionName("insertCustomer")]
-        public string insertCustomer(string tableToRead)
+        public string insertCustomer(Table tableToRead)
         {
-            string query = "select * from " + tableToRead;
+            string query = "select * from " + tableToRead.getTableId();
             return dbConnection.readTableViaFactory(query);
-        }        
+        }        [HttpPost]
+        [ActionName("simplePost")]
+        public string simplePost()
+        {
+            return "Post Done";
+        }
+
+
+
     }
 }
