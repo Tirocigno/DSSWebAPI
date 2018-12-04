@@ -29,5 +29,16 @@ namespace DSSWebApp.Controllers
                 return NotFound();*/
             return Ok(queryText);
         }
+
+        [HttpPost]
+        [ActionName("insertCustomer")]
+        public string insertCustomer(object obj)
+        {
+            /* string queryString = "insert into clienti (id, req, mag) values(";
+             queryString += obj.id + "," + obj.req + ",'" + obj.mag + "')";
+             P.execNonQueryViaF(connString, queryString, factory, true);
+             return "Customer inserted"; // oppure dichiararla static*/
+            return "fatto";
+        }        
     }
 }

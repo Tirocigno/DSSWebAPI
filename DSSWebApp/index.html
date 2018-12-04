@@ -10,6 +10,7 @@
         <input type="button" value="Read all" onclick="findAll();" />
         <input type="text" id="txtId" />
         <input type="button" value="FindByID" onclick="findById();" />
+        <input type="button" value="POSTMETHOD" onclick="postFunction();" />
     </div>
     <script>
         function init() { alert("init") }
@@ -35,6 +36,28 @@ function findAll() {
         }
     });
 }
+
+function postFunction() {
+    var cacio = "cacio"
+    $.ajax({
+        url: "api/Clienti/insertCustomer/" + cacio,
+        type: "POST",
+        contentType: "application/json",
+        success: function (result) {
+            readResult(result)
+            //var elem = JSON.parse(result)
+           // readResult(elem)
+        },
+        error: function (xhr, status, p3, p4) {
+            var err = "Error " + " " + status + " " + p3;
+            if (xhr.responseText && xhr.responseText[0] == "{")
+                err = JSON.parse(xhr.responseText).message;
+            alert(err);
+        }
+    });
+
+}
+
 function findById() {
     var id = $('#txtId').val();
     $.ajax(
