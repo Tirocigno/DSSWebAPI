@@ -1,6 +1,7 @@
 ﻿using DSSWebApp.Models.Database;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Http; //Necessaria al funzionamento di tutto.
@@ -9,7 +10,16 @@ namespace DSSWebApp.Controllers
 {
     public class ClientiController : ApiController
     {
+        private static string dataDirectory = (string) AppDomain.CurrentDomain.GetData("DataDirectory");
         private DBConnection dbConnection = new DBConnection();
+
+        private void controllerEventHandler(object sender, string message)
+        {
+            StreamWriter writeLog = new StreamWriter(dataDirectory + "\\log.txt", true);
+            string messageToWrite = "[" + DateTime.Now.ToString() + "]: " + message;
+            writeLog.WriteLine(message);
+            writeLog.Close();
+        }
 
         [HttpGet] // Metodo http per l'api
         [ActionName("GetAllClients")] // path dell'api.
