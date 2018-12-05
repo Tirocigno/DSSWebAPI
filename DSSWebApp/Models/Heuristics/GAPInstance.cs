@@ -14,5 +14,6 @@ namespace DSSWebApp.Models.Heuristics
         public int[] cap;
         public int[,] req;
         public int[] solBest;
+        public int zub;
     }
 }

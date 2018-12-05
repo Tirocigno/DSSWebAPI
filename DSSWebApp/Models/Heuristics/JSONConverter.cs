@@ -22,6 +22,7 @@ namespace DSSWebApp.Models.Heuristics
             }
             catch (Exception ex)
             {
+                Console.WriteLine("Exception: " + ex.ToString());
                 ist = new GAPInstance();
             }
 

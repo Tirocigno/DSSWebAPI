@@ -13,6 +13,7 @@
         <input type="button" value="POSTMETHOD" onclick="postFunction();" />
         <input type="button" value="SIMPLEPOSTMETHOD" onclick="simplePostFunction();" />
         <input type="button" value="readGAP" onclick="readGAP();" />
+        <input type="button" value="computeDumpGAP" onclick="resolveDumpGAPInstance();" />
         METTERE LE COSE IN APPDATA ppoi 
     </div>
     <script>
@@ -42,13 +43,13 @@ function findAll() {
 
 function readGAP() {
     $.ajax({
-        url: "api/Clienti/GetAllClients",
+        url: "api/Heuristics/getGAPInstance",
         type: "GET",
         contentType: "application/json",
         success: function (result) {
-            //readResult(result)
-            var elem = JSON.parse(result)
-            readResult(elem);
+            readResult(result)
+            //var elem = JSON.parse(result)
+            //readResult(elem);
 
         },
         error: function (xhr, status, p3, p4) {
@@ -58,6 +59,20 @@ function readGAP() {
             alert(err);
         }
     });
+
+}
+
+function resolveDumpGAPInstance() {
+    var options = {};
+    options.url = "/api/Heuristics/resolveDumpGAPInstance";
+    options.type = "POST";
+    options.dataType = "json";
+    options.contentType = "application/json";
+    options.success = function (msg) {
+        alert(msg);
+    };
+    options.error = function (err) { alert(err.statusText); };
+    $.ajax(options);
 
 }
 
@@ -81,7 +96,7 @@ function postFunction() {
 
 function simplePostFunction() {
     $.ajax({
-        url: "api/Clienti/simplePost",
+        url: "api/Database/simplePost",
         type: "POST",
         contentType: "application/json",
         success: function (result) {
