@@ -60,7 +60,7 @@
             options.contentType = "application/json";
             options.data = "\"" + file + "\""
             options.success = function (msg) {
-                alert(msg);
+                displayCost(msg);
             };
             options.error = function (err) { alert(err.statusText); };
             $.ajax(options);
@@ -177,6 +177,11 @@ function findById() {
         }
     });
 }
+
+function displayCost(cost) {
+    alert("Cost of the solution is: " + cost)
+}
+
     </script>
 </body>
 </html>

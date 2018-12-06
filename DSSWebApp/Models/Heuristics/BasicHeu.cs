@@ -94,8 +94,8 @@ namespace DSSWebApp.Models.Heuristics
 
         }
 
-        /*THIS IS  NOT WORKING*/
-        public int opt10() //what cost should be?
+        /*THIS IS WORKING*/
+        public int opt10()
         {
             int isol = 0;
             int[] capleft = new int[m];
@@ -104,49 +104,60 @@ namespace DSSWebApp.Models.Heuristics
             int z = 0;
             bool isImproved = true;
 
+            this.constructiveEurFirstSol();
+
+            /*Inizializzo le capacità per ogni server*/
             for (int i = 0; i < m; i++)
             {
                 capleft[i] = GAP.cap[i];
             }
 
-            for (int j = 0; j < m; j++)
+            /*Calcolo la somma dei costi dei diversi client*/
+            for (int j = 0; j < n; j++)
             {
                 z += cost[sol[j], j];
             }
 
-            while(isImproved) {
+
+            while (isImproved) {
                 isImproved = false;
+                /*Per ogni client*/
                 for (int j = 0; j < n; j++)
                 {
-                    isol = sol[j];
 
+                    /*Per ogni server*/
                     for (int i = 0; i < m; i++)
                     {
-                        if (i != isol && cost[i, j] < cost[isol, j] && capleft[i] >= req[isol, j])
+                        isol = sol[j];
+                        if (i != isol && cost[i, j] < cost[isol, j] && capleft[i] >= req[i, j])
                         {
                             isImproved = true;
                             sol[j] = i;
                             capleft[i] -= req[i, j];
-                            capleft[isol] += req[i, j];
+                            capleft[isol] += req[isol, j];
                             z -= (cost[isol, j] - cost[i, j]);
                             if (z < GAP.zub)
                             {
                                 GAP.zub = z;
-                                writeOnLog("[1-0opt]: new zub " + GAP.zub);
                             }
                         }
                     }
                 }
             }
 
+           
+
             double zCheck = 0;
-            for (int j = 0; j < n; j++) zCheck += cost[sol[j], j];
-            if(Math.Abs(z - zCheck) > EPSILON) // what's the value of EPSILON
+            for (int j = 0; j < n; j++)
+            {
+                zCheck += cost[sol[j], j];
+            }
+
+            if (Math.Abs(z - zCheck) > EPSILON)
             {
                 writeOnLog("Solution is different of: "+ Math.Abs(z - zCheck) + " should not be that!");
                 return -1;
             }
-            //WHAT TO DO NEXT?
             return z;    
         }
 
@@ -162,51 +173,70 @@ p = e
 .
 4. se (annealing condition) cala T.
 5. se not(end condition) go to step 2.*/
-            //CI
             int isol = 0;
-            int[] capleft = GAP.cap;
-            int[,] req = GAP.req;
+            int[] capleft = new int[m];
             int[,] cost = GAP.cost;
-            int z = 0; //What's z, what's initial number?
+            int[,] req = GAP.req;
+            int z = 0;
             bool isImproved = true;
-            Random rnd = new Random(550);
+
+            this.constructiveEurFirstSol();
+
+            /*Inizializzo le capacità per ogni server*/
+            for (int i = 0; i < m; i++)
+            {
+                capleft[i] = GAP.cap[i];
+            }
+
+            /*Calcolo la somma dei costi dei diversi client*/
+            for (int j = 0; j < n; j++)
+            {
+                z += cost[sol[j], j];
+            }
+
 
             while (isImproved)
             {
                 isImproved = false;
-               // for (int j = 0; j < n; j++)
+                /*Per ogni client*/
+                for (int j = 0; j < n; j++)
                 {
-                    int j = rnd.Next(0, m - 1);
-                    isol = sol[j];
 
-                    //for (int i = 0; i < m; i++)
+                    /*Per ogni server*/
+                    for (int i = 0; i < m; i++)
                     {
-                        int i = rnd.Next(0, n - 1);
-                        if (i != isol && cost[i, j] < cost[isol, j] && capleft[i] > req[isol, j])
+                        isol = sol[j];
+                        if (i != isol && cost[i, j] < cost[isol, j] && capleft[i] >= req[i, j])
                         {
                             isImproved = true;
                             sol[j] = i;
                             capleft[i] -= req[i, j];
-                            capleft[isol] += req[i, j];
+                            capleft[isol] += req[isol, j];
                             z -= (cost[isol, j] - cost[i, j]);
                             if (z < GAP.zub)
                             {
                                 GAP.zub = z;
-                                writeOnLog("[1-0opt]: new zub" + GAP.zub);
                             }
                         }
                     }
                 }
             }
 
+
+
             double zCheck = 0;
-            for (int j = 0; j < n; j++) zCheck += cost[sol[j], j];
-            if (Math.Abs(z - zCheck) > EPSILON) // what's the value of EPSILON
+            for (int j = 0; j < n; j++)
             {
-                Console.WriteLine("[1-0opt]:Not goood");
+                zCheck += cost[sol[j], j];
             }
-            //WHAT TO DO NEXT?
-            return (int)z;
+
+            if (Math.Abs(z - zCheck) > EPSILON)
+            {
+                writeOnLog("Solution is different of: " + Math.Abs(z - zCheck) + " should not be that!");
+                return -1;
+            }
+            return z;
+
         }
 
         //Anche questo credo vada...

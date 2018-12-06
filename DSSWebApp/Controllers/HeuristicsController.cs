@@ -43,9 +43,7 @@ namespace DSSWebApp.Controllers
         public string resolveOpt1_0GAPInstance([FromBody] string fileName)
         {
             GAPInstance Gap = JSONConverter.deserializeGAP(dataDirectory + "\\" + fileName);
-            BasicHeu h = new BasicHeu(Gap);
-            h.constructiveEurFirstSol();
-            return "Cost of solution is: " + h.opt10().ToString();
+            return new BasicHeu(Gap).opt10().ToString();
         }
 
         /*Calcola il costo della soluzione utilizzando un algoritmo di Simulated Annealing*/
@@ -54,10 +52,8 @@ namespace DSSWebApp.Controllers
         public string resolveSimulatedAnnealingGAPInstance([FromBody] string fileName)
         {
             GAPInstance Gap = JSONConverter.deserializeGAP(dataDirectory + "\\" + fileName);
-            BasicHeu h = new BasicHeu(Gap);
-            h.constructiveEurFirstSol();
             // IMPLEMENT THE ALGHORITHM
-            return "Cost of solution is: TO BE IMPLEMENTED";
+            return "TO BE IMPLEMENTED";
         }
 
 
