@@ -2,11 +2,39 @@
 <html>
 <head>
     <title>Progetto</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <div>
+    <div class="container-fluid">
+        <h1>Ottimizzazione</h1>
+        <label>File di input</label>
+        <select name="inputFile" id="inputFile">
+            <option value="trivial.json">Trivial</option>
+            <option value="toy.json">Toy</option>
+            <option value="elba.json">Elba</option>
+            <option value="gap1_0.json">Gap1_0</option>
+            <option value="gapa_0.json">GapA_0</option>
+            <option value="gapd_0.json">GapD_0</option>
+        </select>
+
+        <label>Metodo di calcolo del costo</label>
+        <select name="computationMethod" id="computationMethod">
+            <option value="resolveRandomGAPInstance">Random</option>
+            <option value="resolveConstructiveGAPInstance">Constructive</option>
+            <option value="resolveOpt1_0GAPInstance">Opt1_0</option>
+            <option value="resolveSimulatedAnnealingGAPInstance">SimulatedAnnealing</option>
+        </select>
+
+        <input type="button" value="Compute!" onclick="computeHeu();" />
+
+    </div>
+   <!--  <div>
         <input type="button" value="Read all" onclick="findAll();" />
         <input type="text" id="txtId" />
         <input type="button" value="FindByID" onclick="findById();" />
@@ -14,12 +42,29 @@
         <input type="button" value="SIMPLEPOSTMETHOD" onclick="simplePostFunction();" />
         <input type="button" value="readGAP" onclick="readGAP();" />
         <input type="button" value="computeDumpGAP" onclick="resolveDumpGAPInstance();" />
-        METTERE LE COSE IN APPDATA ppoi 
-    </div>
+    </div> -->
     <script>
         function init() { alert("init") }
         function readResult(param) {
             alert(param)
+        }
+
+        function computeHeu() {
+            var fileComboBox = document.getElementById("inputFile");
+            var file = fileComboBox.options[fileComboBox.selectedIndex].value;
+            var pathComboBox = document.getElementById("computationMethod");
+            var path = pathComboBox.options[pathComboBox.selectedIndex].value;
+            var options = {};
+            options.url = "/api/Heuristics/" + path;
+            options.type = "POST";
+            options.contentType = "application/json";
+            options.data = "\"" + file + "\""
+            alert(options.data)
+            options.success = function (msg) {
+                alert(msg);
+            };
+            options.error = function (err) { alert(err.statusText); };
+            $.ajax(options);
         }
 function findAll() {
     $.ajax({

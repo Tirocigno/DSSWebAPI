@@ -11,35 +11,58 @@ namespace DSSWebApp.Controllers
     {
         private static string dataDirectory = (string)AppDomain.CurrentDomain.GetData("DataDirectory");
 
-        /*IMPLEMENTARE UN GETTER PER QUESTA API*/
+        /*Ritorna l'oggetto GAPInstance letto da file*/ 
         [HttpGet] // Metodo http per l'api
         [ActionName("getGAPInstance")] // path dell'api.
-        public string getGAPInstance()
+        public string getGAPInstance(string fileName)
         {
-            string fileName = "elba.json";
             return JSONConverter.deserializeGAP(dataDirectory + "\\" + fileName).ToString();
         }
 
-        /*IMPLEMENTARE UN GETTER PER QUESTA API*/
+        /*Calcola il costo della soluzione utilizzando un algoritmo di assegnamento random.*/
         [HttpPost] // Metodo http per l'api
-        [ActionName("resolveDumpGAPInstance")] // path dell'api.
-        public string resolveDumpGAPInstance()
+        [ActionName("resolveRandomGAPInstance")] // path dell'api.
+        public string resolveRandomGAPInstance([FromBody]string fileName)
         {
-            string fileName = "elba.json";
+            System.Diagnostics.Debug.WriteLine("Filename:" + fileName);
+            GAPInstance Gap = JSONConverter.deserializeGAP(dataDirectory + "\\" + fileName);
+            return new BasicHeu(Gap).constructFirstSol().ToString();
+        }
+
+        /*Calcola il costo della soluzione utilizzando un algoritmo costruttivo.*/
+        [HttpPost] // Metodo http per l'api
+        [ActionName("resolveConstructiveGAPInstance")] // path dell'api.
+        public string resolveConstructiveGAPInstance([FromBody] string fileName)
+        {
+            GAPInstance Gap = JSONConverter.deserializeGAP(dataDirectory + "\\" + fileName);
+            return new BasicHeu(Gap).constructiveEurFirstSol().ToString();
+        }
+
+        /*Calcola il costo della soluzione utilizzando un algoritmo basato sui mimimi locali*/
+        [HttpPost] // Metodo http per l'api
+        [ActionName("resolveOpt1_0GAPInstance")] // path dell'api.
+        public string resolveOpt1_0GAPInstance([FromBody] string fileName)
+        {
             GAPInstance Gap = JSONConverter.deserializeGAP(dataDirectory + "\\" + fileName);
             BasicHeu h = new BasicHeu(Gap);
             h.constructiveEurFirstSol();
             return "Cost of solution is: " + h.opt10().ToString();
         }
 
-        /*IMPLEMENTARE UN GETTER PER QUESTA API*/
+        /*Calcola il costo della soluzione utilizzando un algoritmo di Simulated Annealing*/
         [HttpPost] // Metodo http per l'api
-        [ActionName("resolveFirstHeuGAPInstance")] // path dell'api.
-        public string resolveFirstHeuGAPInstance(string fileName)
+        [ActionName("resolveSimulatedAnnealingGAPInstance")] // path dell'api.
+        public string resolveSimulatedAnnealingGAPInstance([FromBody] string fileName)
         {
-            GAPInstance Gap = JSONConverter.deserializeGAP(dataDirectory + fileName);
-            return new BasicHeu(Gap).constructiveEurFirstSol().ToString();
+            GAPInstance Gap = JSONConverter.deserializeGAP(dataDirectory + "\\" + fileName);
+            BasicHeu h = new BasicHeu(Gap);
+            h.constructiveEurFirstSol();
+            // IMPLEMENT THE ALGHORITHM
+            return "Cost of solution is: TO BE IMPLEMENTED";
         }
+
+
+
 
 
     }
