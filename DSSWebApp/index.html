@@ -12,176 +12,185 @@
 </head>
 <body>
     <div class="container-fluid">
-        <h1>Ottimizzazione</h1>
-        <label>File di input</label>
-        <select name="inputFile" id="inputFile">
-            <option value="trivial.json">Trivial</option>
-            <option value="toy.json">Toy</option>
-            <option value="elba.json">Elba</option>
-            <option value="gap1_0.json">Gap1_0</option>
-            <option value="gapa_0.json">GapA_0</option>
-            <option value="gapd_0.json">GapD_0</option>
-        </select>
+        <div class="col-md-6">
+            <h1>Ottimizzazione</h1>
+            <label>File di input</label>
+            <select name="inputFile" id="inputFile">
+                <option value="trivial.json">Trivial</option>
+                <option value="toy.json">Toy</option>
+                <option value="elba.json">Elba</option>
+                <option value="gap1_0.json">Gap1_0</option>
+                <option value="gapa_0.json">GapA_0</option>
+                <option value="gapd_0.json">GapD_0</option>
+            </select>
 
-        <label>Metodo di calcolo del costo</label>
-        <select name="computationMethod" id="computationMethod">
-            <option value="resolveRandomGAPInstance">Random</option>
-            <option value="resolveConstructiveGAPInstance">Constructive</option>
-            <option value="resolveOpt1_0GAPInstance">Opt1_0</option>
-            <option value="resolveSimulatedAnnealingGAPInstance">SimulatedAnnealing</option>
-        </select>
+            <label>Metodo di calcolo del costo</label>
+            <select name="computationMethod" id="computationMethod">
+                <option value="resolveRandomGAPInstance">Random</option>
+                <option value="resolveConstructiveGAPInstance">Constructive</option>
+                <option value="resolveOpt1_0GAPInstance">Opt1_0</option>
+                <option value="resolveSimulatedAnnealingGAPInstance">SimulatedAnnealing</option>
+            </select>
 
-        <input type="button" value="Compute!" onclick="computeHeu();" />
+            <input type="button" value="Compute!" onclick="computeHeu();" />
 
+        </div>
+        <div class="col-md-6">
+            <h1>Previsione</h1>
+
+            <input type="button" value="recuperaValoriClienti" onclick="postFunction();" />
+
+        </div>
     </div>
-   <!--  <div>
-        <input type="button" value="Read all" onclick="findAll();" />
-        <input type="text" id="txtId" />
-        <input type="button" value="FindByID" onclick="findById();" />
-        <input type="button" value="POSTMETHOD" onclick="postFunction();" />
-        <input type="button" value="SIMPLEPOSTMETHOD" onclick="simplePostFunction();" />
-        <input type="button" value="readGAP" onclick="readGAP();" />
-        <input type="button" value="computeDumpGAP" onclick="resolveDumpGAPInstance();" />
-    </div> -->
-    <script>
-        function init() { alert("init") }
-        function readResult(param) {
-            alert(param)
-        }
+        <!--  <div>
+             <input type="button" value="Read all" onclick="findAll();" />
+             <input type="text" id="txtId" />
+             <input type="button" value="FindByID" onclick="findById();" />
+             <input type="button" value="POSTMETHOD" onclick="postFunction();" />
+             <input type="button" value="SIMPLEPOSTMETHOD" onclick="simplePostFunction();" />
+             <input type="button" value="readGAP" onclick="readGAP();" />
+             <input type="button" value="computeDumpGAP" onclick="resolveDumpGAPInstance();" />
+         </div> -->
+        <script>
+            function init() { alert("init") }
+            function readResult(param) {
+                alert(param)
+            }
 
-        function computeHeu() {
-            var fileComboBox = document.getElementById("inputFile");
-            var file = fileComboBox.options[fileComboBox.selectedIndex].value;
-            var pathComboBox = document.getElementById("computationMethod");
-            var path = pathComboBox.options[pathComboBox.selectedIndex].value;
-            var options = {};
-            options.url = "/api/Heuristics/" + path;
-            options.type = "POST";
-            options.contentType = "application/json";
-            options.data = "\"" + file + "\""
-            options.success = function (msg) {
-                displayCost(msg);
-            };
-            options.error = function (err) { alert(err.statusText); };
-            $.ajax(options);
-        }
-function findAll() {
-    $.ajax({
-        url: "api/Clienti/GetAllClients",
-        type: "GET",
-        contentType: "application/json",
-        success: function (result) {
-            //readResult(result)
-            var elem = JSON.parse(result) 
-            readResult(elem);
-            
-        },
-        error: function (xhr, status, p3, p4) {
-            var err = "Error " + " " + status + " " + p3;
-            if (xhr.responseText && xhr.responseText[0] == "{")
-                err = JSON.parse(xhr.responseText).message;
-            alert(err);
-        }
-    });
-}
+            function computeHeu() {
+                var fileComboBox = document.getElementById("inputFile");
+                var file = fileComboBox.options[fileComboBox.selectedIndex].value;
+                var pathComboBox = document.getElementById("computationMethod");
+                var path = pathComboBox.options[pathComboBox.selectedIndex].value;
+                var options = {};
+                options.url = "/api/Heuristics/" + path;
+                options.type = "POST";
+                options.contentType = "application/json";
+                options.data = "\"" + file + "\""
+                options.success = function (msg) {
+                    displayCost(msg);
+                };
+                options.error = function (err) { alert(err.statusText); };
+                $.ajax(options);
+            }
+            function findAll() {
+                $.ajax({
+                    url: "api/Clienti/GetAllClients",
+                    type: "GET",
+                    contentType: "application/json",
+                    success: function (result) {
+                        //readResult(result)
+                        var elem = JSON.parse(result)
+                        readResult(elem);
 
-function readGAP() {
-    $.ajax({
-        url: "api/Heuristics/getGAPInstance",
-        type: "GET",
-        contentType: "application/json",
-        success: function (result) {
-            readResult(result)
-            //var elem = JSON.parse(result)
-            //readResult(elem);
+                    },
+                    error: function (xhr, status, p3, p4) {
+                        var err = "Error " + " " + status + " " + p3;
+                        if (xhr.responseText && xhr.responseText[0] == "{")
+                            err = JSON.parse(xhr.responseText).message;
+                        alert(err);
+                    }
+                });
 
-        },
-        error: function (xhr, status, p3, p4) {
-            var err = "Error " + " " + status + " " + p3;
-            if (xhr.responseText && xhr.responseText[0] == "{")
-                err = JSON.parse(xhr.responseText).message;
-            alert(err);
-        }
-    });
+            }
 
-}
+            function readGAP() {
+                $.ajax({
+                    url: "api/Heuristics/getGAPInstance",
+                    type: "GET",
+                    contentType: "application/json",
+                    success: function (result) {
+                        readResult(result)
+                        //var elem = JSON.parse(result)
+                        //readResult(elem);
 
-function resolveDumpGAPInstance() {
-    var options = {};
-    options.url = "/api/Heuristics/resolveDumpGAPInstance";
-    options.type = "POST";
-    options.dataType = "json";
-    options.contentType = "application/json";
-    options.success = function (msg) {
-        alert(msg);
-    };
-    options.error = function (err) { alert(err.statusText); };
-    $.ajax(options);
+                    },
+                    error: function (xhr, status, p3, p4) {
+                        var err = "Error " + " " + status + " " + p3;
+                        if (xhr.responseText && xhr.responseText[0] == "{")
+                            err = JSON.parse(xhr.responseText).message;
+                        alert(err);
+                    }
+                });
 
-}
+            }
 
-function postFunction() {
-    var cacio = "serie"
-    var options = {};
-    options.url = "/api/Clienti/insertCustomer";
-    options.type = "POST";
-    options.data = JSON.stringify({
-        "tableId": cacio
-    });
-    options.dataType = "json";
-    options.contentType = "application/json";
-    options.success = function (msg) {
-        alert(msg);
-    };
-    options.error = function (err) { alert(err.statusText); };
-    $.ajax(options);
+            function resolveDumpGAPInstance() {
+                var options = {};
+                options.url = "/api/Heuristics/resolveDumpGAPInstance";
+                options.type = "POST";
+                options.dataType = "json";
+                options.contentType = "application/json";
+                options.success = function (msg) {
+                    alert(msg);
+                };
+                options.error = function (err) { alert(err.statusText); };
+                $.ajax(options);
 
-}
+            }
 
-function simplePostFunction() {
-    $.ajax({
-        url: "api/Database/simplePost",
-        type: "POST",
-        contentType: "application/json",
-        success: function (result) {
-            readResult(result)
-            //var elem = JSON.parse(result)
-            // readResult(elem)
-        },
-        error: function (xhr, status, p3, p4) {
-            var err = "Error " + " " + status + " " + p3;
-            if (xhr.responseText && xhr.responseText[0] == "{")
-                err = JSON.parse(xhr.responseText).message;
-            alert(err);
-        }
-    });
+            function postFunction() {
+                var cacio = "serie"
+                var options = {};
+                options.url = "/api/Database/insertCustomer";
+                options.type = "POST";
+                options.data = JSON.stringify({
+                    "tableId": cacio
+                });
+                options.dataType = "json";
+                options.contentType = "application/json";
+                options.success = function (msg) {
+                    alert(msg);
+                };
+                options.error = function (err) { alert(err.statusText); };
+                $.ajax(options);
 
-}
+            }
 
-function findById() {
-    var id = $('#txtId').val();
-    $.ajax(
-    {
-        url: "api/Clienti/GetCustQuantities/" + id, //api/nomeclasse/nomemetodo
-        type: "GET",
-        contentType: "application/json",
-        data: "",
-        success: function (result) {
-            readResult(result);
-        },
-        error: function (xhr, status, p3, p4) {
-            var err = "Error " + " " + status + " " + p3;
-            if (xhr.responseText && xhr.responseText[0] == "{")
-                err = JSON.parse(xhr.responseText).message;
-            alert(err);
-        }
-    });
-}
+            function simplePostFunction() {
+                $.ajax({
+                    url: "api/Database/simplePost",
+                    type: "POST",
+                    contentType: "application/json",
+                    success: function (result) {
+                        readResult(result)
+                        //var elem = JSON.parse(result)
+                        // readResult(elem)
+                    },
+                    error: function (xhr, status, p3, p4) {
+                        var err = "Error " + " " + status + " " + p3;
+                        if (xhr.responseText && xhr.responseText[0] == "{")
+                            err = JSON.parse(xhr.responseText).message;
+                        alert(err);
+                    }
+                });
 
-function displayCost(cost) {
-    alert("Cost of the solution is: " + cost)
-}
+            }
 
-    </script>
+            function findById() {
+                var id = $('#txtId').val();
+                $.ajax(
+                {
+                    url: "api/Clienti/GetCustQuantities/" + id, //api/nomeclasse/nomemetodo
+                    type: "GET",
+                    contentType: "application/json",
+                    data: "",
+                    success: function (result) {
+                        readResult(result);
+                    },
+                    error: function (xhr, status, p3, p4) {
+                        var err = "Error " + " " + status + " " + p3;
+                        if (xhr.responseText && xhr.responseText[0] == "{")
+                            err = JSON.parse(xhr.responseText).message;
+                        alert(err);
+                    }
+                });
+            }
+
+            function displayCost(cost) {
+                alert("Cost of the solution is: " + cost)
+            }
+
+        </script>
 </body>
 </html>

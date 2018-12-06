@@ -43,7 +43,7 @@ namespace DSSWebApp.Controllers
             if (user == null)
                 return NotFound();
             return Ok(queryText);
-        }
+        }*/
         
         [HttpPost]
         [ActionName("insertCustomer")]
@@ -51,7 +51,7 @@ namespace DSSWebApp.Controllers
         {
             string query = "select * from " + tableToRead.getTableId();
             return dbConnection.readTableViaFactory(query);
-        }        */        [HttpPost]
+        }                [HttpPost]
         [ActionName("simplePost")]
         public string simplePost()
         {
