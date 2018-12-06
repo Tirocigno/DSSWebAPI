@@ -24,7 +24,6 @@ namespace DSSWebApp.Controllers
         [ActionName("resolveRandomGAPInstance")] // path dell'api.
         public string resolveRandomGAPInstance([FromBody]string fileName)
         {
-            System.Diagnostics.Debug.WriteLine("Filename:" + fileName);
             GAPInstance Gap = JSONConverter.deserializeGAP(dataDirectory + "\\" + fileName);
             return new BasicHeu(Gap).constructFirstSol().ToString();
         }

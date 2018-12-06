@@ -1,0 +1,42 @@
+Numero di client: 6
+Numero di server: 3
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 2
+[Constructive]Client 0 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 8
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 2
+[Constructive]Client 1 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 2
+[Constructive]Client 2 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 4
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 2
+[Constructive]Client 3 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 2
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 2
+[Constructive]Client 4 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 0
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 5
+[Constructive] Server esaminato 1
+[Constructive]Client 5 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 6
+Cap of server 0 = 10
+Cap of server 1 = 10
+Cap of server 2 = 10
+[checkSol] Cap utilizzata aumentata a  2
+[checkSol] Cap utilizzata aumentata a  4
+[checkSol] Cap utilizzata aumentata a  6
+[checkSol] Cap utilizzata aumentata a  8
+[checkSol] Cap utilizzata aumentata a  10
+[checkSol] Cap utilizzata aumentata a  4
+[1-0opt]: new zub 75
+[1-0opt]: new zub 65
+[1-0opt]: new zub 45
+[1-0opt]: new zub 35
+Solution is different of: 138 should not be that!
