@@ -14,7 +14,7 @@ namespace DSSWebApp.Models.Heuristics
         double EPSILON = 0.01; 
         public int[] sol;
         private static string dataDirectory = (string)AppDomain.CurrentDomain.GetData("DataDirectory");
-        private static int MAX_ANNEALING_STEPS = 1000; //WITH 1000 or MORE -> STACKOVERFLOW
+        private static int MAX_ANNEALING_STEPS = 10000; //WITH 1000 or MORE -> STACKOVERFLOW
         private static int ANNEALING_SCALING_CONSTANT = 100;
         private static double TEMPERATURE_SCALING_CONSTANT = 0.9;
 
@@ -167,7 +167,8 @@ namespace DSSWebApp.Models.Heuristics
         public int simulatedAnnealing(double temperature)
         {
             this.constructiveEurFirstSol();
-            sol = annealing(sol, temperature, 0);
+            //sol = annealing(sol, temperature, 0);
+            sol = nonRecorsiveAnnealing(sol, temperature, 0);
             return checkSol(sol);
         }
 
@@ -216,7 +217,8 @@ namespace DSSWebApp.Models.Heuristics
           5. se not(end condition) go to step 2.          */
         private int[] annealing(int[] solution, double temperature, int step)
         {
-            int[] tmpsol = new int[n];
+            System.Threading.Thread.Sleep(100);
+            writeOnLog("Lunghezza di sol al passo " + step +" risulta: " + solution.Length.ToString());
             if(step % ANNEALING_SCALING_CONSTANT == 0)
             {
                 temperature *= TEMPERATURE_SCALING_CONSTANT;
@@ -228,13 +230,10 @@ namespace DSSWebApp.Models.Heuristics
             int randomServerIndex = new Random().Next(m);
             int randomClientIndex = new Random().Next(n);
 
-            for(int i = 0; i < n; i++)
-            {
-                tmpsol[i] = solution[i];
-            }
+            int[] tmpsol = (int[])sol.Clone();
             tmpsol[randomClientIndex] = randomServerIndex;
-            try
-            {
+
+           
                 int cost = checkSol(tmpsol);
                 int oldcost = checkSol(solution);
                 if (cost < oldcost)
@@ -249,14 +248,40 @@ namespace DSSWebApp.Models.Heuristics
                     return annealing(tmpsol, temperature, step + 1);
                 }
                     
-            }
-            catch
-            {
-                tmpsol = null;
-                return annealing(solution, temperature, step);
-            }
+            
             tmpsol = null;
             return annealing(solution, temperature, step + 1);
+        }        private int[] nonRecorsiveAnnealing(int[] solution, double temperature, int step)
+        {
+            while(step < MAX_ANNEALING_STEPS)
+            {
+                if (step % ANNEALING_SCALING_CONSTANT == 0)
+                {
+                    temperature *= TEMPERATURE_SCALING_CONSTANT;
+                }
+               
+                int randomServerIndex = new Random().Next(m);
+                int randomClientIndex = new Random().Next(n);
+
+                int[] tmpsol = (int[])sol.Clone();
+                tmpsol[randomClientIndex] = randomServerIndex;
+
+                int cost = checkSol(tmpsol);
+                int oldcost = checkSol(solution);
+                if (cost < oldcost)
+                {
+                    solution = tmpsol;
+                }
+                double p = Math.Exp(-(cost - oldcost) / (double)temperature);
+                if (new Random().Next() < p)
+                {
+                    solution = tmpsol;
+                }
+
+                step++;
+            }
+
+            return solution;
         }        private void writeOnLog(string message)
         {
             StreamWriter writeLog = new StreamWriter(dataDirectory + "\\log.txt", true);
