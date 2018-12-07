@@ -259,6 +259,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Database\Table.cs" />
     <Compile Include="Models\Database\DBConnection.cs" />
+    <Compile Include="Models\Heuristics\AnnealingParameters.cs" />
     <Compile Include="Models\Heuristics\BasicHeu.cs" />
     <Compile Include="Models\Heuristics\GAPInstance.cs" />
     <Compile Include="Models\Heuristics\JSONConverter.cs" />

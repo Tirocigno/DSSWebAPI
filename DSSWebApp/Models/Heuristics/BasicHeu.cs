@@ -211,13 +211,10 @@ namespace DSSWebApp.Models.Heuristics
         /*1. Genera una soluzione iniziale ammissibile S,
            inizializza S* = S e il parametro temperatura T.
           2. Genera S’∈N(S).
-3. se z(S') < z(S) allora S=S', if (z(S*) > z(S)) S* = S
-altrimenti accetta di porre S=S' con probabilità
-p = e
--(z(S')-z(S))/kT
-.
-4. se (annealing condition) cala T.
-5. se not(end condition) go to step 2.*/
+          3. se z(S') < z(S) allora S=S', if (z(S*) > z(S)) S* = S
+             altrimenti accetta di porre S=S' con probabilità p = e-(z(S')-z(S))/kT.
+          4. se (annealing condition) cala T.
+          5. se not(end condition) go to step 2.          */
         private int[] annealing(int[] solution, double temperature, int step)
         {
             if(step % ANNEALING_SCALING_CONSTANT == 0)

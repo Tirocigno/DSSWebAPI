@@ -49,16 +49,10 @@ namespace DSSWebApp.Controllers
         /*Calcola il costo della soluzione utilizzando un algoritmo di Simulated Annealing*/
         [HttpPost] // Metodo http per l'api
         [ActionName("resolveSimulatedAnnealingGAPInstance")] // path dell'api.
-        public string resolveSimulatedAnnealingGAPInstance([FromBody] string fileName)
+        public string resolveSimulatedAnnealingGAPInstance(AnnealingParameters paramts)
         {
-            GAPInstance Gap = JSONConverter.deserializeGAP(dataDirectory + "\\" + fileName);
-            // IMPLEMENT THE ALGHORITHM
-            return "TO BE IMPLEMENTED";
+            GAPInstance Gap = JSONConverter.deserializeGAP(dataDirectory + "\\" + paramts.getFileName());
+            return new BasicHeu(Gap).simulatedAnnealing(paramts.getTemperature()).ToString();
         }
-
-
-
-
-
     }
 }

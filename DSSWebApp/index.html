@@ -32,6 +32,9 @@
                 <option value="resolveSimulatedAnnealingGAPInstance">SimulatedAnnealing</option>
             </select>
 
+            <label> Temperatura(SA only)</label>
+            <input type="text" id="temp"/>
+
             <input type="button" value="Compute!" onclick="computeHeu();" />
 
         </div>
@@ -66,13 +69,22 @@
                 options.url = "/api/Heuristics/" + path;
                 options.type = "POST";
                 options.contentType = "application/json";
-                options.data = "\"" + file + "\""
+                if (path == "resolveSimulatedAnnealingGAPInstance") {
+                    alert(document.getElementById("temp").text)
+                    options.data = JSON.stringify({
+                        "fileName": file,
+                        "temperature": document.getElementById("temp").textContent
+                    });
+                } else {
+                    options.data = "\"" + file + "\""
+                }
                 options.success = function (msg) {
                     displayCost(msg);
                 };
                 options.error = function (err) { alert(err.statusText); };
                 $.ajax(options);
             }
+
             function findAll() {
                 $.ajax({
                     url: "api/Clienti/GetAllClients",
@@ -115,19 +127,6 @@
 
             }
 
-            function resolveDumpGAPInstance() {
-                var options = {};
-                options.url = "/api/Heuristics/resolveDumpGAPInstance";
-                options.type = "POST";
-                options.dataType = "json";
-                options.contentType = "application/json";
-                options.success = function (msg) {
-                    alert(msg);
-                };
-                options.error = function (err) { alert(err.statusText); };
-                $.ajax(options);
-
-            }
 
             function postFunction() {
                 var cacio = "serie"
@@ -147,45 +146,7 @@
 
             }
 
-            function simplePostFunction() {
-                $.ajax({
-                    url: "api/Database/simplePost",
-                    type: "POST",
-                    contentType: "application/json",
-                    success: function (result) {
-                        readResult(result)
-                        //var elem = JSON.parse(result)
-                        // readResult(elem)
-                    },
-                    error: function (xhr, status, p3, p4) {
-                        var err = "Error " + " " + status + " " + p3;
-                        if (xhr.responseText && xhr.responseText[0] == "{")
-                            err = JSON.parse(xhr.responseText).message;
-                        alert(err);
-                    }
-                });
-
-            }
-
-            function findById() {
-                var id = $('#txtId').val();
-                $.ajax(
-                {
-                    url: "api/Clienti/GetCustQuantities/" + id, //api/nomeclasse/nomemetodo
-                    type: "GET",
-                    contentType: "application/json",
-                    data: "",
-                    success: function (result) {
-                        readResult(result);
-                    },
-                    error: function (xhr, status, p3, p4) {
-                        var err = "Error " + " " + status + " " + p3;
-                        if (xhr.responseText && xhr.responseText[0] == "{")
-                            err = JSON.parse(xhr.responseText).message;
-                        alert(err);
-                    }
-                });
-            }
+         
 
             function displayCost(cost) {
                 alert("Cost of the solution is: " + cost)
