@@ -14,7 +14,7 @@ namespace DSSWebApp.Models.Heuristics
         double EPSILON = 0.01; 
         public int[] sol;
         private static string dataDirectory = (string)AppDomain.CurrentDomain.GetData("DataDirectory");
-        private static int MAX_ANNEALING_STEPS = 10000;
+        private static int MAX_ANNEALING_STEPS = 1000; //WITH 1000 or MORE -> STACKOVERFLOW
         private static int ANNEALING_SCALING_CONSTANT = 100;
         private static double TEMPERATURE_SCALING_CONSTANT = 0.9;
 
@@ -177,7 +177,6 @@ namespace DSSWebApp.Models.Heuristics
             int z = 0, j;
             int[] capused = new int[m];
             for (int i = 0; i < m; i++) capused[i] = 0;
-            for (int i = 0; i < m; i++) writeOnLog("Cap of server "+ i + " = " +GAP.cap[i]);
             // controllo assegnamenti
             for (j = 0; j < n; j++)
                 if (sol[j] < 0 || sol[j] >= m)
@@ -202,7 +201,7 @@ namespace DSSWebApp.Models.Heuristics
                     return z;
                 } else
                 {
-                    writeOnLog("[checkSol] Cap utilizzata aumentata a  " + capused[sol[j]]);
+                   // writeOnLog("[checkSol] Cap utilizzata aumentata a  " + capused[sol[j]]);
                 }
             }
             return z;
@@ -217,6 +216,7 @@ namespace DSSWebApp.Models.Heuristics
           5. se not(end condition) go to step 2.          */
         private int[] annealing(int[] solution, double temperature, int step)
         {
+            int[] tmpsol = new int[n];
             if(step % ANNEALING_SCALING_CONSTANT == 0)
             {
                 temperature *= TEMPERATURE_SCALING_CONSTANT;
@@ -228,25 +228,35 @@ namespace DSSWebApp.Models.Heuristics
             int randomServerIndex = new Random().Next(m);
             int randomClientIndex = new Random().Next(n);
 
-            int[] tmpsol = (int[])sol.Clone();
+            for(int i = 0; i < n; i++)
+            {
+                tmpsol[i] = solution[i];
+            }
             tmpsol[randomClientIndex] = randomServerIndex;
             try
             {
                 int cost = checkSol(tmpsol);
-                int oldcost = checkSol(sol);
+                int oldcost = checkSol(solution);
                 if (cost < oldcost)
                 {
+                    solution = null;
                     return annealing(tmpsol, temperature, step + 1);
                 }
                 double p = Math.Exp(-(cost - oldcost) / (double)temperature);
                 if (new Random().Next() < p)
+                {
+                    solution = null;
                     return annealing(tmpsol, temperature, step + 1);
+                }
+                    
             }
             catch
             {
-                return annealing(sol, temperature, step);
+                tmpsol = null;
+                return annealing(solution, temperature, step);
             }
-            return annealing(sol, temperature, step + 1);
+            tmpsol = null;
+            return annealing(solution, temperature, step + 1);
         }        private void writeOnLog(string message)
         {
             StreamWriter writeLog = new StreamWriter(dataDirectory + "\\log.txt", true);
