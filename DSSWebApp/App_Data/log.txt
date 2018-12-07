@@ -3502,3 +3502,17 @@ Cap of server 4 = 868
 [checkSol] Cap utilizzata aumentata a  328
 [checkSol] Cap utilizzata aumentata a  501
 [checkSol] Cap utilizzata aumentata a  515
+Numero di client: 6
+Numero di server: 3
+Numero di client: 6
+Numero di server: 3
+Client [0] assegnato a server [0]
+Client [1] assegnato a server [1]
+Client [2] assegnato a server [2]
+Client [3] assegnato a server [3]
+Client [4] assegnato a server [4]
+Client [5] assegnato a server [5]
+Cap of server 0 = 10
+Cap of server 1 = 10
+Cap of server 2 = 12
+Client 3 assegnato a server che non esiste

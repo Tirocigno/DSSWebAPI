@@ -14,6 +14,9 @@ namespace DSSWebApp.Models.Heuristics
         double EPSILON = 0.01; 
         public int[] sol;
         private static string dataDirectory = (string)AppDomain.CurrentDomain.GetData("DataDirectory");
+        private static int MAX_ANNEALING_STEPS = 10000;
+        private static int ANNEALING_SCALING_CONSTANT = 100;
+        private static double TEMPERATURE_SCALING_CONSTANT = 0.9;
 
         public BasicHeu(GAPInstance gap)
         {
@@ -86,8 +89,7 @@ namespace DSSWebApp.Models.Heuristics
                     //Non ho trovato nessun server idoneo
                     return -1;
                 }
-            }
-
+            } 
            int z = checkSol(sol);
            GAP.zub = z;
            return z;
@@ -161,85 +163,14 @@ namespace DSSWebApp.Models.Heuristics
             return z;    
         }
 
-        public int simulatedAnnealing()
+        /*Execute simulated annealing*/
+        public int simulatedAnnealing(double temperature)
         {
-            /*1. Genera una soluzione iniziale ammissibile S,
-inizializza S* = S e il parametro temperatura T.
-2. Genera S’∈N(S).
-3. se z(S') < z(S) allora S=S', if (z(S*) > z(S)) S* = S
-altrimenti accetta di porre S=S' con probabilità
-p = e
--(z(S')-z(S))/kT
-.
-4. se (annealing condition) cala T.
-5. se not(end condition) go to step 2.*/
-            int isol = 0;
-            int[] capleft = new int[m];
-            int[,] cost = GAP.cost;
-            int[,] req = GAP.req;
-            int z = 0;
-            bool isImproved = true;
-
             this.constructiveEurFirstSol();
-
-            /*Inizializzo le capacità per ogni server*/
-            for (int i = 0; i < m; i++)
-            {
-                capleft[i] = GAP.cap[i];
-            }
-
-            /*Calcolo la somma dei costi dei diversi client*/
-            for (int j = 0; j < n; j++)
-            {
-                z += cost[sol[j], j];
-            }
-
-
-            while (isImproved)
-            {
-                isImproved = false;
-                /*Per ogni client*/
-                for (int j = 0; j < n; j++)
-                {
-
-                    /*Per ogni server*/
-                    for (int i = 0; i < m; i++)
-                    {
-                        isol = sol[j];
-                        if (i != isol && cost[i, j] < cost[isol, j] && capleft[i] >= req[i, j])
-                        {
-                            isImproved = true;
-                            sol[j] = i;
-                            capleft[i] -= req[i, j];
-                            capleft[isol] += req[isol, j];
-                            z -= (cost[isol, j] - cost[i, j]);
-                            if (z < GAP.zub)
-                            {
-                                GAP.zub = z;
-                            }
-                        }
-                    }
-                }
-            }
-
-
-
-            double zCheck = 0;
-            for (int j = 0; j < n; j++)
-            {
-                zCheck += cost[sol[j], j];
-            }
-
-            if (Math.Abs(z - zCheck) > EPSILON)
-            {
-                writeOnLog("Solution is different of: " + Math.Abs(z - zCheck) + " should not be that!");
-                return -1;
-            }
-            return z;
-
+            sol = annealing(sol, temperature, 0);
+            return checkSol(sol);
         }
 
-        //Anche questo credo vada...
         // Check the solution cost.
         private int checkSol(int[] sol)
         {
@@ -275,6 +206,50 @@ p = e
                 }
             }
             return z;
+        }
+
+        /*1. Genera una soluzione iniziale ammissibile S,
+           inizializza S* = S e il parametro temperatura T.
+          2. Genera S’∈N(S).
+3. se z(S') < z(S) allora S=S', if (z(S*) > z(S)) S* = S
+altrimenti accetta di porre S=S' con probabilità
+p = e
+-(z(S')-z(S))/kT
+.
+4. se (annealing condition) cala T.
+5. se not(end condition) go to step 2.*/
+        private int[] annealing(int[] solution, double temperature, int step)
+        {
+            if(step % ANNEALING_SCALING_CONSTANT == 0)
+            {
+                temperature *= TEMPERATURE_SCALING_CONSTANT;
+            }
+            if(step == MAX_ANNEALING_STEPS)
+            {
+                return solution;
+            }
+            int randomServerIndex = new Random().Next(m);
+            int randomClientIndex = new Random().Next(n);
+
+            int[] tmpsol = (int[])sol.Clone();
+            tmpsol[randomClientIndex] = randomServerIndex;
+            try
+            {
+                int cost = checkSol(tmpsol);
+                int oldcost = checkSol(sol);
+                if (cost < oldcost)
+                {
+                    return annealing(tmpsol, temperature, step + 1);
+                }
+                double p = Math.Exp(-(cost - oldcost) / (double)temperature);
+                if (new Random().Next() < p)
+                    return annealing(tmpsol, temperature, step + 1);
+            }
+            catch
+            {
+                return annealing(sol, temperature, step);
+            }
+            return annealing(sol, temperature, step + 1);
         }        private void writeOnLog(string message)
         {
             StreamWriter writeLog = new StreamWriter(dataDirectory + "\\log.txt", true);
