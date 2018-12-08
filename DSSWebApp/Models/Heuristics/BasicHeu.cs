@@ -14,9 +14,9 @@ namespace DSSWebApp.Models.Heuristics
         double EPSILON = 0.01; 
         public int[] sol;
         private static string dataDirectory = (string)AppDomain.CurrentDomain.GetData("DataDirectory");
-        private static int MAX_ANNEALING_STEPS = 10000; //WITH 1000 or MORE -> STACKOVERFLOW
-        private static int ANNEALING_SCALING_CONSTANT = 100;
-        private static double TEMPERATURE_SCALING_CONSTANT = 0.9;
+        private static int MAX_ANNEALING_STEPS = 2000000; //WITH 1000 or MORE -> STACKOVERFLOW
+        private static int COOLING_SCHEDULE_CONSTANT = 100;
+        private static double TEMPERATURE_COOLING_CONSTANT = 0.9;
 
         public BasicHeu(GAPInstance gap)
         {
@@ -219,9 +219,9 @@ namespace DSSWebApp.Models.Heuristics
         {
             System.Threading.Thread.Sleep(100);
             writeOnLog("Lunghezza di sol al passo " + step +" risulta: " + solution.Length.ToString());
-            if(step % ANNEALING_SCALING_CONSTANT == 0)
+            if(step % COOLING_SCHEDULE_CONSTANT == 0)
             {
-                temperature *= TEMPERATURE_SCALING_CONSTANT;
+                temperature *= TEMPERATURE_COOLING_CONSTANT;
             }
             if(step == MAX_ANNEALING_STEPS)
             {
@@ -255,9 +255,9 @@ namespace DSSWebApp.Models.Heuristics
         {
             while(step < MAX_ANNEALING_STEPS)
             {
-                if (step % ANNEALING_SCALING_CONSTANT == 0)
+                if (step % COOLING_SCHEDULE_CONSTANT == 0)
                 {
-                    temperature *= TEMPERATURE_SCALING_CONSTANT;
+                    temperature *= TEMPERATURE_COOLING_CONSTANT;
                 }
                
                 int randomServerIndex = new Random().Next(m);
