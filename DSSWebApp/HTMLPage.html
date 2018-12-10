@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Progetto</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="col-md-6">
+            <h1>Ottimizzazione</h1>
+            <label>File di input</label>
+            <select name="inputFile" id="inputFile">
+                <option value="trivial.json">Trivial</option>
+                <option value="toy.json">Toy</option>
+                <option value="elba.json">Elba</option>
+                <option value="gap1_0.json">Gap1_0</option>
+                <option value="gapa_0.json">GapA_0</option>
+                <option value="gapd_0.json">GapD_0</option>
+            </select>
+
+            <label>Metodo di calcolo del costo</label>
+            <select name="computationMethod" id="computationMethod">
+                <option value="resolveRandomGAPInstance">Random</option>
+                <option value="resolveConstructiveGAPInstance">Constructive</option>
+                <option value="resolveOpt1_0GAPInstance">Opt1_0</option>
+                <option value="resolveSimulatedAnnealingGAPInstance">SimulatedAnnealing</option>
+            </select>
+
+            <label> Temperatura(SA only)</label>
+            <input type="text" id="temp" />
+
+            <input type="button" value="Compute!" onclick="computeHeu();" />
+
+        </div>
+        <div class="col-md-6">
+            <h1>Previsione</h1>
+
+            <input type="button" value="recuperaValoriClienti" onclick="postFunction();" />
+
+        </div>
+    </div>
+  
+    <script>
+
+        function postFunction() {
+            var cacio = "clienti"
+            var options = {};
+            options.url = "/api/Database/insertCustomer";
+            options.type = "POST";
+            options.data = JSON.stringify({
+                "tableId": cacio
+            });
+            options.dataType = "json";
+            options.contentType = "application/json";
+            options.success = function (msg) {
+                alert(msg);
+            };
+            options.error = function (err) { alert(err.statusText); };
+            $.ajax(options);
+        }
+          
+            function computeHeu() {
+                var fileComboBox = document.getElementById("inputFile");
+                var file = fileComboBox.options[fileComboBox.selectedIndex].value;
+                var pathComboBox = document.getElementById("computationMethod");
+                var path = pathComboBox.options[pathComboBox.selectedIndex].value;
+                var options = {};
+                options.url = "/api/Heuristics/" + path;
+                options.type = "POST";
+                options.contentType = "application/json";
+                if (path == "resolveSimulatedAnnealingGAPInstance") {
+                    options.data = JSON.stringify({
+                        "fileName": file,
+                        "temperature": document.getElementById("temp").value
+                    });
+                } else {
+                    options.data = "\"" + file + "\""
+                }
+                options.success = function (msg) {
+                    displayCost(msg);
+                };
+                options.error = function (err) { alert(err.statusText); };
+                $.ajax(options);
+            }
+
+            function displayCost(cost) {
+                alert("Cost of the solution is: " + cost)
+            }
+
+    </script>
+</body>
+</html>
