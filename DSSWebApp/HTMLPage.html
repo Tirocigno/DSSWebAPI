@@ -49,7 +49,20 @@
     <script>
 
         function postFunction() {
-
+            var cacio = "clienti"
+            var options = {};
+            options.url = "/api/Database/insertCustomer";
+            options.type = "POST";
+            options.data = JSON.stringify({
+                "tableId": cacio
+            });
+            options.dataType = "json";
+            options.contentType = "application/json";
+            options.success = function (msg) {
+                alert(msg);
+            };
+            options.error = function (err) { alert(err.statusText); };
+            $.ajax(options);
         }
           
             function computeHeu() {
