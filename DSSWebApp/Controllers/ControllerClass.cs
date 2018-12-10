@@ -12,6 +12,9 @@ namespace DSSWebApp.Controllers
     public class DatabaseController : ApiController
     {
         private static string dataDirectory = (string) AppDomain.CurrentDomain.GetData("DataDirectory");
+        private static string CLIENTI_DB = "clienti";
+        private static string ORDINI_DB = "ordini";
+        private static string SERIE_DB = "serie";
         private DBConnection dbConnection = new DBConnection();
      
 
@@ -56,6 +59,19 @@ namespace DSSWebApp.Controllers
         public string simplePost()
         {
             return "Post Done";
+        }
+
+        [HttpGet]
+        [ActionName("readDB")]
+        public string readDB(string dbToRead)
+        {
+            switch(dbToRead)
+            {
+                case "clienti": return JSONConverter.serialize(dbConnection.readClientiFromDB());
+                case "ordini": return JSONConverter.serialize(dbConnection.readOrdiniFromDB());
+                case "serie": return JSONConverter.serialize(dbConnection.readSerieFromDB());
+                default: return "Error, no db found";
+            }
         }
 
 

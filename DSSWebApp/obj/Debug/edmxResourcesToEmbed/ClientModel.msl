@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="testDbModelStoreContainer" CdmEntityContainer="customRemoteDbConnectionString">
+    <EntitySetMapping Name="clienti">
+      <EntityTypeMapping TypeName="testDbModel.clienti">
+        <MappingFragment StoreEntitySet="clienti">
+          <ScalarProperty Name="PK_UID" ColumnName="PK_UID" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ordini">
+      <EntityTypeMapping TypeName="testDbModel.ordini">
+        <MappingFragment StoreEntitySet="ordini">
+          <ScalarProperty Name="PK_UID" ColumnName="PK_UID" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idcliente" ColumnName="idcliente" />
+          <ScalarProperty Name="codice" ColumnName="codice" />
+          <ScalarProperty Name="descr" ColumnName="descr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="serie">
+      <EntityTypeMapping TypeName="testDbModel.serie">
+        <MappingFragment StoreEntitySet="serie">
+          <ScalarProperty Name="time" ColumnName="time" />
+          <ScalarProperty Name="esempio" ColumnName="esempio" />
+          <ScalarProperty Name="esempio2" ColumnName="esempio2" />
+          <ScalarProperty Name="Passengers" ColumnName="Passengers" />
+          <ScalarProperty Name="jewelry" ColumnName="jewelry" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

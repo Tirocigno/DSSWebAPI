@@ -28,5 +28,12 @@ namespace DSSWebApp.Models.Heuristics
 
             return ist;
         }
+
+        public static string serialize(object obj)
+        {
+            return JsonConvert.SerializeObject(obj);
+        }
     }
+
+    
 }

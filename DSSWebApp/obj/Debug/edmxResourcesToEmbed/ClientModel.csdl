@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="testDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="clienti">
+    <Key>
+      <PropertyRef Name="PK_UID" />
+    </Key>
+    <Property Name="PK_UID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id" Type="Int32" />
+    <Property Name="nome" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ordini">
+    <Key>
+      <PropertyRef Name="PK_UID" />
+    </Key>
+    <Property Name="PK_UID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id" Type="Int32" />
+    <Property Name="idcliente" Type="Int32" />
+    <Property Name="codice" Type="Int32" />
+    <Property Name="descr" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="serie">
+    <Key>
+      <PropertyRef Name="time" />
+    </Key>
+    <Property Name="time" Type="Int32" Nullable="false" />
+    <Property Name="esempio" Type="Int32" />
+    <Property Name="esempio2" Type="Double" />
+    <Property Name="Passengers" Type="Int32" />
+    <Property Name="jewelry" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="customRemoteDbConnectionString" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="clienti" EntityType="Self.clienti" />
+    <EntitySet Name="ordini" EntityType="Self.ordini" />
+    <EntitySet Name="serie" EntityType="Self.serie" />
+  </EntityContainer>
+</Schema>

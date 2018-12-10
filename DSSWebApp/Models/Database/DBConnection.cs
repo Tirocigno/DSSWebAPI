@@ -18,9 +18,10 @@ namespace DSSWebApp.Models.Database
             switch (sdb)
             {
                 case "SQLiteConn":
+
                     connString = ConfigurationManager.ConnectionStrings["SQLiteConn"].ConnectionString;
                     factory = ConfigurationManager.ConnectionStrings["SQLiteConn"].ProviderName;
-                    string dbPath = @"C:\Users\feden\Documents\Visual Studio 2015\Projects\DSS2018WFA\testDb.sqlite";
+                    string dbPath =  (string)AppDomain.CurrentDomain.GetData("DataDirectory") + "\\testDb.sqlite";
                     connString = connString.Replace("DBFILE", dbPath);
                     break;
                 case "LocalSqlServConn":
@@ -75,6 +76,26 @@ namespace DSSWebApp.Models.Database
                 return result;
             }
         }
+
+        public List<clienti> readClientiFromDB()
+        {
+            customRemoteDbConnectionString connection = new customRemoteDbConnectionString();
+            return connection.clienti.ToList<clienti>();
+        }
+
+        public List<ordini> readOrdiniFromDB()
+        {
+            customRemoteDbConnectionString connection = new customRemoteDbConnectionString();
+            return connection.ordini.ToList<ordini>();
+        }
+
+        public List<serie> readSerieFromDB()
+        {
+            customRemoteDbConnectionString connection = new customRemoteDbConnectionString();
+            return connection.serie.ToList<serie>();
+        }
+
+
 
 
         #region funzioni accesso generiche

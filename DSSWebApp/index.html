@@ -40,13 +40,38 @@
         </div>
         <div class="col-md-6">
             <h1>Previsione</h1>
-
-            <input type="button" value="recuperaValoriClienti" onclick="postFunction();" />
+            <label>Tabella da leggere</label>
+            <select name="tableName" id="tableName">
+                <option value="clienti">Clienti</option>
+                <option value="ordini">Ordini</option>
+                <option value="serie">Serie</option>
+            </select>
+            <input type="button" value="Read table!" onclick="readTable();" />
 
         </div>
     </div>
   
     <script>
+
+        function readTable() {
+
+           
+                $.ajax({
+                    url: "api/Database/readDB?dbToRead=" + document.getElementById("tableName").value,
+                    type: "GET",
+                    contentType: "application/json",
+                    success: function (result) {
+                        alert(result)
+                    },
+                    error: function (xhr, status, p3, p4) {
+                        var err = "Error " + " " + status + " " + p3;
+                        if (xhr.responseText && xhr.responseText[0] == "{")
+                            err = JSON.parse(xhr.responseText).message;
+                        alert(err);
+                    }
+                });
+            
+        }
 
         function postFunction() {
             var cacio = "clienti"
