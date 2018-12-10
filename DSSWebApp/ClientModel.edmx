@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="testDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="clienti">
+          <Key>
+            <PropertyRef Name="PK_UID" />
+          </Key>
+          <Property Name="PK_UID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id" Type="int" />
+          <Property Name="nome" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="ordini">
+          <Key>
+            <PropertyRef Name="PK_UID" />
+          </Key>
+          <Property Name="PK_UID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id" Type="int" />
+          <Property Name="idcliente" Type="int" />
+          <Property Name="codice" Type="int" />
+          <Property Name="descr" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="serie">
+          <Key>
+            <PropertyRef Name="time" />
+          </Key>
+          <Property Name="time" Type="int" Nullable="false" />
+          <Property Name="esempio" Type="int" />
+          <Property Name="esempio2" Type="float" />
+          <Property Name="Passengers" Type="int" />
+          <Property Name="jewelry" Type="int" />
+        </EntityType>
+        <EntityContainer Name="testDbModelStoreContainer">
+          <EntitySet Name="clienti" EntityType="Self.clienti" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ordini" EntityType="Self.ordini" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="serie" EntityType="Self.serie" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="testDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="clienti">
+          <Key>
+            <PropertyRef Name="PK_UID" />
+          </Key>
+          <Property Name="PK_UID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id" Type="Int32" />
+          <Property Name="nome" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="ordini">
+          <Key>
+            <PropertyRef Name="PK_UID" />
+          </Key>
+          <Property Name="PK_UID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id" Type="Int32" />
+          <Property Name="idcliente" Type="Int32" />
+          <Property Name="codice" Type="Int32" />
+          <Property Name="descr" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="serie">
+          <Key>
+            <PropertyRef Name="time" />
+          </Key>
+          <Property Name="time" Type="Int32" Nullable="false" />
+          <Property Name="esempio" Type="Int32" />
+          <Property Name="esempio2" Type="Double" />
+          <Property Name="Passengers" Type="Int32" />
+          <Property Name="jewelry" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="customRemoteDbConnectionString" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="clienti" EntityType="Self.clienti" />
+          <EntitySet Name="ordini" EntityType="Self.ordini" />
+          <EntitySet Name="serie" EntityType="Self.serie" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="testDbModelStoreContainer" CdmEntityContainer="customRemoteDbConnectionString">
+          <EntitySetMapping Name="clienti">
+            <EntityTypeMapping TypeName="testDbModel.clienti">
+              <MappingFragment StoreEntitySet="clienti">
+                <ScalarProperty Name="PK_UID" ColumnName="PK_UID" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ordini">
+            <EntityTypeMapping TypeName="testDbModel.ordini">
+              <MappingFragment StoreEntitySet="ordini">
+                <ScalarProperty Name="PK_UID" ColumnName="PK_UID" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="idcliente" ColumnName="idcliente" />
+                <ScalarProperty Name="codice" ColumnName="codice" />
+                <ScalarProperty Name="descr" ColumnName="descr" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="serie">
+            <EntityTypeMapping TypeName="testDbModel.serie">
+              <MappingFragment StoreEntitySet="serie">
+                <ScalarProperty Name="time" ColumnName="time" />
+                <ScalarProperty Name="esempio" ColumnName="esempio" />
+                <ScalarProperty Name="esempio2" ColumnName="esempio2" />
+                <ScalarProperty Name="Passengers" ColumnName="Passengers" />
+                <ScalarProperty Name="jewelry" ColumnName="jewelry" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
