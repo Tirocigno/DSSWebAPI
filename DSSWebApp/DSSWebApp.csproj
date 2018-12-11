@@ -295,6 +295,8 @@
     <Compile Include="Models\Heuristics\BasicHeu.cs" />
     <Compile Include="Models\Heuristics\GAPInstance.cs" />
     <Compile Include="Models\Heuristics\JSONConverter.cs" />
+    <Compile Include="Models\Heuristics\Pair.cs" />
+    <Compile Include="Models\Heuristics\Queue.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ModelClass.cs" />
     <Compile Include="ordini.cs">

@@ -13,6 +13,7 @@ namespace DSSWebApp.Models.Heuristics
         int n, m;
         double EPSILON = 0.01; 
         public int[] sol;
+        public int[] capacitiesLeft;
         private static string dataDirectory = (string)AppDomain.CurrentDomain.GetData("DataDirectory");
         private static int MAX_ANNEALING_STEPS = 2000000; //WITH 1000 or MORE -> STACKOVERFLOW
         private static int COOLING_SCHEDULE_CONSTANT = 100;
@@ -23,7 +24,7 @@ namespace DSSWebApp.Models.Heuristics
             GAP = gap;
             n = GAP.numcli;
             m = GAP.numserv;
-
+            this.capacitiesLeft = (int[])GAP.cap.Clone();
             writeOnLog("Numero di client: " + n);
             writeOnLog("Numero di server: " + m);
         }
@@ -47,13 +48,8 @@ namespace DSSWebApp.Models.Heuristics
             sol = new int[n];
             int[] keys = new int[m];
             int[] index = new int[m];
-            int[] capleft = new int[m];
+            int[] capleft = this.capacitiesLeft;
             int ii;
-
-            for(int i = 0; i < m; i++)
-            {
-                capleft[i] = GAP.cap[i];
-            }
 
             for (int j = 0; j < n; j++)
             {
@@ -100,24 +96,23 @@ namespace DSSWebApp.Models.Heuristics
         public int opt10()
         {
             int isol = 0;
-            int[] capleft = new int[m];
+            int[] capleft = this.capacitiesLeft;
             int[,] cost = GAP.cost;
             int[,] req = GAP.req;
             int z = 0;
             bool isImproved = true;
 
-            this.constructiveEurFirstSol();
-
-            /*Inizializzo le capacità per ogni server*/
-            for (int i = 0; i < m; i++)
-            {
-                capleft[i] = GAP.cap[i];
-            }
+            int k = this.constructiveEurFirstSol();
 
             /*Calcolo la somma dei costi dei diversi client*/
             for (int j = 0; j < n; j++)
             {
                 z += cost[sol[j], j];
+            }
+
+            if(z == k )
+            {
+                writeOnLog("[Opt1-0]: Ciclo for del calcolo di z inutile");
             }
 
 
@@ -164,14 +159,22 @@ namespace DSSWebApp.Models.Heuristics
         }
 
         /*Execute simulated annealing*/
-        public int simulatedAnnealing(double temperature)
+        public int simulatedAnnealing(double temperature, int steps, double decreaseConstant, int coolingScheduleSteps)
         {
             this.constructiveEurFirstSol();
-            //sol = annealing(sol, temperature, 0);
-            sol = nonRecorsiveAnnealing(sol, temperature, 0);
+            sol = nonRecorsiveAnnealing(sol, temperature, 0, steps, decreaseConstant, coolingScheduleSteps);
             return checkSol(sol);
         }
 
+        public int tabuSearch(int tabuQueueSize, int stepsToDo)
+        {
+            this.constructiveEurFirstSol();
+            sol = computeTabuSearch(sol, tabuQueueSize, stepsToDo);
+            return checkSol(sol);
+        }
+
+        
+        
         // Check the solution cost.
         private int checkSol(int[] sol)
         {
@@ -251,13 +254,13 @@ namespace DSSWebApp.Models.Heuristics
             
             tmpsol = null;
             return annealing(solution, temperature, step + 1);
-        }        private int[] nonRecorsiveAnnealing(int[] solution, double temperature, int step)
+        }        private int[] nonRecorsiveAnnealing(int[] solution, double temperature, int step, int totalSteps, double temperatureDecrease, int coolingScheduleSteps)
         {
-            while(step < MAX_ANNEALING_STEPS)
+            while(step < totalSteps)
             {
-                if (step % COOLING_SCHEDULE_CONSTANT == 0)
+                if (step % coolingScheduleSteps == 0)
                 {
-                    temperature *= TEMPERATURE_COOLING_CONSTANT;
+                    temperature *= temperatureDecrease;
                 }
                
                 int randomServerIndex = new Random().Next(m);
@@ -281,6 +284,96 @@ namespace DSSWebApp.Models.Heuristics
                 step++;
             }
 
+            return solution;
+        }
+
+        //COST FOR ELBA SHOULD BE 12302
+        private int[] computeTabuSearch(int[] solution, int tabuQueueSize, int stepsToDo)
+        {
+            int bestAbsoluteSolution = checkSol(solution); //Best solution ever, used for accept Tabu Values.
+            int bestLocalSolution = Int32.MaxValue; //Best local solution, used inside the algorithm;
+            Queue<Pair<int, int>> tabuQueue= new Queue<Pair<int, int>>(tabuQueueSize); //Queue used for Tabu moves track
+            int[] tmpsol = (int[])solution.Clone();
+            int[] nextsol = (int[])solution.Clone();
+            Pair<int, int> bestPosition = new Pair<int, int>(-1, -1);
+            int step = 0;
+
+            /*Stuff from Opt1-0*/
+
+            int z = bestAbsoluteSolution;
+            int isol = 0;
+            int[] capleft = new int[m];
+            int[] nextCapleft = new int[m];
+            int[,] cost = GAP.cost;
+            int[,] req = GAP.req;
+
+            /*Check everything with local solution algorithm, take the best solution(even if is worse than the current) 
+             * and set it as the current solution, add the tuple to tabu list and then go on */
+
+            while(step < stepsToDo)
+            {
+
+                /*Per ogni client*/
+                for (int j = 0; j < n; j++)
+                {
+                    /*Per ogni server*/
+                    for (int i = 0; i < m; i++)
+                    {
+                        //Setto le capacità iniziali a quelle attuali per ogni server
+                        capleft = (int[])this.capacitiesLeft.Clone();
+                        //Inizializzo la soluzione 
+                        tmpsol = (int[])solution.Clone();
+                        isol = tmpsol[j];
+                        //Creo la tupla della posizione i server e j client.
+                        Pair<int, int> currentPosition = new Pair<int, int>(i, j);
+                        //Pongo il costo temporaneo uguale a z
+                        int tempCost = z;
+                        //Accetto soluzione anche se peggiorativa
+                        if (i != isol && capleft[i] >= req[i, j])
+                        {
+                            tmpsol[j] = i;
+                            capleft[i] -= req[i, j];
+                            capleft[isol] += req[isol, j];
+                            tempCost -= (cost[isol, j] - cost[i, j]);
+
+                            //Caso in cui la soluzione non è tabù ed è minore della soluzione migliore locale.
+                            if (!tabuQueue.contains(currentPosition) && tempCost < bestLocalSolution)
+                            {
+                                bestLocalSolution = tempCost;
+                                nextsol = (int[])tmpsol.Clone();
+                                bestPosition = currentPosition;
+                                nextCapleft = (int[])this.capacitiesLeft.Clone();
+
+                            }
+                            //Caso in cui la soluzione è tabu ma è migliore della soluzione più bella.
+                            if (tabuQueue.contains(currentPosition) && tempCost < bestLocalSolution
+                                && tempCost < bestAbsoluteSolution)
+                            {
+                                bestLocalSolution = tempCost;
+                                bestAbsoluteSolution = tempCost;
+                                nextsol = (int[])tmpsol.Clone();
+                                bestPosition = currentPosition;
+                                nextCapleft = (int[])this.capacitiesLeft.Clone();
+                            }
+                        }
+                    }
+                }
+
+                //Assegno la nuova soluzione trovata
+                solution = (int[])nextsol.Clone();
+                // Aggiungo la posizione che l'ha generata alla tabu list.
+                tabuQueue.add(bestPosition);
+                // Se la soluzione trovata è migliorativa, il suo costo è il nuovo best absolute solution.
+                if(bestLocalSolution < bestAbsoluteSolution)
+                {
+                    bestAbsoluteSolution = bestLocalSolution;
+                }
+                //Assegno le nuove capacità sulla base della mossa che ho appena fatto
+                this.capacitiesLeft = (int[])nextCapleft.Clone();
+                //Il costo della soluzione che prendo in considerazione al prossimo passo sarà pari a bestLocalSolution.
+                z = bestLocalSolution;
+                step++;
+            }
             return solution;
         }        private void writeOnLog(string message)
         {

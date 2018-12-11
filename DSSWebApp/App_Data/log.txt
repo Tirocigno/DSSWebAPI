@@ -4541,3 +4541,3052 @@ Numero di server: 5
 [checkSol] Cap disponibile 280
 [checkSol] Cap utilizzata 294
 [checkSol] Server 3 sfora nella capacita
+Numero di client: 6
+Numero di server: 3
+Client [0] assegnato a server [0]
+Client [1] assegnato a server [1]
+Client [2] assegnato a server [2]
+Client [3] assegnato a server [3]
+Client [4] assegnato a server [4]
+Client [5] assegnato a server [5]
+Client 3 assegnato a server che non esiste
+Numero di client: 6
+Numero di server: 3
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 2
+[Constructive]Client 0 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 10
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 2
+[Constructive]Client 1 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 8
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 2
+[Constructive]Client 2 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 2
+[Constructive]Client 3 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 4
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 2
+[Constructive]Client 4 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 2
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 2
+[Constructive]Client 5 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 1
+Numero di client: 6
+Numero di server: 3
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 2
+[Constructive]Client 0 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 10
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 2
+[Constructive]Client 1 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 8
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 2
+[Constructive]Client 2 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 2
+[Constructive]Client 3 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 4
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 2
+[Constructive]Client 4 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 2
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 2
+[Constructive]Client 5 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 1
+Numero di client: 40
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 0
+[Constructive]Client 0 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 220
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 0
+[Constructive]Client 1 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 193
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 0
+[Constructive]Client 2 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 163
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 0
+[Constructive]Client 3 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 131
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 0
+[Constructive]Client 4 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 85
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 0
+[Constructive]Client 5 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 54
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 0
+[Constructive]Client 6 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 35
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 0
+[Constructive]Client 7 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 5
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 8
+[Constructive] Server esaminato 1
+[Constructive]Client 8 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 253
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 9
+[Constructive] Server esaminato 1
+[Constructive]Client 9 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 225
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 10
+[Constructive] Server esaminato 1
+[Constructive]Client 10 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 195
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 11
+[Constructive] Server esaminato 1
+[Constructive]Client 11 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 162
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 12
+[Constructive] Server esaminato 1
+[Constructive]Client 12 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 113
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 13
+[Constructive] Server esaminato 1
+[Constructive]Client 13 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 94
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 14
+[Constructive] Server esaminato 1
+[Constructive]Client 14 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 77
+[Constructive] Assegnamento di Client 15
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 15
+[Constructive] Server esaminato 1
+[Constructive]Client 15 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 53
+[Constructive] Assegnamento di Client 16
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 16
+[Constructive] Server esaminato 1
+[Constructive]Client 16 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 37
+[Constructive] Assegnamento di Client 17
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 17
+[Constructive] Server esaminato 1
+[Constructive]Client 17 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 3
+[Constructive] Assegnamento di Client 18
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 18
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 18
+[Constructive] Server esaminato 2
+[Constructive]Client 18 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 155
+[Constructive] Assegnamento di Client 19
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 19
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 19
+[Constructive] Server esaminato 2
+[Constructive]Client 19 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 136
+[Constructive] Assegnamento di Client 20
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 20
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 20
+[Constructive] Server esaminato 2
+[Constructive]Client 20 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 101
+[Constructive] Assegnamento di Client 21
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 21
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 21
+[Constructive] Server esaminato 2
+[Constructive]Client 21 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 87
+[Constructive] Assegnamento di Client 22
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 22
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 22
+[Constructive] Server esaminato 2
+[Constructive]Client 22 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 55
+[Constructive] Assegnamento di Client 23
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 23
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 23
+[Constructive] Server esaminato 2
+[Constructive]Client 23 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 25
+[Constructive] Assegnamento di Client 24
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 24
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 24
+[Constructive] Server esaminato 2
+[Constructive]Client 24 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 25
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 25
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 25
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 25
+[Constructive] Server esaminato 3
+[Constructive]Client 25 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 236
+[Constructive] Assegnamento di Client 26
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 26
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 26
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 26
+[Constructive] Server esaminato 3
+[Constructive]Client 26 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 206
+[Constructive] Assegnamento di Client 27
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 27
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 27
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 27
+[Constructive] Server esaminato 3
+[Constructive]Client 27 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 165
+[Constructive] Assegnamento di Client 28
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 28
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 28
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 28
+[Constructive] Server esaminato 3
+[Constructive]Client 28 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 145
+[Constructive] Assegnamento di Client 29
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 29
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 29
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 29
+[Constructive] Server esaminato 3
+[Constructive]Client 29 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 123
+[Constructive] Assegnamento di Client 30
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 30
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 30
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 30
+[Constructive] Server esaminato 3
+[Constructive]Client 30 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 102
+[Constructive] Assegnamento di Client 31
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 31
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 31
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 31
+[Constructive] Server esaminato 3
+[Constructive]Client 31 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 87
+[Constructive] Assegnamento di Client 32
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 32
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 32
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 32
+[Constructive] Server esaminato 3
+[Constructive]Client 32 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 52
+[Constructive] Assegnamento di Client 33
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 33
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 33
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 33
+[Constructive] Server esaminato 3
+[Constructive]Client 33 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 5
+[Constructive] Assegnamento di Client 34
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 34
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 34
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 34
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 34
+[Constructive] Server esaminato 4
+[Constructive]Client 34 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 191
+[Constructive] Assegnamento di Client 35
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 35
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 35
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 35
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 35
+[Constructive] Server esaminato 4
+[Constructive]Client 35 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 160
+[Constructive] Assegnamento di Client 36
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 36
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 36
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 36
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 36
+[Constructive] Server esaminato 4
+[Constructive]Client 36 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 146
+[Constructive] Assegnamento di Client 37
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 37
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 37
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 37
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 37
+[Constructive] Server esaminato 4
+[Constructive]Client 37 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 108
+[Constructive] Assegnamento di Client 38
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 38
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 38
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 38
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 38
+[Constructive] Server esaminato 4
+[Constructive]Client 38 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 74
+[Constructive] Assegnamento di Client 39
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 39
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 39
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 39
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 39
+[Constructive] Server esaminato 4
+[Constructive]Client 39 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 35
+Numero di client: 40
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 0
+[Constructive]Client 0 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 220
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 0
+[Constructive]Client 1 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 193
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 0
+[Constructive]Client 2 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 163
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 0
+[Constructive]Client 3 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 131
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 0
+[Constructive]Client 4 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 85
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 0
+[Constructive]Client 5 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 54
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 0
+[Constructive]Client 6 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 35
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 0
+[Constructive]Client 7 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 5
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 8
+[Constructive] Server esaminato 1
+[Constructive]Client 8 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 253
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 9
+[Constructive] Server esaminato 1
+[Constructive]Client 9 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 225
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 10
+[Constructive] Server esaminato 1
+[Constructive]Client 10 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 195
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 11
+[Constructive] Server esaminato 1
+[Constructive]Client 11 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 162
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 12
+[Constructive] Server esaminato 1
+[Constructive]Client 12 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 113
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 13
+[Constructive] Server esaminato 1
+[Constructive]Client 13 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 94
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 14
+[Constructive] Server esaminato 1
+[Constructive]Client 14 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 77
+[Constructive] Assegnamento di Client 15
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 15
+[Constructive] Server esaminato 1
+[Constructive]Client 15 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 53
+[Constructive] Assegnamento di Client 16
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 16
+[Constructive] Server esaminato 1
+[Constructive]Client 16 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 37
+[Constructive] Assegnamento di Client 17
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 17
+[Constructive] Server esaminato 1
+[Constructive]Client 17 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 3
+[Constructive] Assegnamento di Client 18
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 18
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 18
+[Constructive] Server esaminato 2
+[Constructive]Client 18 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 155
+[Constructive] Assegnamento di Client 19
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 19
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 19
+[Constructive] Server esaminato 2
+[Constructive]Client 19 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 136
+[Constructive] Assegnamento di Client 20
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 20
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 20
+[Constructive] Server esaminato 2
+[Constructive]Client 20 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 101
+[Constructive] Assegnamento di Client 21
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 21
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 21
+[Constructive] Server esaminato 2
+[Constructive]Client 21 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 87
+[Constructive] Assegnamento di Client 22
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 22
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 22
+[Constructive] Server esaminato 2
+[Constructive]Client 22 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 55
+[Constructive] Assegnamento di Client 23
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 23
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 23
+[Constructive] Server esaminato 2
+[Constructive]Client 23 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 25
+[Constructive] Assegnamento di Client 24
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 24
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 24
+[Constructive] Server esaminato 2
+[Constructive]Client 24 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 25
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 25
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 25
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 25
+[Constructive] Server esaminato 3
+[Constructive]Client 25 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 236
+[Constructive] Assegnamento di Client 26
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 26
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 26
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 26
+[Constructive] Server esaminato 3
+[Constructive]Client 26 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 206
+[Constructive] Assegnamento di Client 27
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 27
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 27
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 27
+[Constructive] Server esaminato 3
+[Constructive]Client 27 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 165
+[Constructive] Assegnamento di Client 28
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 28
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 28
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 28
+[Constructive] Server esaminato 3
+[Constructive]Client 28 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 145
+[Constructive] Assegnamento di Client 29
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 29
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 29
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 29
+[Constructive] Server esaminato 3
+[Constructive]Client 29 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 123
+[Constructive] Assegnamento di Client 30
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 30
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 30
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 30
+[Constructive] Server esaminato 3
+[Constructive]Client 30 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 102
+[Constructive] Assegnamento di Client 31
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 31
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 31
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 31
+[Constructive] Server esaminato 3
+[Constructive]Client 31 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 87
+[Constructive] Assegnamento di Client 32
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 32
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 32
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 32
+[Constructive] Server esaminato 3
+[Constructive]Client 32 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 52
+[Constructive] Assegnamento di Client 33
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 33
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 33
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 33
+[Constructive] Server esaminato 3
+[Constructive]Client 33 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 5
+[Constructive] Assegnamento di Client 34
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 34
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 34
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 34
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 34
+[Constructive] Server esaminato 4
+[Constructive]Client 34 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 191
+[Constructive] Assegnamento di Client 35
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 35
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 35
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 35
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 35
+[Constructive] Server esaminato 4
+[Constructive]Client 35 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 160
+[Constructive] Assegnamento di Client 36
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 36
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 36
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 36
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 36
+[Constructive] Server esaminato 4
+[Constructive]Client 36 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 146
+[Constructive] Assegnamento di Client 37
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 37
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 37
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 37
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 37
+[Constructive] Server esaminato 4
+[Constructive]Client 37 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 108
+[Constructive] Assegnamento di Client 38
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 38
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 38
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 38
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 38
+[Constructive] Server esaminato 4
+[Constructive]Client 38 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 74
+[Constructive] Assegnamento di Client 39
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 39
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 39
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 39
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 39
+[Constructive] Server esaminato 4
+[Constructive]Client 39 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 35
+Numero di client: 6
+Numero di server: 3
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 2
+[Constructive]Client 0 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 8
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 2
+[Constructive]Client 1 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 2
+[Constructive]Client 2 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 4
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 2
+[Constructive]Client 3 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 2
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 2
+[Constructive]Client 4 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 0
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 5
+[Constructive] Server esaminato 1
+[Constructive]Client 5 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 6
+Numero di client: 6
+Numero di server: 3
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 2
+[Constructive]Client 0 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 8
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 2
+[Constructive]Client 1 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 2
+[Constructive]Client 2 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 4
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 2
+[Constructive]Client 3 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 2
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 2
+[Constructive]Client 4 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 0
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 5
+[Constructive] Server esaminato 1
+[Constructive]Client 5 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 6
+Numero di client: 40
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 0
+[Constructive]Client 0 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 220
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 0
+[Constructive]Client 1 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 193
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 0
+[Constructive]Client 2 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 163
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 0
+[Constructive]Client 3 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 131
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 0
+[Constructive]Client 4 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 85
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 0
+[Constructive]Client 5 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 54
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 0
+[Constructive]Client 6 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 35
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 0
+[Constructive]Client 7 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 5
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 8
+[Constructive] Server esaminato 1
+[Constructive]Client 8 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 253
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 9
+[Constructive] Server esaminato 1
+[Constructive]Client 9 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 225
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 10
+[Constructive] Server esaminato 1
+[Constructive]Client 10 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 195
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 11
+[Constructive] Server esaminato 1
+[Constructive]Client 11 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 162
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 12
+[Constructive] Server esaminato 1
+[Constructive]Client 12 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 113
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 13
+[Constructive] Server esaminato 1
+[Constructive]Client 13 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 94
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 14
+[Constructive] Server esaminato 1
+[Constructive]Client 14 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 77
+[Constructive] Assegnamento di Client 15
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 15
+[Constructive] Server esaminato 1
+[Constructive]Client 15 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 53
+[Constructive] Assegnamento di Client 16
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 16
+[Constructive] Server esaminato 1
+[Constructive]Client 16 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 37
+[Constructive] Assegnamento di Client 17
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 17
+[Constructive] Server esaminato 1
+[Constructive]Client 17 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 3
+[Constructive] Assegnamento di Client 18
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 18
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 18
+[Constructive] Server esaminato 2
+[Constructive]Client 18 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 155
+[Constructive] Assegnamento di Client 19
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 19
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 19
+[Constructive] Server esaminato 2
+[Constructive]Client 19 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 136
+[Constructive] Assegnamento di Client 20
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 20
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 20
+[Constructive] Server esaminato 2
+[Constructive]Client 20 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 101
+[Constructive] Assegnamento di Client 21
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 21
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 21
+[Constructive] Server esaminato 2
+[Constructive]Client 21 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 87
+[Constructive] Assegnamento di Client 22
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 22
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 22
+[Constructive] Server esaminato 2
+[Constructive]Client 22 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 55
+[Constructive] Assegnamento di Client 23
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 23
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 23
+[Constructive] Server esaminato 2
+[Constructive]Client 23 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 25
+[Constructive] Assegnamento di Client 24
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 24
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 24
+[Constructive] Server esaminato 2
+[Constructive]Client 24 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 25
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 25
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 25
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 25
+[Constructive] Server esaminato 3
+[Constructive]Client 25 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 236
+[Constructive] Assegnamento di Client 26
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 26
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 26
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 26
+[Constructive] Server esaminato 3
+[Constructive]Client 26 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 206
+[Constructive] Assegnamento di Client 27
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 27
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 27
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 27
+[Constructive] Server esaminato 3
+[Constructive]Client 27 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 165
+[Constructive] Assegnamento di Client 28
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 28
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 28
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 28
+[Constructive] Server esaminato 3
+[Constructive]Client 28 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 145
+[Constructive] Assegnamento di Client 29
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 29
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 29
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 29
+[Constructive] Server esaminato 3
+[Constructive]Client 29 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 123
+[Constructive] Assegnamento di Client 30
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 30
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 30
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 30
+[Constructive] Server esaminato 3
+[Constructive]Client 30 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 102
+[Constructive] Assegnamento di Client 31
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 31
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 31
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 31
+[Constructive] Server esaminato 3
+[Constructive]Client 31 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 87
+[Constructive] Assegnamento di Client 32
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 32
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 32
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 32
+[Constructive] Server esaminato 3
+[Constructive]Client 32 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 52
+[Constructive] Assegnamento di Client 33
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 33
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 33
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 33
+[Constructive] Server esaminato 3
+[Constructive]Client 33 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 5
+[Constructive] Assegnamento di Client 34
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 34
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 34
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 34
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 34
+[Constructive] Server esaminato 4
+[Constructive]Client 34 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 191
+[Constructive] Assegnamento di Client 35
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 35
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 35
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 35
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 35
+[Constructive] Server esaminato 4
+[Constructive]Client 35 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 160
+[Constructive] Assegnamento di Client 36
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 36
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 36
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 36
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 36
+[Constructive] Server esaminato 4
+[Constructive]Client 36 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 146
+[Constructive] Assegnamento di Client 37
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 37
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 37
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 37
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 37
+[Constructive] Server esaminato 4
+[Constructive]Client 37 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 108
+[Constructive] Assegnamento di Client 38
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 38
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 38
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 38
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 38
+[Constructive] Server esaminato 4
+[Constructive]Client 38 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 74
+[Constructive] Assegnamento di Client 39
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 39
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 39
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 39
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 39
+[Constructive] Server esaminato 4
+[Constructive]Client 39 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 35
+Numero di client: 40
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 0
+[Constructive]Client 0 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 220
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 0
+[Constructive]Client 1 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 193
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 0
+[Constructive]Client 2 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 163
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 0
+[Constructive]Client 3 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 131
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 0
+[Constructive]Client 4 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 85
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 0
+[Constructive]Client 5 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 54
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 0
+[Constructive]Client 6 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 35
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 0
+[Constructive]Client 7 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 5
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 8
+[Constructive] Server esaminato 1
+[Constructive]Client 8 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 253
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 9
+[Constructive] Server esaminato 1
+[Constructive]Client 9 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 225
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 10
+[Constructive] Server esaminato 1
+[Constructive]Client 10 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 195
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 11
+[Constructive] Server esaminato 1
+[Constructive]Client 11 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 162
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 12
+[Constructive] Server esaminato 1
+[Constructive]Client 12 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 113
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 13
+[Constructive] Server esaminato 1
+[Constructive]Client 13 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 94
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 14
+[Constructive] Server esaminato 1
+[Constructive]Client 14 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 77
+[Constructive] Assegnamento di Client 15
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 15
+[Constructive] Server esaminato 1
+[Constructive]Client 15 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 53
+[Constructive] Assegnamento di Client 16
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 16
+[Constructive] Server esaminato 1
+[Constructive]Client 16 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 37
+[Constructive] Assegnamento di Client 17
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 17
+[Constructive] Server esaminato 1
+[Constructive]Client 17 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 3
+[Constructive] Assegnamento di Client 18
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 18
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 18
+[Constructive] Server esaminato 2
+[Constructive]Client 18 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 155
+[Constructive] Assegnamento di Client 19
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 19
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 19
+[Constructive] Server esaminato 2
+[Constructive]Client 19 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 136
+[Constructive] Assegnamento di Client 20
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 20
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 20
+[Constructive] Server esaminato 2
+[Constructive]Client 20 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 101
+[Constructive] Assegnamento di Client 21
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 21
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 21
+[Constructive] Server esaminato 2
+[Constructive]Client 21 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 87
+[Constructive] Assegnamento di Client 22
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 22
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 22
+[Constructive] Server esaminato 2
+[Constructive]Client 22 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 55
+[Constructive] Assegnamento di Client 23
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 23
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 23
+[Constructive] Server esaminato 2
+[Constructive]Client 23 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 25
+[Constructive] Assegnamento di Client 24
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 24
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 24
+[Constructive] Server esaminato 2
+[Constructive]Client 24 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 25
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 25
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 25
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 25
+[Constructive] Server esaminato 3
+[Constructive]Client 25 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 236
+[Constructive] Assegnamento di Client 26
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 26
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 26
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 26
+[Constructive] Server esaminato 3
+[Constructive]Client 26 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 206
+[Constructive] Assegnamento di Client 27
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 27
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 27
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 27
+[Constructive] Server esaminato 3
+[Constructive]Client 27 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 165
+[Constructive] Assegnamento di Client 28
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 28
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 28
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 28
+[Constructive] Server esaminato 3
+[Constructive]Client 28 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 145
+[Constructive] Assegnamento di Client 29
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 29
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 29
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 29
+[Constructive] Server esaminato 3
+[Constructive]Client 29 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 123
+[Constructive] Assegnamento di Client 30
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 30
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 30
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 30
+[Constructive] Server esaminato 3
+[Constructive]Client 30 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 102
+[Constructive] Assegnamento di Client 31
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 31
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 31
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 31
+[Constructive] Server esaminato 3
+[Constructive]Client 31 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 87
+[Constructive] Assegnamento di Client 32
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 32
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 32
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 32
+[Constructive] Server esaminato 3
+[Constructive]Client 32 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 52
+[Constructive] Assegnamento di Client 33
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 33
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 33
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 33
+[Constructive] Server esaminato 3
+[Constructive]Client 33 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 5
+[Constructive] Assegnamento di Client 34
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 34
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 34
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 34
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 34
+[Constructive] Server esaminato 4
+[Constructive]Client 34 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 191
+[Constructive] Assegnamento di Client 35
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 35
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 35
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 35
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 35
+[Constructive] Server esaminato 4
+[Constructive]Client 35 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 160
+[Constructive] Assegnamento di Client 36
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 36
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 36
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 36
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 36
+[Constructive] Server esaminato 4
+[Constructive]Client 36 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 146
+[Constructive] Assegnamento di Client 37
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 37
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 37
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 37
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 37
+[Constructive] Server esaminato 4
+[Constructive]Client 37 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 108
+[Constructive] Assegnamento di Client 38
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 38
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 38
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 38
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 38
+[Constructive] Server esaminato 4
+[Constructive]Client 38 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 74
+[Constructive] Assegnamento di Client 39
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 39
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 39
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 39
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 39
+[Constructive] Server esaminato 4
+[Constructive]Client 39 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 35
+Numero di client: 15
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 0
+[Constructive]Client 0 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 28
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 1
+[Constructive]Client 1 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 27
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 2
+[Constructive]Client 2 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 32
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 4
+[Constructive]Client 3 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 20
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 0
+[Constructive]Client 4 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 20
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 3
+[Constructive]Client 5 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 22
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 3
+[Constructive]Client 6 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 16
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 2
+[Constructive]Client 7 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 23
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 0
+[Constructive]Client 8 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 11
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 3
+[Constructive]Client 9 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 9
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 3
+[Constructive]Client 10 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 3
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 11
+[Constructive] Server esaminato 4
+[Constructive]Client 11 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 10
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 4
+[Constructive]Client 12 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 5
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 0
+[Constructive]Client 13 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 3
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 2
+[Constructive]Client 14 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 7
+Numero di client: 15
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 0
+[Constructive]Client 0 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 28
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 1
+[Constructive]Client 1 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 27
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 2
+[Constructive]Client 2 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 32
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 4
+[Constructive]Client 3 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 20
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 0
+[Constructive]Client 4 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 20
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 3
+[Constructive]Client 5 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 22
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 3
+[Constructive]Client 6 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 16
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 2
+[Constructive]Client 7 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 23
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 0
+[Constructive]Client 8 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 11
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 3
+[Constructive]Client 9 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 9
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 3
+[Constructive]Client 10 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 3
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 11
+[Constructive] Server esaminato 4
+[Constructive]Client 11 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 10
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 4
+[Constructive]Client 12 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 5
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 0
+[Constructive]Client 13 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 3
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 2
+[Constructive]Client 14 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 7
+Numero di client: 6
+Numero di server: 3
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 2
+[Constructive]Client 0 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 10
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 2
+[Constructive]Client 1 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 8
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 2
+[Constructive]Client 2 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 2
+[Constructive]Client 3 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 4
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 2
+[Constructive]Client 4 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 2
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 2
+[Constructive]Client 5 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 1
+Numero di client: 6
+Numero di server: 3
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 2
+[Constructive]Client 0 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 10
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 2
+[Constructive]Client 1 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 8
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 2
+[Constructive]Client 2 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 2
+[Constructive]Client 3 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 4
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 2
+[Constructive]Client 4 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 2
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 2
+[Constructive]Client 5 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 1
+Numero di client: 15
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 0
+[Constructive]Client 0 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 28
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 1
+[Constructive]Client 1 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 27
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 2
+[Constructive]Client 2 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 32
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 4
+[Constructive]Client 3 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 20
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 0
+[Constructive]Client 4 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 20
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 3
+[Constructive]Client 5 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 22
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 3
+[Constructive]Client 6 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 16
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 2
+[Constructive]Client 7 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 23
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 0
+[Constructive]Client 8 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 11
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 3
+[Constructive]Client 9 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 9
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 3
+[Constructive]Client 10 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 3
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 11
+[Constructive] Server esaminato 4
+[Constructive]Client 11 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 10
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 4
+[Constructive]Client 12 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 5
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 0
+[Constructive]Client 13 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 3
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 2
+[Constructive]Client 14 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 7
+Numero di client: 15
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 0
+[Constructive]Client 0 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 28
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 1
+[Constructive]Client 1 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 27
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 2
+[Constructive]Client 2 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 32
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 4
+[Constructive]Client 3 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 20
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 0
+[Constructive]Client 4 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 20
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 3
+[Constructive]Client 5 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 22
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 3
+[Constructive]Client 6 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 16
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 2
+[Constructive]Client 7 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 23
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 0
+[Constructive]Client 8 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 11
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 3
+[Constructive]Client 9 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 9
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 3
+[Constructive]Client 10 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 3
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 11
+[Constructive] Server esaminato 4
+[Constructive]Client 11 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 10
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 4
+[Constructive]Client 12 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 5
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 0
+[Constructive]Client 13 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 3
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 2
+[Constructive]Client 14 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 7
+Numero di client: 15
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 0
+[Constructive]Client 0 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 28
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 1
+[Constructive]Client 1 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 27
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 2
+[Constructive]Client 2 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 32
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 4
+[Constructive]Client 3 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 20
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 0
+[Constructive]Client 4 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 20
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 3
+[Constructive]Client 5 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 22
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 3
+[Constructive]Client 6 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 16
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 2
+[Constructive]Client 7 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 23
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 0
+[Constructive]Client 8 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 11
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 3
+[Constructive]Client 9 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 9
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 3
+[Constructive]Client 10 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 3
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 11
+[Constructive] Server esaminato 4
+[Constructive]Client 11 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 10
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 4
+[Constructive]Client 12 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 5
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 0
+[Constructive]Client 13 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 3
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 2
+[Constructive]Client 14 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 7
+Numero di client: 15
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 0
+[Constructive]Client 0 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 28
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 1
+[Constructive]Client 1 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 27
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 2
+[Constructive]Client 2 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 32
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 4
+[Constructive]Client 3 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 20
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 0
+[Constructive]Client 4 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 20
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 3
+[Constructive]Client 5 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 22
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 3
+[Constructive]Client 6 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 16
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 2
+[Constructive]Client 7 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 23
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 0
+[Constructive]Client 8 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 11
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 3
+[Constructive]Client 9 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 9
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 3
+[Constructive]Client 10 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 3
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 11
+[Constructive] Server esaminato 4
+[Constructive]Client 11 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 10
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 4
+[Constructive]Client 12 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 5
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 0
+[Constructive]Client 13 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 3
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 2
+[Constructive]Client 14 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 7
+Numero di client: 40
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 0
+[Constructive]Client 0 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 220
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 0
+[Constructive]Client 1 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 193
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 0
+[Constructive]Client 2 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 163
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 0
+[Constructive]Client 3 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 131
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 0
+[Constructive]Client 4 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 85
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 0
+[Constructive]Client 5 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 54
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 0
+[Constructive]Client 6 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 35
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 0
+[Constructive]Client 7 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 5
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 8
+[Constructive] Server esaminato 1
+[Constructive]Client 8 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 253
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 9
+[Constructive] Server esaminato 1
+[Constructive]Client 9 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 225
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 10
+[Constructive] Server esaminato 1
+[Constructive]Client 10 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 195
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 11
+[Constructive] Server esaminato 1
+[Constructive]Client 11 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 162
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 12
+[Constructive] Server esaminato 1
+[Constructive]Client 12 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 113
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 13
+[Constructive] Server esaminato 1
+[Constructive]Client 13 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 94
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 14
+[Constructive] Server esaminato 1
+[Constructive]Client 14 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 77
+[Constructive] Assegnamento di Client 15
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 15
+[Constructive] Server esaminato 1
+[Constructive]Client 15 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 53
+[Constructive] Assegnamento di Client 16
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 16
+[Constructive] Server esaminato 1
+[Constructive]Client 16 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 37
+[Constructive] Assegnamento di Client 17
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 17
+[Constructive] Server esaminato 1
+[Constructive]Client 17 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 3
+[Constructive] Assegnamento di Client 18
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 18
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 18
+[Constructive] Server esaminato 2
+[Constructive]Client 18 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 155
+[Constructive] Assegnamento di Client 19
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 19
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 19
+[Constructive] Server esaminato 2
+[Constructive]Client 19 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 136
+[Constructive] Assegnamento di Client 20
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 20
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 20
+[Constructive] Server esaminato 2
+[Constructive]Client 20 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 101
+[Constructive] Assegnamento di Client 21
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 21
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 21
+[Constructive] Server esaminato 2
+[Constructive]Client 21 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 87
+[Constructive] Assegnamento di Client 22
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 22
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 22
+[Constructive] Server esaminato 2
+[Constructive]Client 22 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 55
+[Constructive] Assegnamento di Client 23
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 23
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 23
+[Constructive] Server esaminato 2
+[Constructive]Client 23 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 25
+[Constructive] Assegnamento di Client 24
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 24
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 24
+[Constructive] Server esaminato 2
+[Constructive]Client 24 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 25
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 25
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 25
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 25
+[Constructive] Server esaminato 3
+[Constructive]Client 25 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 236
+[Constructive] Assegnamento di Client 26
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 26
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 26
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 26
+[Constructive] Server esaminato 3
+[Constructive]Client 26 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 206
+[Constructive] Assegnamento di Client 27
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 27
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 27
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 27
+[Constructive] Server esaminato 3
+[Constructive]Client 27 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 165
+[Constructive] Assegnamento di Client 28
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 28
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 28
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 28
+[Constructive] Server esaminato 3
+[Constructive]Client 28 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 145
+[Constructive] Assegnamento di Client 29
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 29
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 29
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 29
+[Constructive] Server esaminato 3
+[Constructive]Client 29 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 123
+[Constructive] Assegnamento di Client 30
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 30
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 30
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 30
+[Constructive] Server esaminato 3
+[Constructive]Client 30 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 102
+[Constructive] Assegnamento di Client 31
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 31
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 31
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 31
+[Constructive] Server esaminato 3
+[Constructive]Client 31 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 87
+[Constructive] Assegnamento di Client 32
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 32
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 32
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 32
+[Constructive] Server esaminato 3
+[Constructive]Client 32 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 52
+[Constructive] Assegnamento di Client 33
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 33
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 33
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 33
+[Constructive] Server esaminato 3
+[Constructive]Client 33 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 5
+[Constructive] Assegnamento di Client 34
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 34
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 34
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 34
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 34
+[Constructive] Server esaminato 4
+[Constructive]Client 34 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 191
+[Constructive] Assegnamento di Client 35
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 35
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 35
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 35
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 35
+[Constructive] Server esaminato 4
+[Constructive]Client 35 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 160
+[Constructive] Assegnamento di Client 36
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 36
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 36
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 36
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 36
+[Constructive] Server esaminato 4
+[Constructive]Client 36 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 146
+[Constructive] Assegnamento di Client 37
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 37
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 37
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 37
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 37
+[Constructive] Server esaminato 4
+[Constructive]Client 37 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 108
+[Constructive] Assegnamento di Client 38
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 38
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 38
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 38
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 38
+[Constructive] Server esaminato 4
+[Constructive]Client 38 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 74
+[Constructive] Assegnamento di Client 39
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 39
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 39
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 39
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 39
+[Constructive] Server esaminato 4
+[Constructive]Client 39 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 35
+Numero di client: 40
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 0
+[Constructive]Client 0 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 220
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 0
+[Constructive]Client 1 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 193
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 0
+[Constructive]Client 2 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 163
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 0
+[Constructive]Client 3 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 131
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 0
+[Constructive]Client 4 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 85
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 0
+[Constructive]Client 5 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 54
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 0
+[Constructive]Client 6 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 35
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 0
+[Constructive]Client 7 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 5
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 8
+[Constructive] Server esaminato 1
+[Constructive]Client 8 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 253
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 9
+[Constructive] Server esaminato 1
+[Constructive]Client 9 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 225
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 10
+[Constructive] Server esaminato 1
+[Constructive]Client 10 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 195
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 11
+[Constructive] Server esaminato 1
+[Constructive]Client 11 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 162
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 12
+[Constructive] Server esaminato 1
+[Constructive]Client 12 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 113
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 13
+[Constructive] Server esaminato 1
+[Constructive]Client 13 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 94
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 14
+[Constructive] Server esaminato 1
+[Constructive]Client 14 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 77
+[Constructive] Assegnamento di Client 15
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 15
+[Constructive] Server esaminato 1
+[Constructive]Client 15 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 53
+[Constructive] Assegnamento di Client 16
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 16
+[Constructive] Server esaminato 1
+[Constructive]Client 16 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 37
+[Constructive] Assegnamento di Client 17
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 17
+[Constructive] Server esaminato 1
+[Constructive]Client 17 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 3
+[Constructive] Assegnamento di Client 18
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 18
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 18
+[Constructive] Server esaminato 2
+[Constructive]Client 18 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 155
+[Constructive] Assegnamento di Client 19
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 19
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 19
+[Constructive] Server esaminato 2
+[Constructive]Client 19 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 136
+[Constructive] Assegnamento di Client 20
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 20
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 20
+[Constructive] Server esaminato 2
+[Constructive]Client 20 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 101
+[Constructive] Assegnamento di Client 21
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 21
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 21
+[Constructive] Server esaminato 2
+[Constructive]Client 21 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 87
+[Constructive] Assegnamento di Client 22
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 22
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 22
+[Constructive] Server esaminato 2
+[Constructive]Client 22 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 55
+[Constructive] Assegnamento di Client 23
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 23
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 23
+[Constructive] Server esaminato 2
+[Constructive]Client 23 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 25
+[Constructive] Assegnamento di Client 24
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 24
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 24
+[Constructive] Server esaminato 2
+[Constructive]Client 24 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 25
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 25
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 25
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 25
+[Constructive] Server esaminato 3
+[Constructive]Client 25 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 236
+[Constructive] Assegnamento di Client 26
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 26
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 26
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 26
+[Constructive] Server esaminato 3
+[Constructive]Client 26 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 206
+[Constructive] Assegnamento di Client 27
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 27
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 27
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 27
+[Constructive] Server esaminato 3
+[Constructive]Client 27 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 165
+[Constructive] Assegnamento di Client 28
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 28
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 28
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 28
+[Constructive] Server esaminato 3
+[Constructive]Client 28 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 145
+[Constructive] Assegnamento di Client 29
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 29
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 29
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 29
+[Constructive] Server esaminato 3
+[Constructive]Client 29 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 123
+[Constructive] Assegnamento di Client 30
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 30
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 30
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 30
+[Constructive] Server esaminato 3
+[Constructive]Client 30 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 102
+[Constructive] Assegnamento di Client 31
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 31
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 31
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 31
+[Constructive] Server esaminato 3
+[Constructive]Client 31 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 87
+[Constructive] Assegnamento di Client 32
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 32
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 32
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 32
+[Constructive] Server esaminato 3
+[Constructive]Client 32 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 52
+[Constructive] Assegnamento di Client 33
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 33
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 33
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 33
+[Constructive] Server esaminato 3
+[Constructive]Client 33 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 5
+[Constructive] Assegnamento di Client 34
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 34
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 34
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 34
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 34
+[Constructive] Server esaminato 4
+[Constructive]Client 34 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 191
+[Constructive] Assegnamento di Client 35
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 35
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 35
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 35
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 35
+[Constructive] Server esaminato 4
+[Constructive]Client 35 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 160
+[Constructive] Assegnamento di Client 36
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 36
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 36
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 36
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 36
+[Constructive] Server esaminato 4
+[Constructive]Client 36 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 146
+[Constructive] Assegnamento di Client 37
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 37
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 37
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 37
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 37
+[Constructive] Server esaminato 4
+[Constructive]Client 37 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 108
+[Constructive] Assegnamento di Client 38
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 38
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 38
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 38
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 38
+[Constructive] Server esaminato 4
+[Constructive]Client 38 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 74
+[Constructive] Assegnamento di Client 39
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 39
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 39
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 39
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 39
+[Constructive] Server esaminato 4
+[Constructive]Client 39 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 35
+Numero di client: 40
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 0
+[Constructive]Client 0 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 220
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 0
+[Constructive]Client 1 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 193
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 0
+[Constructive]Client 2 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 163
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 0
+[Constructive]Client 3 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 131
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 0
+[Constructive]Client 4 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 85
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 0
+[Constructive]Client 5 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 54
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 0
+[Constructive]Client 6 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 35
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 0
+[Constructive]Client 7 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 5
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 8
+[Constructive] Server esaminato 1
+[Constructive]Client 8 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 253
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 9
+[Constructive] Server esaminato 1
+[Constructive]Client 9 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 225
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 10
+[Constructive] Server esaminato 1
+[Constructive]Client 10 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 195
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 11
+[Constructive] Server esaminato 1
+[Constructive]Client 11 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 162
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 12
+[Constructive] Server esaminato 1
+[Constructive]Client 12 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 113
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 13
+[Constructive] Server esaminato 1
+[Constructive]Client 13 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 94
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 14
+[Constructive] Server esaminato 1
+[Constructive]Client 14 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 77
+[Constructive] Assegnamento di Client 15
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 15
+[Constructive] Server esaminato 1
+[Constructive]Client 15 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 53
+[Constructive] Assegnamento di Client 16
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 16
+[Constructive] Server esaminato 1
+[Constructive]Client 16 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 37
+[Constructive] Assegnamento di Client 17
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 17
+[Constructive] Server esaminato 1
+[Constructive]Client 17 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 3
+[Constructive] Assegnamento di Client 18
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 18
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 18
+[Constructive] Server esaminato 2
+[Constructive]Client 18 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 155
+[Constructive] Assegnamento di Client 19
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 19
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 19
+[Constructive] Server esaminato 2
+[Constructive]Client 19 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 136
+[Constructive] Assegnamento di Client 20
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 20
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 20
+[Constructive] Server esaminato 2
+[Constructive]Client 20 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 101
+[Constructive] Assegnamento di Client 21
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 21
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 21
+[Constructive] Server esaminato 2
+[Constructive]Client 21 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 87
+[Constructive] Assegnamento di Client 22
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 22
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 22
+[Constructive] Server esaminato 2
+[Constructive]Client 22 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 55
+[Constructive] Assegnamento di Client 23
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 23
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 23
+[Constructive] Server esaminato 2
+[Constructive]Client 23 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 25
+[Constructive] Assegnamento di Client 24
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 24
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 24
+[Constructive] Server esaminato 2
+[Constructive]Client 24 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 25
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 25
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 25
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 25
+[Constructive] Server esaminato 3
+[Constructive]Client 25 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 236
+[Constructive] Assegnamento di Client 26
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 26
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 26
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 26
+[Constructive] Server esaminato 3
+[Constructive]Client 26 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 206
+[Constructive] Assegnamento di Client 27
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 27
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 27
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 27
+[Constructive] Server esaminato 3
+[Constructive]Client 27 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 165
+[Constructive] Assegnamento di Client 28
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 28
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 28
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 28
+[Constructive] Server esaminato 3
+[Constructive]Client 28 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 145
+[Constructive] Assegnamento di Client 29
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 29
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 29
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 29
+[Constructive] Server esaminato 3
+[Constructive]Client 29 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 123
+[Constructive] Assegnamento di Client 30
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 30
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 30
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 30
+[Constructive] Server esaminato 3
+[Constructive]Client 30 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 102
+[Constructive] Assegnamento di Client 31
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 31
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 31
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 31
+[Constructive] Server esaminato 3
+[Constructive]Client 31 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 87
+[Constructive] Assegnamento di Client 32
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 32
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 32
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 32
+[Constructive] Server esaminato 3
+[Constructive]Client 32 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 52
+[Constructive] Assegnamento di Client 33
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 33
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 33
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 33
+[Constructive] Server esaminato 3
+[Constructive]Client 33 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 5
+[Constructive] Assegnamento di Client 34
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 34
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 34
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 34
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 34
+[Constructive] Server esaminato 4
+[Constructive]Client 34 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 191
+[Constructive] Assegnamento di Client 35
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 35
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 35
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 35
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 35
+[Constructive] Server esaminato 4
+[Constructive]Client 35 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 160
+[Constructive] Assegnamento di Client 36
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 36
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 36
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 36
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 36
+[Constructive] Server esaminato 4
+[Constructive]Client 36 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 146
+[Constructive] Assegnamento di Client 37
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 37
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 37
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 37
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 37
+[Constructive] Server esaminato 4
+[Constructive]Client 37 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 108
+[Constructive] Assegnamento di Client 38
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 38
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 38
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 38
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 38
+[Constructive] Server esaminato 4
+[Constructive]Client 38 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 74
+[Constructive] Assegnamento di Client 39
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 39
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 39
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 39
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 39
+[Constructive] Server esaminato 4
+[Constructive]Client 39 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 35
+Numero di client: 40
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 0
+[Constructive]Client 0 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 220
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 0
+[Constructive]Client 1 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 193
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 0
+[Constructive]Client 2 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 163
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 0
+[Constructive]Client 3 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 131
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 0
+[Constructive]Client 4 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 85
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 0
+[Constructive]Client 5 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 54
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 0
+[Constructive]Client 6 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 35
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 0
+[Constructive]Client 7 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 5
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 8
+[Constructive] Server esaminato 1
+[Constructive]Client 8 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 253
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 9
+[Constructive] Server esaminato 1
+[Constructive]Client 9 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 225
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 10
+[Constructive] Server esaminato 1
+[Constructive]Client 10 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 195
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 11
+[Constructive] Server esaminato 1
+[Constructive]Client 11 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 162
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 12
+[Constructive] Server esaminato 1
+[Constructive]Client 12 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 113
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 13
+[Constructive] Server esaminato 1
+[Constructive]Client 13 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 94
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 14
+[Constructive] Server esaminato 1
+[Constructive]Client 14 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 77
+[Constructive] Assegnamento di Client 15
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 15
+[Constructive] Server esaminato 1
+[Constructive]Client 15 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 53
+[Constructive] Assegnamento di Client 16
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 16
+[Constructive] Server esaminato 1
+[Constructive]Client 16 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 37
+[Constructive] Assegnamento di Client 17
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 17
+[Constructive] Server esaminato 1
+[Constructive]Client 17 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 3
+[Constructive] Assegnamento di Client 18
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 18
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 18
+[Constructive] Server esaminato 2
+[Constructive]Client 18 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 155
+[Constructive] Assegnamento di Client 19
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 19
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 19
+[Constructive] Server esaminato 2
+[Constructive]Client 19 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 136
+[Constructive] Assegnamento di Client 20
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 20
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 20
+[Constructive] Server esaminato 2
+[Constructive]Client 20 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 101
+[Constructive] Assegnamento di Client 21
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 21
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 21
+[Constructive] Server esaminato 2
+[Constructive]Client 21 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 87
+[Constructive] Assegnamento di Client 22
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 22
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 22
+[Constructive] Server esaminato 2
+[Constructive]Client 22 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 55
+[Constructive] Assegnamento di Client 23
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 23
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 23
+[Constructive] Server esaminato 2
+[Constructive]Client 23 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 25
+[Constructive] Assegnamento di Client 24
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 24
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 24
+[Constructive] Server esaminato 2
+[Constructive]Client 24 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 25
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 25
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 25
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 25
+[Constructive] Server esaminato 3
+[Constructive]Client 25 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 236
+[Constructive] Assegnamento di Client 26
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 26
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 26
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 26
+[Constructive] Server esaminato 3
+[Constructive]Client 26 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 206
+[Constructive] Assegnamento di Client 27
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 27
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 27
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 27
+[Constructive] Server esaminato 3
+[Constructive]Client 27 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 165
+[Constructive] Assegnamento di Client 28
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 28
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 28
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 28
+[Constructive] Server esaminato 3
+[Constructive]Client 28 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 145
+[Constructive] Assegnamento di Client 29
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 29
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 29
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 29
+[Constructive] Server esaminato 3
+[Constructive]Client 29 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 123
+[Constructive] Assegnamento di Client 30
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 30
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 30
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 30
+[Constructive] Server esaminato 3
+[Constructive]Client 30 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 102
+[Constructive] Assegnamento di Client 31
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 31
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 31
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 31
+[Constructive] Server esaminato 3
+[Constructive]Client 31 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 87
+[Constructive] Assegnamento di Client 32
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 32
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 32
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 32
+[Constructive] Server esaminato 3
+[Constructive]Client 32 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 52
+[Constructive] Assegnamento di Client 33
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 33
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 33
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 33
+[Constructive] Server esaminato 3
+[Constructive]Client 33 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 5
+[Constructive] Assegnamento di Client 34
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 34
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 34
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 34
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 34
+[Constructive] Server esaminato 4
+[Constructive]Client 34 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 191
+[Constructive] Assegnamento di Client 35
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 35
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 35
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 35
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 35
+[Constructive] Server esaminato 4
+[Constructive]Client 35 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 160
+[Constructive] Assegnamento di Client 36
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 36
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 36
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 36
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 36
+[Constructive] Server esaminato 4
+[Constructive]Client 36 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 146
+[Constructive] Assegnamento di Client 37
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 37
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 37
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 37
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 37
+[Constructive] Server esaminato 4
+[Constructive]Client 37 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 108
+[Constructive] Assegnamento di Client 38
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 38
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 38
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 38
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 38
+[Constructive] Server esaminato 4
+[Constructive]Client 38 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 74
+[Constructive] Assegnamento di Client 39
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 39
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 39
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 39
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 39
+[Constructive] Server esaminato 4
+[Constructive]Client 39 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 35

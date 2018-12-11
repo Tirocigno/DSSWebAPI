@@ -52,7 +52,8 @@ namespace DSSWebApp.Controllers
         public string resolveSimulatedAnnealingGAPInstance(AnnealingParameters paramts)
         {
             GAPInstance Gap = JSONConverter.deserializeGAP(dataDirectory + "\\" + paramts.getFileName());
-            return new BasicHeu(Gap).simulatedAnnealing(paramts.getTemperature()).ToString();
+            return new BasicHeu(Gap).simulatedAnnealing(paramts.getTemperature(), paramts.getSteps(), 
+                paramts.getTempDecrease(), paramts.getCoolingScheduleSteps()).ToString();
         }
     }
 }
