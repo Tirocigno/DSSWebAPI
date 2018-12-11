@@ -28,10 +28,10 @@
             <select name="computationMethod" id="computationMethod">
                 <option value="resolveRandomGAPInstance">Random</option>
                 <option value="resolveConstructiveGAPInstance">Constructive</option>
-                <option value="resolveOpt1_0GAPInstance" onselect="selected();">Opt1_0</option>
-                <option value="resolveSimulatedAnnealingGAPInstance">SimulatedAnnealing</option>
+                <option value="resolveOpt1_0GAPInstance">Opt1_0</option>
+                <option value="resolveSimulatedAnnealingGAPInstance">Simulated Annealing</option>
+                <option value="resolveTabuSearchGAPInstance">Tabu Search</option>
             </select>
-            //TODO PASSARE QUESTI PARAMETRI ALLA RICERCA
             <div id="SAParams" style="display:none">
                 <div>
                     <label> Temperatura(SA only)</label>
@@ -54,6 +54,17 @@
                 </div>
             </div>
 
+            <div id="TabuPar" style="display:none">
+                <div>
+                    <label> Tabu Tenure</label>
+                    <input type="text" id="tabuTenure" />
+                </div>
+
+                <div>
+                    <label> Passi totali da eseguire</label>
+                    <input type="text" id="totalStepsT" />
+                </div>
+            </div>
             <input type="button" value="Compute!" onclick="computeHeu();" />
 
         </div>
@@ -75,7 +86,15 @@
 
         $(document).ready(function () {
             $('#computationMethod').on('change', function () {
+
                 if (this.value == 'resolveSimulatedAnnealingGAPInstance') {
+                    $("#TabuPar").show();
+                }
+                else {
+                    $("#TabuPar").hide();
+                }
+
+                if (this.value == 'resolveTabuSearchGAPInstance') {
                     $("#SAParams").show();
                 }
                 else {

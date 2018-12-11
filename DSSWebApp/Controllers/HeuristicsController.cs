@@ -55,5 +55,13 @@ namespace DSSWebApp.Controllers
             return new BasicHeu(Gap).simulatedAnnealing(paramts.getTemperature(), paramts.getSteps(), 
                 paramts.getTempDecrease(), paramts.getCoolingScheduleSteps()).ToString();
         }
+
+        [HttpPost]
+        [ActionName("resolveTabuSearchGAPInstance")]
+        public string resolveTabuSearchGAPInstance(TabuParameters paramts)
+        {
+            GAPInstance Gap = JSONConverter.deserializeGAP(dataDirectory + "\\" + paramts.getFileName());
+            return new BasicHeu(Gap).tabuSearch(paramts.getQueueSize(),paramts.getMaxSteps()).ToString();
+        }
     }
 }

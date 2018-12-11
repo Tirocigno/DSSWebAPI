@@ -342,7 +342,7 @@ namespace DSSWebApp.Models.Heuristics
                                 bestLocalSolution = tempCost;
                                 nextsol = (int[])tmpsol.Clone();
                                 bestPosition = currentPosition;
-                                nextCapleft = (int[])this.capacitiesLeft.Clone();
+                                nextCapleft = (int[])capleft.Clone();
 
                             }
                             //Caso in cui la soluzione è tabu ma è migliore della soluzione più bella.
@@ -353,7 +353,7 @@ namespace DSSWebApp.Models.Heuristics
                                 bestAbsoluteSolution = tempCost;
                                 nextsol = (int[])tmpsol.Clone();
                                 bestPosition = currentPosition;
-                                nextCapleft = (int[])this.capacitiesLeft.Clone();
+                                nextCapleft = (int[])capleft.Clone();
                             }
                         }
                     }
