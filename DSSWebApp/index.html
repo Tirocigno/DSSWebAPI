@@ -87,14 +87,14 @@
         $(document).ready(function () {
             $('#computationMethod').on('change', function () {
 
-                if (this.value == 'resolveSimulatedAnnealingGAPInstance') {
+                if (this.value == 'resolveTabuSearchGAPInstance') {
                     $("#TabuPar").show();
                 }
                 else {
                     $("#TabuPar").hide();
                 }
 
-                if (this.value == 'resolveTabuSearchGAPInstance') {
+                if (this.value == 'resolveSimulatedAnnealingGAPInstance') {
                     $("#SAParams").show();
                 }
                 else {
@@ -103,10 +103,6 @@
             });
         });
 
-
-        function selected() {
-            alert("selected")
-        }
 
         function readTable() {
 
@@ -164,6 +160,13 @@
                     });
                 } else {
                     options.data = "\"" + file + "\""
+                }
+                if (path == "resolveTabuSearchGAPInstance") {
+                    options.data = JSON.stringify({
+                        "fileName": file,
+                        "queueSize": document.getElementById("tabuTenure").value,
+                        "maxSteps": document.getElementById("totalStepsT").value
+                    });
                 }
                 options.success = function (msg) {
                     displayCost(msg);
