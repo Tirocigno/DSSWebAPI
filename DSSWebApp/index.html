@@ -78,6 +78,7 @@
                 <option value="serie">Serie</option>
             </select>
             <input type="button" value="Read table!" onclick="readTable();" />
+            <input type="button" value="Launch statistics!" onclick="launchStat();" />
 
         </div>
     </div>
@@ -102,6 +103,23 @@
                 }
             });
         });
+
+        function launchStat() {
+            $.ajax({
+                url: "api/Database/prevision",
+                type: "GET",
+                contentType: "application/json",
+                success: function (result) {
+                    alert(result)
+                },
+                error: function (xhr, status, p3, p4) {
+                    var err = "Error " + " " + status + " " + p3;
+                    if (xhr.responseText && xhr.responseText[0] == "{")
+                        err = JSON.parse(xhr.responseText).message;
+                    alert(err);
+                }
+            });
+        }
 
 
         function readTable() {

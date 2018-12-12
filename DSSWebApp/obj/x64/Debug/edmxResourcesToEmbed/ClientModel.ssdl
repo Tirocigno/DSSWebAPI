@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="testDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="clienti">
+    <Key>
+      <PropertyRef Name="PK_UID" />
+    </Key>
+    <Property Name="PK_UID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id" Type="int" />
+    <Property Name="nome" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="ordini">
+    <Key>
+      <PropertyRef Name="PK_UID" />
+    </Key>
+    <Property Name="PK_UID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id" Type="int" />
+    <Property Name="idcliente" Type="int" />
+    <Property Name="codice" Type="int" />
+    <Property Name="descr" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="serie">
+    <Key>
+      <PropertyRef Name="time" />
+    </Key>
+    <Property Name="time" Type="int" Nullable="false" />
+    <Property Name="esempio" Type="int" />
+    <Property Name="esempio2" Type="float" />
+    <Property Name="Passengers" Type="int" />
+    <Property Name="jewelry" Type="int" />
+  </EntityType>
+  <EntityContainer Name="testDbModelStoreContainer">
+    <EntitySet Name="clienti" EntityType="Self.clienti" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ordini" EntityType="Self.ordini" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="serie" EntityType="Self.serie" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
