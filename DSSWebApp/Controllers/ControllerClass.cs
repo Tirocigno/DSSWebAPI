@@ -1,5 +1,6 @@
 ﻿using DSSWebApp.Models.Database;
 using DSSWebApp.Models.Heuristics;
+using DSSWebApp.Models.Prevision.wrapper;
 using RDotNet;
 using System;
 using System.Collections.Generic;
@@ -80,30 +81,7 @@ namespace DSSWebApp.Controllers
         [ActionName("prevision")]
         public string executePrevision()
         {
-            //  Thread t = new Thread(rCalculus, 2500000 /*thread stack size of 2.5MB*/);
-            //t.Start();
-            rCalculus();
-            return "Done";
+            return new SimpleRScriptsWrapper("piove").simpleRComputation();
         }
-
-        private void rCalculus()
-        {
-            StartupParameter rinit = new StartupParameter();
-            rinit.Quiet = true;
-            rinit.RHome = "C:\\Program Files\\R\\R-3.4.4";
-            rinit.Interactive = true;
-            REngine.SetEnvironmentVariables();
-            REngine engine = REngine.GetInstance(null, true, rinit);
-            var x = engine.Evaluate("x <- 1 + 2");
-            Console.WriteLine(x);
-            engine.Evaluate("library(tseries)");
-            engine.Evaluate("library(forecast)");
-            Console.WriteLine("Arrivato in fondo");
-            var y = engine.Evaluate("y <- 4 + 7");
-            Console.WriteLine(y);
-        }
-
-
-
     }
 }
