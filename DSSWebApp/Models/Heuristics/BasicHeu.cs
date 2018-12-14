@@ -161,8 +161,8 @@ namespace DSSWebApp.Models.Heuristics
         /*Execute simulated annealing*/
         public int simulatedAnnealing(double temperature, int steps, double decreaseConstant, int coolingScheduleSteps)
         {
-            this.constructiveEurFirstSol();
-            sol = nonRecorsiveAnnealing(sol, temperature, 0, steps, decreaseConstant, coolingScheduleSteps);
+            int z = this.constructiveEurFirstSol();
+            sol = nonRecorsiveAnnealing(sol, temperature, 0, steps, decreaseConstant, coolingScheduleSteps, z);
             return checkSol(sol);
         }
 
@@ -254,32 +254,52 @@ namespace DSSWebApp.Models.Heuristics
             
             tmpsol = null;
             return annealing(solution, temperature, step + 1);
-        }        // See this algorithm should not try an illegal configuration and should change capacities        private int[] nonRecorsiveAnnealing(int[] solution, double temperature, int step, int totalSteps, double temperatureDecrease, int coolingScheduleSteps)
+        }        // See this algorithm should not try an illegal configuration and should change capacities        private int[] nonRecorsiveAnnealing(int[] solution, double temperature, int step, int totalSteps, double temperatureDecrease, int coolingScheduleSteps, int initialCost)
         {
-            while(step < totalSteps)
+            int cost = initialCost;
+
+            while (step < totalSteps)
             {
+                int z = cost;
+                int oldi;
+                int randomServerIndex;
+                int randomClientIndex;
                 if (step % coolingScheduleSteps == 0)
                 {
                     temperature *= temperatureDecrease;
                 }
 
-                int[] capacities = (int[])this.capacitiesLeft.Clone();
-                int randomServerIndex = new Random().Next(m);
-                int randomClientIndex = new Random().Next(n);
+                int[] capleft= (int[])this.capacitiesLeft.Clone();
+      
+                //Fintanto che la nuova combinazione produce un assegnamento non possibile per colpa delle capacità
+
+                do
+                {
+                    randomServerIndex = new Random().Next(m);
+                    randomClientIndex = new Random().Next(n);
+                    oldi = sol[randomClientIndex];
+                } while (capleft[randomServerIndex] < GAP.req[randomServerIndex, randomClientIndex]);
 
                 int[] tmpsol = (int[])sol.Clone();
                 tmpsol[randomClientIndex] = randomServerIndex;
+                capleft[randomServerIndex] -= GAP.req[randomServerIndex, randomClientIndex];
+                capleft[oldi] += GAP.req[randomServerIndex, randomClientIndex];
+                z -= (GAP.cost[oldi, randomClientIndex] - GAP.cost[randomServerIndex, randomClientIndex]);
 
-                int cost = checkSol(tmpsol);
-                int oldcost = checkSol(solution);
-                if (cost < oldcost)
+
+                //int cost = checkSol(tmpsol);
+                //int oldcost = checkSol(solution);
+                if (z < cost)
                 {
-                    solution = tmpsol;
+                    solution = (int[])tmpsol.Clone();
+                    this.capacitiesLeft = (int[])capleft.Clone();
+                    cost = z;
                 }
-                double p = Math.Exp(-(cost - oldcost) / (double)temperature);
+                double p = Math.Exp(-(z - cost) / (double)temperature);
                 if (new Random().Next() < p)
                 {
-                    solution = tmpsol;
+                    solution = (int[])tmpsol.Clone();
+                    this.capacitiesLeft = (int[])capleft.Clone();
                 }
 
                 step++;
