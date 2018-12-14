@@ -300,6 +300,7 @@
     <Compile Include="Models\Heuristics\TabuParameters.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ModelClass.cs" />
+    <Compile Include="Models\Prevision\ExampleData.cs" />
     <Compile Include="Models\Prevision\wrapper\SimpleRScriptsWrapper.cs" />
     <Compile Include="ordini.cs">
       <DependentUpon>ClientModel.tt</DependentUpon>

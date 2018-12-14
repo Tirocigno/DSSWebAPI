@@ -70,7 +70,6 @@
         </div>
         <div class="col-md-6">
             <h1>Previsione</h1>
-            <h1>Mettere in path di sistema variabile con stesso nome di R</h1>
             <label>Tabella da leggere</label>
             <select name="tableName" id="tableName">
                 <option value="clienti">Clienti</option>
@@ -81,6 +80,12 @@
             <input type="button" value="Launch statistics!" onclick="launchStat();" />
 
         </div>
+    </div>
+
+    <div class="col-md-12">
+        <h1>Output</h1>
+        <label id="output"></label>
+
     </div>
   
     <script>
@@ -130,7 +135,7 @@
                     type: "GET",
                     contentType: "application/json",
                     success: function (result) {
-                        alert(result)
+                        displayOnOutput(result)
                     },
                     error: function (xhr, status, p3, p4) {
                         var err = "Error " + " " + status + " " + p3;
@@ -142,22 +147,6 @@
             
         }
 
-        function postFunction() {
-            var cacio = "clienti"
-            var options = {};
-            options.url = "/api/Database/insertCustomer";
-            options.type = "POST";
-            options.data = JSON.stringify({
-                "tableId": cacio
-            });
-            options.dataType = "json";
-            options.contentType = "application/json";
-            options.success = function (msg) {
-                alert(msg);
-            };
-            options.error = function (err) { alert(err.statusText); };
-            $.ajax(options);
-        }
           
             function computeHeu() {
                 var fileComboBox = document.getElementById("inputFile");
@@ -194,7 +183,12 @@
             }
 
             function displayCost(cost) {
-                alert("Cost of the solution is: " + cost)
+                //alert("Cost of the solution is: " + cost)
+                displayOnOutput("Cost of the solution is: " + cost)
+            }
+
+            function displayOnOutput(elem) {
+                document.getElementById("output").innerHTML = elem
             }
 
     </script>

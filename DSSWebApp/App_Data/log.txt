@@ -17343,3 +17343,65 @@ Numero di server: 5
 [Constructive] Server esaminato 4
 [Constructive]Client 39 viene assegnato a server 4
 [Constructive]Capacità server 4 rimane 35
+Numero di client: 6
+Numero di server: 3
+Client [0] assegnato a server [0]
+Client [1] assegnato a server [1]
+Client [2] assegnato a server [2]
+Client [3] assegnato a server [3]
+Client [4] assegnato a server [4]
+Client [5] assegnato a server [5]
+Client 3 assegnato a server che non esiste
+Numero di client: 6
+Numero di server: 3
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 2
+[Constructive]Client 0 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 10
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 2
+[Constructive]Client 1 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 8
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 2
+[Constructive]Client 2 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 2
+[Constructive]Client 3 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 4
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 2
+[Constructive]Client 4 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 2
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 2
+[Constructive]Client 5 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 1
+Numero di client: 6
+Numero di server: 3
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 2
+[Constructive]Client 0 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 10
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 2
+[Constructive]Client 1 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 8
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 2
+[Constructive]Client 2 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 2
+[Constructive]Client 3 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 4
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 2
+[Constructive]Client 4 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 2
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 2
+[Constructive]Client 5 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 1
+[Opt1-0]: Ciclo for del calcolo di z inutile

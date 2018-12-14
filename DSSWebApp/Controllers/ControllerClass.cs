@@ -81,7 +81,7 @@ namespace DSSWebApp.Controllers
         [ActionName("prevision")]
         public string executePrevision()
         {
-            return new SimpleRScriptsWrapper("piove").simpleRComputation();
+            return new SimpleRScriptsWrapper(1,1).simpleRComputation();
         }
     }
 }
