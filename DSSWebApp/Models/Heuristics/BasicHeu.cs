@@ -254,7 +254,7 @@ namespace DSSWebApp.Models.Heuristics
             
             tmpsol = null;
             return annealing(solution, temperature, step + 1);
-        }        private int[] nonRecorsiveAnnealing(int[] solution, double temperature, int step, int totalSteps, double temperatureDecrease, int coolingScheduleSteps)
+        }        // See this algorithm should not try an illegal configuration and should change capacities        private int[] nonRecorsiveAnnealing(int[] solution, double temperature, int step, int totalSteps, double temperatureDecrease, int coolingScheduleSteps)
         {
             while(step < totalSteps)
             {
@@ -262,7 +262,8 @@ namespace DSSWebApp.Models.Heuristics
                 {
                     temperature *= temperatureDecrease;
                 }
-               
+
+                int[] capacities = (int[])this.capacitiesLeft.Clone();
                 int randomServerIndex = new Random().Next(m);
                 int randomClientIndex = new Random().Next(n);
 
