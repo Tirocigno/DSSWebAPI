@@ -98,3 +98,6 @@ C:\Users\feden\Documents\Visual Studio 2015\Projects\DSSWebApp\DSSWebApp\bin\RDo
 C:\Users\feden\Documents\Visual Studio 2015\Projects\DSSWebApp\DSSWebApp\bin\DynamicInterop.xml
 C:\Users\feden\Documents\Visual Studio 2015\Projects\DSSWebApp\DSSWebApp\bin\RDotNet.xml
 C:\Users\feden\Documents\Visual Studio 2015\Projects\DSSWebApp\DSSWebApp\bin\RDotNet.NativeLibrary.xml
+C:\Users\feden\Documents\Visual Studio 2015\Projects\DSSWebApp\DSSWebApp\bin\LinqStatistics.dll
+C:\Users\feden\Documents\Visual Studio 2015\Projects\DSSWebApp\DSSWebApp\bin\LinqStatistics.pdb
+C:\Users\feden\Documents\Visual Studio 2015\Projects\DSSWebApp\DSSWebApp\bin\LinqStatistics.xml

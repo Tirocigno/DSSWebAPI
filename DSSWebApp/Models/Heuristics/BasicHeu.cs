@@ -278,7 +278,10 @@ namespace DSSWebApp.Models.Heuristics
                     randomServerIndex = new Random().Next(m);
                     randomClientIndex = new Random().Next(n);
                     oldi = solution[randomClientIndex];
-                } while (capleft[randomServerIndex] < GAP.req[randomServerIndex, randomClientIndex]);
+                } while (capleft[randomServerIndex] < GAP.req[randomServerIndex, randomClientIndex] ||
+                oldi == randomServerIndex);
+
+               // writeOnLog("[SA]: Assegno client " + randomClientIndex + " a Server " + randomServerIndex);
 
                 int[] tmpsol = (int[])solution.Clone();
                 tmpsol[randomClientIndex] = randomServerIndex;
@@ -294,14 +297,16 @@ namespace DSSWebApp.Models.Heuristics
                     solution = (int[])tmpsol.Clone();
                     this.capacitiesLeft = (int[])capleft.Clone();
                     cost = z;
-                }
-                double p = Math.Exp(-(z - cost) / (double)temperature);
-                if (new Random().Next() < p)
+                } else
                 {
-                    solution = (int[])tmpsol.Clone();
-                    this.capacitiesLeft = (int[])capleft.Clone();
+                    double p = Math.Exp(-(cost - z) / temperature);
+                    if (new Random().Next(0, 100) < p * 100)
+                    {
+                        solution = (int[])tmpsol.Clone();
+                        this.capacitiesLeft = (int[])capleft.Clone();
+                        cost = z;
+                    }
                 }
-
                 step++;
             }
 

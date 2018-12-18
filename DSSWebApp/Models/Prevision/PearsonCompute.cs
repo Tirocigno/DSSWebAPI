@@ -1,11 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Web;
+using System.Linq;
+using LinqStatistics;
 
 namespace DSSWebApp.Models.Prevision
 {
+    public static class PearsonWrapper {
+        public static double ComputePearson(this IEnumerable<Double> source, IEnumerable<Double> other)
+        {
+            return source.Covariance(other) / (source.StandardDeviationP() * other.StandardDeviationP());
+        }
+    }
     public class PearsonCompute
     {
         private string fileName;
@@ -22,11 +29,13 @@ namespace DSSWebApp.Models.Prevision
             int pearsonIndex = -1;
             double currentValue;
             int currentIndex = 1;
-            int[] startArray = this.readSerieFromFile();
+            Double[] startArray = this.readSerieFromFile();
 
             while(currentIndex < MAX_STAGIONALITY)
             {
-                currentValue = Correlation(startArray, buildShiftedArray(startArray, currentIndex));
+                //currentValue = Correlation(startArray,buildShiftedArray(startArray, currentIndex));
+                currentValue = PearsonWrapper.ComputePearson(startArray, buildShiftedArray(startArray, currentIndex));
+                writeOnLog("Pearson "+ currentIndex + ": " + currentValue);
                 if(currentValue > max)
                 {
                     pearsonIndex = currentIndex;
@@ -38,25 +47,16 @@ namespace DSSWebApp.Models.Prevision
             return pearsonIndex;
         }
 
-        private int [] buildShiftedArray(int[] originArray, int shift)
-        {
-            int[] newArray = new int[originArray.Length];
-
-            for(int i = 0; i < originArray.Length; i++)
-            {
-                if((i + shift) < originArray.Length)
-                {
-                    newArray[i] = originArray[i + shift];
-                } else
-                {
-                    newArray[i] = 0;
-                }
-            }
-
-            return newArray;
+        private Double [] buildShiftedArray(Double[] originArray, int shift)
+        { 
+            double[] arr = new double[originArray.Length];
+            Array.Copy(originArray, 0, arr, shift, arr.Length - shift);
+            return arr;
         }
 
-        private double Correlation(IEnumerable<int> xs, IEnumerable<int> ys)
+        
+
+        private double Correlation(IEnumerable<Double> xs, IEnumerable<Double> ys)
         {
             // sums of x, y, x squared etc.
             double sx = 0.0;
@@ -94,22 +94,32 @@ namespace DSSWebApp.Models.Prevision
             double sigmaY = Math.Sqrt(syy / n - sy * sy / n / n);
 
             // correlation is just a normalized covariation
-            return cov / sigmaX / sigmaY;
+            return cov / (sigmaX * sigmaY);
         }
 
-        private int[] readSerieFromFile()
+        private Double[] readSerieFromFile()
         {
-            List<int> list = new List<int>();
+            List<Double> list = new List<Double>();
             string line;
             StreamReader file = new StreamReader((string)AppDomain.CurrentDomain.GetData("DataDirectory") + "\\"+ fileName);
-            file.ReadLine();
+            writeOnLog(file.ReadLine());
             while ((line = file.ReadLine()) != null)
             {
-                list.Add(Convert.ToInt32(line.Replace(",",""))); 
+                list.Add(Convert.ToDouble(line.Replace(",","")));
+                writeOnLog(line);
             }
 
             file.Close();
+            writeOnLog("Data Readed");
             return list.ToArray();
+        }
+
+        private void writeOnLog(string message)
+        {
+            StreamWriter writeLog = new StreamWriter((string)AppDomain.CurrentDomain.GetData("DataDirectory") + "\\pearson.txt", true);
+            string messageToWrite = "[" + DateTime.Now.ToString() + "]: " + message;
+            writeLog.WriteLine(message);
+            writeLog.Close();
         }
     }
 }
