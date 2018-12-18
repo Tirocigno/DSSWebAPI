@@ -257,13 +257,16 @@ namespace DSSWebApp.Models.Heuristics
         }        // See this algorithm should not try an illegal configuration and should change capacities        private int[] nonRecorsiveAnnealing(int[] solution, double temperature, int step, int totalSteps, double temperatureDecrease, int coolingScheduleSteps, int initialCost)
         {
             int cost = initialCost;
+            Random r = new Random();
 
             while (step < totalSteps)
             {
+                writeOnLog("-------------Ciclo " + step + " ---------------");
                 int z = cost;
                 int oldi;
                 int randomServerIndex;
                 int randomClientIndex;
+                int treshold = 0;
                 if (step % coolingScheduleSteps == 0)
                 {
                     temperature *= temperatureDecrease;
@@ -275,19 +278,26 @@ namespace DSSWebApp.Models.Heuristics
 
                 do
                 {
-                    randomServerIndex = new Random().Next(m);
-                    randomClientIndex = new Random().Next(n);
+                    treshold++;
+                    randomServerIndex = r.Next(m);
+                    randomClientIndex = r.Next(n);
                     oldi = solution[randomClientIndex];
+                    if(treshold == 1000)
+                    {
+                        return solution;
+                    }
                 } while (capleft[randomServerIndex] < GAP.req[randomServerIndex, randomClientIndex] ||
                 oldi == randomServerIndex);
+                treshold = 0;
 
-               // writeOnLog("[SA]: Assegno client " + randomClientIndex + " a Server " + randomServerIndex);
+                writeOnLog("[SA]: Assegno client " + randomClientIndex + " a Server " + randomServerIndex);
 
                 int[] tmpsol = (int[])solution.Clone();
                 tmpsol[randomClientIndex] = randomServerIndex;
                 capleft[randomServerIndex] -= GAP.req[randomServerIndex, randomClientIndex];
                 capleft[oldi] += GAP.req[oldi, randomClientIndex];
                 z -= (GAP.cost[oldi, randomClientIndex] - GAP.cost[randomServerIndex, randomClientIndex]);
+                writeOnLog("[SA]: Costo diventa: " + z);
 
 
                 //int cost = checkSol(tmpsol);
@@ -296,12 +306,15 @@ namespace DSSWebApp.Models.Heuristics
                 {
                     solution = (int[])tmpsol.Clone();
                     this.capacitiesLeft = (int[])capleft.Clone();
+                    writeOnLog("[SA]: Accetto soluzione per correttezza");
                     cost = z;
                 } else
                 {
-                    double p = Math.Exp(-(cost - z) / temperature);
-                    if (new Random().Next(0, 100) < p * 100)
+                    double p = Math.Exp(-(z - cost) / temperature);
+                    int rp = new Random().Next(0, 100);
+                    if ( rp < p * 100)
                     {
+                        writeOnLog("[SA]: Accetto soluzione per probabilità " + rp + "inferiore a p: " + p);
                         solution = (int[])tmpsol.Clone();
                         this.capacitiesLeft = (int[])capleft.Clone();
                         cost = z;
