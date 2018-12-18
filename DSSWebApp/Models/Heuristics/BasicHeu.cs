@@ -277,13 +277,13 @@ namespace DSSWebApp.Models.Heuristics
                 {
                     randomServerIndex = new Random().Next(m);
                     randomClientIndex = new Random().Next(n);
-                    oldi = sol[randomClientIndex];
+                    oldi = solution[randomClientIndex];
                 } while (capleft[randomServerIndex] < GAP.req[randomServerIndex, randomClientIndex]);
 
-                int[] tmpsol = (int[])sol.Clone();
+                int[] tmpsol = (int[])solution.Clone();
                 tmpsol[randomClientIndex] = randomServerIndex;
                 capleft[randomServerIndex] -= GAP.req[randomServerIndex, randomClientIndex];
-                capleft[oldi] += GAP.req[randomServerIndex, randomClientIndex];
+                capleft[oldi] += GAP.req[oldi, randomClientIndex];
                 z -= (GAP.cost[oldi, randomClientIndex] - GAP.cost[randomServerIndex, randomClientIndex]);
 
 

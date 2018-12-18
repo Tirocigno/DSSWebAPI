@@ -1,5 +1,6 @@
 ﻿using DSSWebApp.Models.Database;
 using DSSWebApp.Models.Heuristics;
+using DSSWebApp.Models.Prevision;
 using DSSWebApp.Models.Prevision.wrapper;
 using RDotNet;
 using System;
@@ -82,6 +83,13 @@ namespace DSSWebApp.Controllers
         public string executePrevision()
         {
             return new SimpleRScriptsWrapper(1,1,"bau").simpleRComputation();
+        }
+
+        [HttpGet]
+        [ActionName("pearson")]
+        public string executePearson()
+        {
+            return new PearsonCompute("esempio.csv").computeStagionality().ToString();
         }
     }
 }
