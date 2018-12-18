@@ -2310,3 +2310,1117 @@ Tabu List:
 [pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 7), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 10), pos(3, 7), pos(1, 15), 
 Tabu List: 
 [pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 7), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 10), pos(3, 7), 
+Numero di client: 40
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 0
+[Constructive]Client 0 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 220
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 0
+[Constructive]Client 1 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 193
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 0
+[Constructive]Client 2 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 163
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 0
+[Constructive]Client 3 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 131
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 0
+[Constructive]Client 4 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 85
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 0
+[Constructive]Client 5 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 54
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 0
+[Constructive]Client 6 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 35
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 0
+[Constructive]Client 7 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 5
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 8
+[Constructive] Server esaminato 1
+[Constructive]Client 8 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 253
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 9
+[Constructive] Server esaminato 1
+[Constructive]Client 9 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 225
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 10
+[Constructive] Server esaminato 1
+[Constructive]Client 10 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 195
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 11
+[Constructive] Server esaminato 1
+[Constructive]Client 11 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 162
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 12
+[Constructive] Server esaminato 1
+[Constructive]Client 12 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 113
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 13
+[Constructive] Server esaminato 1
+[Constructive]Client 13 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 94
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 14
+[Constructive] Server esaminato 1
+[Constructive]Client 14 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 77
+[Constructive] Assegnamento di Client 15
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 15
+[Constructive] Server esaminato 1
+[Constructive]Client 15 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 53
+[Constructive] Assegnamento di Client 16
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 16
+[Constructive] Server esaminato 1
+[Constructive]Client 16 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 37
+[Constructive] Assegnamento di Client 17
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 17
+[Constructive] Server esaminato 1
+[Constructive]Client 17 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 3
+[Constructive] Assegnamento di Client 18
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 18
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 18
+[Constructive] Server esaminato 2
+[Constructive]Client 18 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 155
+[Constructive] Assegnamento di Client 19
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 19
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 19
+[Constructive] Server esaminato 2
+[Constructive]Client 19 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 136
+[Constructive] Assegnamento di Client 20
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 20
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 20
+[Constructive] Server esaminato 2
+[Constructive]Client 20 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 101
+[Constructive] Assegnamento di Client 21
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 21
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 21
+[Constructive] Server esaminato 2
+[Constructive]Client 21 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 87
+[Constructive] Assegnamento di Client 22
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 22
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 22
+[Constructive] Server esaminato 2
+[Constructive]Client 22 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 55
+[Constructive] Assegnamento di Client 23
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 23
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 23
+[Constructive] Server esaminato 2
+[Constructive]Client 23 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 25
+[Constructive] Assegnamento di Client 24
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 24
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 24
+[Constructive] Server esaminato 2
+[Constructive]Client 24 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 6
+[Constructive] Assegnamento di Client 25
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 25
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 25
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 25
+[Constructive] Server esaminato 3
+[Constructive]Client 25 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 236
+[Constructive] Assegnamento di Client 26
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 26
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 26
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 26
+[Constructive] Server esaminato 3
+[Constructive]Client 26 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 206
+[Constructive] Assegnamento di Client 27
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 27
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 27
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 27
+[Constructive] Server esaminato 3
+[Constructive]Client 27 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 165
+[Constructive] Assegnamento di Client 28
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 28
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 28
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 28
+[Constructive] Server esaminato 3
+[Constructive]Client 28 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 145
+[Constructive] Assegnamento di Client 29
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 29
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 29
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 29
+[Constructive] Server esaminato 3
+[Constructive]Client 29 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 123
+[Constructive] Assegnamento di Client 30
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 30
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 30
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 30
+[Constructive] Server esaminato 3
+[Constructive]Client 30 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 102
+[Constructive] Assegnamento di Client 31
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 31
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 31
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 31
+[Constructive] Server esaminato 3
+[Constructive]Client 31 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 87
+[Constructive] Assegnamento di Client 32
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 32
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 32
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 32
+[Constructive] Server esaminato 3
+[Constructive]Client 32 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 52
+[Constructive] Assegnamento di Client 33
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 33
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 33
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 33
+[Constructive] Server esaminato 3
+[Constructive]Client 33 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 5
+[Constructive] Assegnamento di Client 34
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 34
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 34
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 34
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 34
+[Constructive] Server esaminato 4
+[Constructive]Client 34 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 191
+[Constructive] Assegnamento di Client 35
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 35
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 35
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 35
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 35
+[Constructive] Server esaminato 4
+[Constructive]Client 35 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 160
+[Constructive] Assegnamento di Client 36
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 36
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 36
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 36
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 36
+[Constructive] Server esaminato 4
+[Constructive]Client 36 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 146
+[Constructive] Assegnamento di Client 37
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 37
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 37
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 37
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 37
+[Constructive] Server esaminato 4
+[Constructive]Client 37 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 108
+[Constructive] Assegnamento di Client 38
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 38
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 38
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 38
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 38
+[Constructive] Server esaminato 4
+[Constructive]Client 38 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 74
+[Constructive] Assegnamento di Client 39
+[Constructive] Server esaminato 0
+[Constructive] Server esaminato 0non poteva ospitare client 39
+[Constructive] Server esaminato 1
+[Constructive] Server esaminato 1non poteva ospitare client 39
+[Constructive] Server esaminato 2
+[Constructive] Server esaminato 2non poteva ospitare client 39
+[Constructive] Server esaminato 3
+[Constructive] Server esaminato 3non poteva ospitare client 39
+[Constructive] Server esaminato 4
+[Constructive]Client 39 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 35
+Tabu List: 
+[pos(4, 31), 
+Tabu List: 
+[pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), pos(4, 31), 
+Tabu List: 
+[pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), pos(4, 14), 
+Tabu List: 
+[pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), pos(1, 21), 
+Tabu List: 
+[pos(1, 28), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), pos(2, 13), 
+Tabu List: 
+[pos(1, 21), pos(1, 28), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), 
+Tabu List: 
+[pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), pos(1, 28), 
+Tabu List: 
+[pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), pos(3, 2), 
+Tabu List: 
+[pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), pos(0, 32), 
+Tabu List: 
+[pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), pos(3, 0), 
+Tabu List: 
+[pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), pos(0, 30), 
+Tabu List: 
+[pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), pos(3, 38), 
+Tabu List: 
+[pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), pos(4, 8), 
+Tabu List: 
+[pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), pos(1, 7), 
+Tabu List: 
+[pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), pos(0, 9), 
+Tabu List: 
+[pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), pos(1, 1), 
+Tabu List: 
+[pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), pos(0, 20), 
+Tabu List: 
+[pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), pos(2, 3), 
+Tabu List: 
+[pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), pos(0, 11), 
+Tabu List: 
+[pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), pos(1, 38), 
+Tabu List: 
+[pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), pos(3, 1), 
+Tabu List: 
+[pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(1, 29), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), 
+Tabu List: 
+[pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), pos(1, 29), 
+Tabu List: 
+[pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), pos(3, 16), 
+Tabu List: 
+[pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), pos(1, 16), 
+Tabu List: 
+[pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), pos(3, 15), 
+Tabu List: 
+[pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), pos(1, 0), 
+Tabu List: 
+[pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), pos(3, 17), 
+Tabu List: 
+[pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), pos(1, 26), 
+Tabu List: 
+[pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), pos(3, 26), 
+Tabu List: 
+[pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), pos(1, 17), 
+Tabu List: 
+[pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), pos(3, 10), 
+Tabu List: 
+[pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), pos(1, 15), 
+Tabu List: 
+[pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), pos(3, 7), 
+Tabu List: 
+[pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), pos(1, 10), 
+Tabu List: 
+[pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), pos(3, 35), 
+Tabu List: 
+[pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), pos(4, 27), 
+Tabu List: 
+[pos(3, 7), pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), pos(3, 37), 
+Tabu List: 
+[pos(1, 26), pos(3, 7), pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), pos(4, 22), 
+Tabu List: 
+[pos(3, 26), pos(1, 26), pos(3, 7), pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), pos(2, 35), 
+Tabu List: 
+[pos(1, 10), pos(3, 26), pos(1, 26), pos(3, 7), pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), pos(3, 29), 
+Tabu List: 
+[pos(3, 17), pos(1, 10), pos(3, 26), pos(1, 26), pos(3, 7), pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(1, 6), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), 
+Tabu List: 
+[pos(0, 11), pos(3, 17), pos(1, 10), pos(3, 26), pos(1, 26), pos(3, 7), pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), pos(1, 6), 
+Tabu List: 
+[pos(1, 38), pos(0, 11), pos(3, 17), pos(1, 10), pos(3, 26), pos(1, 26), pos(3, 7), pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), pos(0, 6), 
+Tabu List: 
+[pos(3, 29), pos(1, 38), pos(0, 11), pos(3, 17), pos(1, 10), pos(3, 26), pos(1, 26), pos(3, 7), pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), pos(1, 24), 
+Tabu List: 
+[pos(1, 29), pos(3, 29), pos(1, 38), pos(0, 11), pos(3, 17), pos(1, 10), pos(3, 26), pos(1, 26), pos(3, 7), pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), pos(2, 15), 
+Tabu List: 
+[pos(3, 35), pos(1, 29), pos(3, 29), pos(1, 38), pos(0, 11), pos(3, 17), pos(1, 10), pos(3, 26), pos(1, 26), pos(3, 7), pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), pos(3, 24), 
+Tabu List: 
+[pos(2, 35), pos(3, 35), pos(1, 29), pos(3, 29), pos(1, 38), pos(0, 11), pos(3, 17), pos(1, 10), pos(3, 26), pos(1, 26), pos(3, 7), pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), pos(1, 2), 
+Tabu List: 
+[pos(3, 24), pos(2, 35), pos(3, 35), pos(1, 29), pos(3, 29), pos(1, 38), pos(0, 11), pos(3, 17), pos(1, 10), pos(3, 26), pos(1, 26), pos(3, 7), pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), pos(3, 34), 
+Tabu List: 
+[pos(2, 7), pos(3, 24), pos(2, 35), pos(3, 35), pos(1, 29), pos(3, 29), pos(1, 38), pos(0, 11), pos(3, 17), pos(1, 10), pos(3, 26), pos(1, 26), pos(3, 7), pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), pos(4, 25), 
+Tabu List: 
+[pos(3, 37), pos(2, 7), pos(3, 24), pos(2, 35), pos(3, 35), pos(1, 29), pos(3, 29), pos(1, 38), pos(0, 11), pos(3, 17), pos(1, 10), pos(3, 26), pos(1, 26), pos(3, 7), pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), pos(3, 21), 
+Tabu List: 
+[pos(1, 24), pos(3, 37), pos(2, 7), pos(3, 24), pos(2, 35), pos(3, 35), pos(1, 29), pos(3, 29), pos(1, 38), pos(0, 11), pos(3, 17), pos(1, 10), pos(3, 26), pos(1, 26), pos(3, 7), pos(1, 0), pos(3, 10), pos(1, 15), pos(2, 16), pos(1, 19), pos(0, 13), pos(2, 24), pos(1, 13), pos(2, 6), pos(3, 15), pos(1, 16), pos(3, 16), pos(2, 19), pos(3, 19), pos(0, 5), pos(3, 5), pos(1, 11), pos(0, 17), pos(3, 11), pos(2, 13), pos(3, 13), pos(1, 7), pos(3, 38), pos(1, 37), pos(3, 0), pos(3, 2), pos(4, 39), pos(3, 39), pos(0, 24), pos(3, 6), pos(1, 21), pos(3, 23), pos(2, 1), pos(1, 23), pos(3, 28), 
+Numero di client: 100
+Numero di server: 5
+[Constructive] Assegnamento di Client 0
+[Constructive] Server esaminato 2
+[Constructive]Client 0 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 801
+[Constructive] Assegnamento di Client 1
+[Constructive] Server esaminato 2
+[Constructive]Client 1 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 791
+[Constructive] Assegnamento di Client 2
+[Constructive] Server esaminato 3
+[Constructive]Client 2 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 806
+[Constructive] Assegnamento di Client 3
+[Constructive] Server esaminato 1
+[Constructive]Client 3 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 727
+[Constructive] Assegnamento di Client 4
+[Constructive] Server esaminato 3
+[Constructive]Client 4 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 778
+[Constructive] Assegnamento di Client 5
+[Constructive] Server esaminato 2
+[Constructive]Client 5 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 782
+[Constructive] Assegnamento di Client 6
+[Constructive] Server esaminato 4
+[Constructive]Client 6 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 859
+[Constructive] Assegnamento di Client 7
+[Constructive] Server esaminato 0
+[Constructive]Client 7 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 756
+[Constructive] Assegnamento di Client 8
+[Constructive] Server esaminato 3
+[Constructive]Client 8 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 762
+[Constructive] Assegnamento di Client 9
+[Constructive] Server esaminato 2
+[Constructive]Client 9 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 738
+[Constructive] Assegnamento di Client 10
+[Constructive] Server esaminato 3
+[Constructive]Client 10 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 714
+[Constructive] Assegnamento di Client 11
+[Constructive] Server esaminato 4
+[Constructive]Client 11 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 858
+[Constructive] Assegnamento di Client 12
+[Constructive] Server esaminato 0
+[Constructive]Client 12 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 718
+[Constructive] Assegnamento di Client 13
+[Constructive] Server esaminato 3
+[Constructive]Client 13 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 694
+[Constructive] Assegnamento di Client 14
+[Constructive] Server esaminato 3
+[Constructive]Client 14 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 662
+[Constructive] Assegnamento di Client 15
+[Constructive] Server esaminato 2
+[Constructive]Client 15 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 731
+[Constructive] Assegnamento di Client 16
+[Constructive] Server esaminato 1
+[Constructive]Client 16 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 693
+[Constructive] Assegnamento di Client 17
+[Constructive] Server esaminato 0
+[Constructive]Client 17 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 711
+[Constructive] Assegnamento di Client 18
+[Constructive] Server esaminato 1
+[Constructive]Client 18 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 663
+[Constructive] Assegnamento di Client 19
+[Constructive] Server esaminato 3
+[Constructive]Client 19 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 652
+[Constructive] Assegnamento di Client 20
+[Constructive] Server esaminato 0
+[Constructive]Client 20 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 705
+[Constructive] Assegnamento di Client 21
+[Constructive] Server esaminato 0
+[Constructive]Client 21 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 699
+[Constructive] Assegnamento di Client 22
+[Constructive] Server esaminato 3
+[Constructive]Client 22 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 644
+[Constructive] Assegnamento di Client 23
+[Constructive] Server esaminato 2
+[Constructive]Client 23 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 698
+[Constructive] Assegnamento di Client 24
+[Constructive] Server esaminato 0
+[Constructive]Client 24 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 655
+[Constructive] Assegnamento di Client 25
+[Constructive] Server esaminato 0
+[Constructive]Client 25 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 620
+[Constructive] Assegnamento di Client 26
+[Constructive] Server esaminato 0
+[Constructive]Client 26 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 602
+[Constructive] Assegnamento di Client 27
+[Constructive] Server esaminato 4
+[Constructive]Client 27 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 836
+[Constructive] Assegnamento di Client 28
+[Constructive] Server esaminato 2
+[Constructive]Client 28 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 695
+[Constructive] Assegnamento di Client 29
+[Constructive] Server esaminato 0
+[Constructive]Client 29 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 583
+[Constructive] Assegnamento di Client 30
+[Constructive] Server esaminato 2
+[Constructive]Client 30 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 653
+[Constructive] Assegnamento di Client 31
+[Constructive] Server esaminato 0
+[Constructive]Client 31 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 518
+[Constructive] Assegnamento di Client 32
+[Constructive] Server esaminato 1
+[Constructive]Client 32 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 652
+[Constructive] Assegnamento di Client 33
+[Constructive] Server esaminato 1
+[Constructive]Client 33 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 634
+[Constructive] Assegnamento di Client 34
+[Constructive] Server esaminato 1
+[Constructive]Client 34 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 626
+[Constructive] Assegnamento di Client 35
+[Constructive] Server esaminato 1
+[Constructive]Client 35 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 618
+[Constructive] Assegnamento di Client 36
+[Constructive] Server esaminato 2
+[Constructive]Client 36 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 647
+[Constructive] Assegnamento di Client 37
+[Constructive] Server esaminato 1
+[Constructive]Client 37 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 597
+[Constructive] Assegnamento di Client 38
+[Constructive] Server esaminato 1
+[Constructive]Client 38 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 576
+[Constructive] Assegnamento di Client 39
+[Constructive] Server esaminato 0
+[Constructive]Client 39 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 492
+[Constructive] Assegnamento di Client 40
+[Constructive] Server esaminato 0
+[Constructive]Client 40 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 480
+[Constructive] Assegnamento di Client 41
+[Constructive] Server esaminato 3
+[Constructive]Client 41 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 622
+[Constructive] Assegnamento di Client 42
+[Constructive] Server esaminato 4
+[Constructive]Client 42 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 807
+[Constructive] Assegnamento di Client 43
+[Constructive] Server esaminato 1
+[Constructive]Client 43 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 553
+[Constructive] Assegnamento di Client 44
+[Constructive] Server esaminato 0
+[Constructive]Client 44 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 429
+[Constructive] Assegnamento di Client 45
+[Constructive] Server esaminato 2
+[Constructive]Client 45 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 614
+[Constructive] Assegnamento di Client 46
+[Constructive] Server esaminato 4
+[Constructive]Client 46 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 780
+[Constructive] Assegnamento di Client 47
+[Constructive] Server esaminato 1
+[Constructive]Client 47 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 540
+[Constructive] Assegnamento di Client 48
+[Constructive] Server esaminato 0
+[Constructive]Client 48 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 422
+[Constructive] Assegnamento di Client 49
+[Constructive] Server esaminato 4
+[Constructive]Client 49 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 746
+[Constructive] Assegnamento di Client 50
+[Constructive] Server esaminato 2
+[Constructive]Client 50 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 612
+[Constructive] Assegnamento di Client 51
+[Constructive] Server esaminato 1
+[Constructive]Client 51 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 522
+[Constructive] Assegnamento di Client 52
+[Constructive] Server esaminato 4
+[Constructive]Client 52 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 683
+[Constructive] Assegnamento di Client 53
+[Constructive] Server esaminato 0
+[Constructive]Client 53 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 401
+[Constructive] Assegnamento di Client 54
+[Constructive] Server esaminato 1
+[Constructive]Client 54 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 495
+[Constructive] Assegnamento di Client 55
+[Constructive] Server esaminato 1
+[Constructive]Client 55 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 493
+[Constructive] Assegnamento di Client 56
+[Constructive] Server esaminato 4
+[Constructive]Client 56 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 665
+[Constructive] Assegnamento di Client 57
+[Constructive] Server esaminato 0
+[Constructive]Client 57 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 393
+[Constructive] Assegnamento di Client 58
+[Constructive] Server esaminato 1
+[Constructive]Client 58 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 492
+[Constructive] Assegnamento di Client 59
+[Constructive] Server esaminato 2
+[Constructive]Client 59 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 607
+[Constructive] Assegnamento di Client 60
+[Constructive] Server esaminato 2
+[Constructive]Client 60 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 586
+[Constructive] Assegnamento di Client 61
+[Constructive] Server esaminato 2
+[Constructive]Client 61 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 568
+[Constructive] Assegnamento di Client 62
+[Constructive] Server esaminato 0
+[Constructive]Client 62 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 381
+[Constructive] Assegnamento di Client 63
+[Constructive] Server esaminato 1
+[Constructive]Client 63 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 489
+[Constructive] Assegnamento di Client 64
+[Constructive] Server esaminato 3
+[Constructive]Client 64 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 617
+[Constructive] Assegnamento di Client 65
+[Constructive] Server esaminato 3
+[Constructive]Client 65 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 578
+[Constructive] Assegnamento di Client 66
+[Constructive] Server esaminato 3
+[Constructive]Client 66 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 539
+[Constructive] Assegnamento di Client 67
+[Constructive] Server esaminato 3
+[Constructive]Client 67 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 518
+[Constructive] Assegnamento di Client 68
+[Constructive] Server esaminato 0
+[Constructive]Client 68 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 376
+[Constructive] Assegnamento di Client 69
+[Constructive] Server esaminato 3
+[Constructive]Client 69 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 496
+[Constructive] Assegnamento di Client 70
+[Constructive] Server esaminato 2
+[Constructive]Client 70 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 549
+[Constructive] Assegnamento di Client 71
+[Constructive] Server esaminato 0
+[Constructive]Client 71 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 362
+[Constructive] Assegnamento di Client 72
+[Constructive] Server esaminato 0
+[Constructive]Client 72 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 347
+[Constructive] Assegnamento di Client 73
+[Constructive] Server esaminato 0
+[Constructive]Client 73 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 328
+[Constructive] Assegnamento di Client 74
+[Constructive] Server esaminato 0
+[Constructive]Client 74 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 326
+[Constructive] Assegnamento di Client 75
+[Constructive] Server esaminato 3
+[Constructive]Client 75 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 481
+[Constructive] Assegnamento di Client 76
+[Constructive] Server esaminato 0
+[Constructive]Client 76 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 315
+[Constructive] Assegnamento di Client 77
+[Constructive] Server esaminato 4
+[Constructive]Client 77 viene assegnato a server 4
+[Constructive]Capacità server 4 rimane 663
+[Constructive] Assegnamento di Client 78
+[Constructive] Server esaminato 1
+[Constructive]Client 78 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 466
+[Constructive] Assegnamento di Client 79
+[Constructive] Server esaminato 1
+[Constructive]Client 79 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 444
+[Constructive] Assegnamento di Client 80
+[Constructive] Server esaminato 0
+[Constructive]Client 80 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 303
+[Constructive] Assegnamento di Client 81
+[Constructive] Server esaminato 1
+[Constructive]Client 81 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 435
+[Constructive] Assegnamento di Client 82
+[Constructive] Server esaminato 1
+[Constructive]Client 82 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 402
+[Constructive] Assegnamento di Client 83
+[Constructive] Server esaminato 0
+[Constructive]Client 83 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 301
+[Constructive] Assegnamento di Client 84
+[Constructive] Server esaminato 1
+[Constructive]Client 84 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 363
+[Constructive] Assegnamento di Client 85
+[Constructive] Server esaminato 2
+[Constructive]Client 85 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 518
+[Constructive] Assegnamento di Client 86
+[Constructive] Server esaminato 1
+[Constructive]Client 86 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 357
+[Constructive] Assegnamento di Client 87
+[Constructive] Server esaminato 3
+[Constructive]Client 87 viene assegnato a server 3
+[Constructive]Capacità server 3 rimane 474
+[Constructive] Assegnamento di Client 88
+[Constructive] Server esaminato 2
+[Constructive]Client 88 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 495
+[Constructive] Assegnamento di Client 89
+[Constructive] Server esaminato 1
+[Constructive]Client 89 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 353
+[Constructive] Assegnamento di Client 90
+[Constructive] Server esaminato 1
+[Constructive]Client 90 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 345
+[Constructive] Assegnamento di Client 91
+[Constructive] Server esaminato 0
+[Constructive]Client 91 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 288
+[Constructive] Assegnamento di Client 92
+[Constructive] Server esaminato 0
+[Constructive]Client 92 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 262
+[Constructive] Assegnamento di Client 93
+[Constructive] Server esaminato 1
+[Constructive]Client 93 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 320
+[Constructive] Assegnamento di Client 94
+[Constructive] Server esaminato 0
+[Constructive]Client 94 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 217
+[Constructive] Assegnamento di Client 95
+[Constructive] Server esaminato 1
+[Constructive]Client 95 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 290
+[Constructive] Assegnamento di Client 96
+[Constructive] Server esaminato 0
+[Constructive]Client 96 viene assegnato a server 0
+[Constructive]Capacità server 0 rimane 162
+[Constructive] Assegnamento di Client 97
+[Constructive] Server esaminato 2
+[Constructive]Client 97 viene assegnato a server 2
+[Constructive]Capacità server 2 rimane 482
+[Constructive] Assegnamento di Client 98
+[Constructive] Server esaminato 1
+[Constructive]Client 98 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 259
+[Constructive] Assegnamento di Client 99
+[Constructive] Server esaminato 1
+[Constructive]Client 99 viene assegnato a server 1
+[Constructive]Capacità server 1 rimane 245
+Tabu List: 
+[pos(0, 50), 
+Tabu List: 
+[pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), pos(0, 50), 
+Tabu List: 
+[pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), pos(3, 36), 
+Tabu List: 
+[pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), pos(1, 22), 
+Tabu List: 
+[pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), pos(2, 91), 
+Tabu List: 
+[pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), pos(4, 81), 
+Tabu List: 
+[pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), pos(2, 58), 
+Tabu List: 
+[pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), pos(2, 77), 
+Tabu List: 
+[pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), pos(3, 74), 
+Tabu List: 
+[pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), pos(2, 11), 
+Tabu List: 
+[pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), pos(4, 55), 
+Tabu List: 
+[pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), pos(3, 72), 
+Tabu List: 
+[pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), pos(0, 86), 
+Tabu List: 
+[pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), pos(1, 57), 
+Tabu List: 
+[pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), pos(3, 33), 
+Tabu List: 
+[pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), pos(3, 59), 
+Tabu List: 
+[pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), pos(2, 34), 
+Tabu List: 
+[pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), pos(1, 76), 
+Tabu List: 
+[pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), pos(4, 29), 
+Tabu List: 
+[pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), pos(4, 47), 
+Tabu List: 
+[pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), pos(4, 1), 
+Tabu List: 
+[pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), pos(4, 70), 
+Tabu List: 
+[pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), pos(2, 63), 
+Tabu List: 
+[pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), pos(4, 83), 
+Tabu List: 
+[pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), pos(4, 87), 
+Tabu List: 
+[pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), pos(0, 28), 
+Tabu List: 
+[pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), pos(3, 89), 
+Tabu List: 
+[pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), pos(1, 61), 
+Tabu List: 
+[pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), pos(2, 20), 
+Tabu List: 
+[pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), pos(0, 15), 
+Tabu List: 
+[pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), pos(4, 21), 
+Tabu List: 
+[pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), pos(0, 21), 
+Tabu List: 
+[pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), pos(2, 21), 
+Tabu List: 
+[pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(4, 15), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), 
+Tabu List: 
+[pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), pos(4, 15), 
+Tabu List: 
+[pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), pos(0, 32), 
+Tabu List: 
+[pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), pos(1, 48), 
+Tabu List: 
+[pos(4, 88), pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), pos(0, 48), 
+Tabu List: 
+[pos(2, 87), pos(4, 88), pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), pos(1, 89), 
+Tabu List: 
+[pos(4, 40), pos(2, 87), pos(4, 88), pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), pos(3, 21), 
+Tabu List: 
+[pos(0, 21), pos(4, 40), pos(2, 87), pos(4, 88), pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), pos(3, 80), 
+Tabu List: 
+[pos(0, 55), pos(0, 21), pos(4, 40), pos(2, 87), pos(4, 88), pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), pos(2, 15), 
+Tabu List: 
+[pos(2, 0), pos(0, 55), pos(0, 21), pos(4, 40), pos(2, 87), pos(4, 88), pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), pos(4, 17), 
+Tabu List: 
+[pos(3, 80), pos(2, 0), pos(0, 55), pos(0, 21), pos(4, 40), pos(2, 87), pos(4, 88), pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), pos(0, 17), 
+Tabu List: 
+[pos(0, 40), pos(3, 80), pos(2, 0), pos(0, 55), pos(0, 21), pos(4, 40), pos(2, 87), pos(4, 88), pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(0, 80), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), 
+Tabu List: 
+[pos(4, 62), pos(0, 40), pos(3, 80), pos(2, 0), pos(0, 55), pos(0, 21), pos(4, 40), pos(2, 87), pos(4, 88), pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), pos(2, 19), pos(3, 0), pos(0, 80), 
+Tabu List: 
+[pos(0, 62), pos(4, 62), pos(0, 40), pos(3, 80), pos(2, 0), pos(0, 55), pos(0, 21), pos(4, 40), pos(2, 87), pos(4, 88), pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), pos(2, 19), pos(3, 0), 
+Tabu List: 
+[pos(4, 51), pos(0, 62), pos(4, 62), pos(0, 40), pos(3, 80), pos(2, 0), pos(0, 55), pos(0, 21), pos(4, 40), pos(2, 87), pos(4, 88), pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), pos(2, 19), 
+Tabu List: 
+[pos(1, 51), pos(4, 51), pos(0, 62), pos(4, 62), pos(0, 40), pos(3, 80), pos(2, 0), pos(0, 55), pos(0, 21), pos(4, 40), pos(2, 87), pos(4, 88), pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(3, 97), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), 
+Tabu List: 
+[pos(4, 17), pos(1, 51), pos(4, 51), pos(0, 62), pos(4, 62), pos(0, 40), pos(3, 80), pos(2, 0), pos(0, 55), pos(0, 21), pos(4, 40), pos(2, 87), pos(4, 88), pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), pos(3, 97), 
+Tabu List: 
+[pos(3, 21), pos(4, 17), pos(1, 51), pos(4, 51), pos(0, 62), pos(4, 62), pos(0, 40), pos(3, 80), pos(2, 0), pos(0, 55), pos(0, 21), pos(4, 40), pos(2, 87), pos(4, 88), pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 90), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), 
+Tabu List: 
+[pos(0, 17), pos(3, 21), pos(4, 17), pos(1, 51), pos(4, 51), pos(0, 62), pos(4, 62), pos(0, 40), pos(3, 80), pos(2, 0), pos(0, 55), pos(0, 21), pos(4, 40), pos(2, 87), pos(4, 88), pos(2, 55), pos(2, 21), pos(3, 19), pos(0, 21), pos(4, 21), pos(3, 74), pos(0, 74), pos(2, 77), pos(4, 77), pos(1, 57), pos(0, 57), pos(4, 83), pos(0, 83), pos(1, 73), pos(4, 80), pos(4, 32), pos(3, 87), pos(3, 6), pos(0, 4), pos(2, 28), pos(1, 99), pos(0, 99), pos(1, 80), pos(0, 78), pos(1, 35), pos(0, 35), pos(1, 32), pos(2, 75), pos(4, 6), pos(2, 6), pos(0, 20), pos(3, 17), pos(2, 97), pos(1, 90), pos(2, 90), 

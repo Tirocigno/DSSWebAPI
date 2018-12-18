@@ -25,18 +25,29 @@ namespace DSSWebApp.Models.Prevision
 
         public int computeStagionality()
         {
+            Double[] startArray = this.readSerieFromFile();
+           int stagionality = computePearson(startArray);
+            if(stagionality == 1)
+            {
+                startArray = this.readSerieFromFile();
+                stagionality = computePearson(this.computeLogScaleArray(startArray));
+            }
+
+            return stagionality;
+        }
+
+        private int computePearson(Double[] startArray)
+        {
             double max = -1;
             int pearsonIndex = -1;
             double currentValue;
             int currentIndex = 1;
-            Double[] startArray = this.readSerieFromFile();
 
-            while(currentIndex < MAX_STAGIONALITY)
+            while (currentIndex < MAX_STAGIONALITY)
             {
-                //currentValue = Correlation(startArray,buildShiftedArray(startArray, currentIndex));
                 currentValue = PearsonWrapper.ComputePearson(startArray, buildShiftedArray(startArray, currentIndex));
-                writeOnLog("Pearson "+ currentIndex + ": " + currentValue);
-                if(currentValue > max)
+                writeOnLog("Pearson " + currentIndex + ": " + currentValue);
+                if (currentValue > max)
                 {
                     pearsonIndex = currentIndex;
                     max = currentValue;
@@ -47,6 +58,27 @@ namespace DSSWebApp.Models.Prevision
             return pearsonIndex;
         }
 
+        /// <summary>
+        /// Calculate LogScale array, unfortunately does not work as intended.
+        /// </summary>
+        /// <param name="startArray"></param>
+        /// <returns></returns>
+        private Double[] computeLogScaleArray(Double[] startArray)
+        {
+            Double[] logArray = new Double[startArray.Length - 1];
+            for (int i = 0; i < startArray.Length; i++)
+            {
+                startArray[i] = Math.Log(startArray[i]);
+                if (i >= 1)
+                {
+                    logArray[i - 1] = startArray[i] - startArray[i - 1];
+                }
+            }
+
+            return logArray;
+        }
+
+        /*Create an array with value shifted of one position used for correlograms*/
         private Double [] buildShiftedArray(Double[] originArray, int shift)
         { 
             double[] arr = new double[originArray.Length];
@@ -54,49 +86,7 @@ namespace DSSWebApp.Models.Prevision
             return arr;
         }
 
-        
-
-        private double Correlation(IEnumerable<Double> xs, IEnumerable<Double> ys)
-        {
-            // sums of x, y, x squared etc.
-            double sx = 0.0;
-            double sy = 0.0;
-            double sxx = 0.0;
-            double syy = 0.0;
-            double sxy = 0.0;
-
-            int n = 0;
-
-            using (var enX = xs.GetEnumerator())
-            {
-                using (var enY = ys.GetEnumerator())
-                {
-                    while (enX.MoveNext() && enY.MoveNext())
-                    {
-                        double x = enX.Current;
-                        double y = enY.Current;
-
-                        n += 1;
-                        sx += x;
-                        sy += y;
-                        sxx += x * x;
-                        syy += y * y;
-                        sxy += x * y;
-                    }
-                }
-            }
-
-            // covariation
-            double cov = sxy / n - sx * sy / n / n;
-            // standard error of x
-            double sigmaX = Math.Sqrt(sxx / n - sx * sx / n / n);
-            // standard error of y
-            double sigmaY = Math.Sqrt(syy / n - sy * sy / n / n);
-
-            // correlation is just a normalized covariation
-            return cov / (sigmaX * sigmaY);
-        }
-
+        /*Read a serie from file and return its value.*/
         private Double[] readSerieFromFile()
         {
             List<Double> list = new List<Double>();
@@ -110,7 +100,6 @@ namespace DSSWebApp.Models.Prevision
             }
 
             file.Close();
-            writeOnLog("Data Readed");
             return list.ToArray();
         }
 
