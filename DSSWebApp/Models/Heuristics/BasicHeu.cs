@@ -261,7 +261,6 @@ namespace DSSWebApp.Models.Heuristics
 
             while (step < totalSteps)
             {
-                writeOnLog("-------------Ciclo " + step + " ---------------");
                 int z = cost;
                 int oldi;
                 int randomServerIndex;
@@ -290,14 +289,11 @@ namespace DSSWebApp.Models.Heuristics
                 oldi == randomServerIndex);
                 treshold = 0;
 
-                writeOnLog("[SA]: Assegno client " + randomClientIndex + " a Server " + randomServerIndex);
-
                 int[] tmpsol = (int[])solution.Clone();
                 tmpsol[randomClientIndex] = randomServerIndex;
                 capleft[randomServerIndex] -= GAP.req[randomServerIndex, randomClientIndex];
                 capleft[oldi] += GAP.req[oldi, randomClientIndex];
                 z -= (GAP.cost[oldi, randomClientIndex] - GAP.cost[randomServerIndex, randomClientIndex]);
-                writeOnLog("[SA]: Costo diventa: " + z);
 
 
                 //int cost = checkSol(tmpsol);
@@ -306,7 +302,6 @@ namespace DSSWebApp.Models.Heuristics
                 {
                     solution = (int[])tmpsol.Clone();
                     this.capacitiesLeft = (int[])capleft.Clone();
-                    writeOnLog("[SA]: Accetto soluzione per correttezza");
                     cost = z;
                 } else
                 {
@@ -314,7 +309,6 @@ namespace DSSWebApp.Models.Heuristics
                     int rp = new Random().Next(0, 100);
                     if ( rp < p * 100)
                     {
-                        writeOnLog("[SA]: Accetto soluzione per probabilità " + rp + "inferiore a p: " + p);
                         solution = (int[])tmpsol.Clone();
                         this.capacitiesLeft = (int[])capleft.Clone();
                         cost = z;
@@ -351,10 +345,13 @@ namespace DSSWebApp.Models.Heuristics
 
             while(step < stepsToDo)
             {
+                 bestLocalSolution = Int32.MaxValue; //Reset the local solution.
 
                 /*Per ogni client*/
                 for (int j = 0; j < n; j++)
                 {
+                    //writeOnLog("________NUOVO CLIENT________");
+
                     /*Per ogni server*/
                     for (int i = 0; i < m; i++)
                     {
@@ -374,18 +371,28 @@ namespace DSSWebApp.Models.Heuristics
                             capleft[i] -= req[i, j];
                             capleft[isol] += req[isol, j];
                             tempCost -= (cost[isol, j] - cost[i, j]);
+                           // writeOnLog("[TS] Assegnare client" + j + " a server " + i + " cambia il costo a " + tempCost);
 
                             //Caso in cui la soluzione non è tabù ed è minore della soluzione migliore locale.
-                            if (!tabuQueue.contains(currentPosition) && tempCost < bestLocalSolution)
+                            if (!tabuQueue.contains(currentPosition) && tempCost <= bestLocalSolution)
                             {
                                 bestLocalSolution = tempCost;
                                 nextsol = (int[])tmpsol.Clone();
                                 bestPosition = currentPosition;
                                 nextCapleft = (int[])capleft.Clone();
+                                // Se la soluzione trovata è migliorativa, il suo costo è il nuovo best absolute solution.
+                               // writeOnLog("[TS] Soluzione [" + i + ", " + j + "] accettata per più piccolo costo locale " + bestLocalSolution);
+                                if (bestLocalSolution < bestAbsoluteSolution)
+                                {
+                                    bestAbsoluteSolution = bestLocalSolution;
+                                   // writeOnLog("[TS] Soluzione [" + i + ", " + j + "] accettata per costo ottimo " + bestAbsoluteSolution);
+                                }
+
+                               
 
                             }
                             //Caso in cui la soluzione è tabu ma è migliore della soluzione più bella.
-                            if (tabuQueue.contains(currentPosition) && tempCost < bestLocalSolution
+                            if (tabuQueue.contains(currentPosition) && tempCost <= bestLocalSolution
                                 && tempCost < bestAbsoluteSolution)
                             {
                                 bestLocalSolution = tempCost;
@@ -393,6 +400,7 @@ namespace DSSWebApp.Models.Heuristics
                                 nextsol = (int[])tmpsol.Clone();
                                 bestPosition = currentPosition;
                                 nextCapleft = (int[])capleft.Clone();
+                               // writeOnLog("[TS] Soluzione [" + i + ", " + j + "] accettata nonostante tabu");
                             }
                         }
                     }
@@ -402,15 +410,19 @@ namespace DSSWebApp.Models.Heuristics
                 solution = (int[])nextsol.Clone();
                 // Aggiungo la posizione che l'ha generata alla tabu list.
                 tabuQueue.add(bestPosition);
-                // Se la soluzione trovata è migliorativa, il suo costo è il nuovo best absolute solution.
-                if(bestLocalSolution < bestAbsoluteSolution)
-                {
-                    bestAbsoluteSolution = bestLocalSolution;
-                }
+               
                 //Assegno le nuove capacità sulla base della mossa che ho appena fatto
                 this.capacitiesLeft = (int[])nextCapleft.Clone();
                 //Il costo della soluzione che prendo in considerazione al prossimo passo sarà pari a bestLocalSolution.
                 z = bestLocalSolution;
+                writeOnLog("Tabu List: ");
+                string tl = "[";
+                for( int i = 0; i < tabuQueue.list.Count; i++)
+                {
+                    tl += "pos(" + tabuQueue.getValues().ElementAt(i).getFirstElem().ToString() + ", " +
+                        tabuQueue.getValues().ElementAt(i).getSecondElem().ToString() + "), ";
+                }
+                writeOnLog(tl);
                 step++;
             }
             return solution;

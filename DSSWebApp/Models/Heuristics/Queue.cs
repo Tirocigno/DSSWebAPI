@@ -7,7 +7,7 @@ namespace DSSWebApp.Models.Heuristics
 {
     public class Queue<T>
     {
-        private List<T> list = new List<T>();
+        public List<T> list = new List<T>();
         private int size;
         
 

@@ -25,5 +25,12 @@ namespace DSSWebApp.Models.Heuristics
         {
             return this.elem2;
         }
+
+        public override bool Equals(object obj)
+        {
+            Pair<X, Y> otherPair = obj as Pair<X, Y>;
+            return this.getFirstElem().Equals(otherPair.elem1) &&
+                    this.getSecondElem().Equals(otherPair.elem2);
+        }
     }
 }
