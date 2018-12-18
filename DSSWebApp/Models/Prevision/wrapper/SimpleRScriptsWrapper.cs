@@ -23,18 +23,7 @@ namespace DSSWebApp.Models.Prevision.wrapper
             this.fileName = fileName;
         }
 
-        public string simpleRComputation()
-        {
-            Thread t = new Thread(gioiellerieForecast, CUSTOM_HEAP_SIZE);
-            t.Start();
-            t.Join();
-            string s = "Next Values:\n";
-            for(int i = 0; i < results.Length; i++)
-            {
-                s += results[i].ToString() +"\n";
-            }
-            return s;
-        }
+        
 
         public string forecastComputation()
         {
@@ -62,7 +51,7 @@ namespace DSSWebApp.Models.Prevision.wrapper
             engine.Evaluate("library(tseries)");
             engine.Evaluate("library(forecast)");
             engine.Evaluate("data <- read.csv(\"" + filePath + "\")");
-            engine.Evaluate("myts <- ts(data[,2], frequency = "+frequency+")");
+            engine.Evaluate("myts <- ts(data[,1], frequency = "+frequency+")");
             engine.Evaluate("ARIMAfit1 <- auto.arima(myts, stepwise = FALSE, approximation = FALSE)");
             engine.Evaluate("myfc <- forecast(ARIMAfit1, h = "+ this.nextValuesToCompute +")");
             engine.Evaluate("intMean <- as.integer(myfc$mean)");

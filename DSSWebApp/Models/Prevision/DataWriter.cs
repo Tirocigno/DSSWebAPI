@@ -77,7 +77,7 @@ namespace DSSWebApp.Models.Prevision
             //Append to the file.
             StreamWriter appender = new StreamWriter(BASIC_FILE_PATH + fileName, true);
             List<int> source = this.chooseSource(fileName);
-            source.ForEach(elem => appender.WriteLine(elem + ","));
+            source.ForEach(elem => appender.WriteLine(elem));
             appender.Close();
 
         }
