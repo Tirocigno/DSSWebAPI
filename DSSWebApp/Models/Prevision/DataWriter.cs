@@ -22,16 +22,16 @@ namespace DSSWebApp.Models.Prevision
             this.data = new DBConnection().readSerieFromDB(); 
         }
 
-        private List<int> chooseSource(string fileName)
+        private List<double> chooseSource(string fileName)
         {
             Debug.Print(fileName);
-            List<int> l = new List<int>();
+            List<double> l = new List<double>();
             if(fileName == "esempio.csv")
             {
                 data.ForEach(elem =>
                 {
                     if (elem.esempio != null)
-                        l.Add((int)elem.esempio);
+                        l.Add((double)elem.esempio);
                 });
             }
 
@@ -40,7 +40,7 @@ namespace DSSWebApp.Models.Prevision
                 data.ForEach(elem =>
                 {
                     if (elem.esempio2 != null)
-                        l.Add((int)elem.esempio2);
+                        l.Add((double)elem.esempio2);
                 });
             }
 
@@ -49,7 +49,7 @@ namespace DSSWebApp.Models.Prevision
                 data.ForEach(elem =>
                 {
                     if (elem.jewelry != null)
-                        l.Add((int)elem.jewelry);
+                        l.Add((double)elem.jewelry);
                 });
             }
 
@@ -58,7 +58,7 @@ namespace DSSWebApp.Models.Prevision
                 data.ForEach(elem =>
                 {
                     if (elem.Passengers != null)
-                        l.Add((int)elem.Passengers);
+                        l.Add((double)elem.Passengers);
                 });
             }
 
@@ -76,8 +76,8 @@ namespace DSSWebApp.Models.Prevision
             }
             //Append to the file.
             StreamWriter appender = new StreamWriter(BASIC_FILE_PATH + fileName, true);
-            List<int> source = this.chooseSource(fileName);
-            source.ForEach(elem => appender.WriteLine(elem));
+            List<double> source = this.chooseSource(fileName);
+            source.ForEach(elem => appender.WriteLine(elem.ToString().Replace(",",".")));
             appender.Close();
 
         }

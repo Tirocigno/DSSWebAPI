@@ -27,7 +27,7 @@ namespace DSSWebApp.Models.Prevision
         public int computeStagionality()
         {
             Double[] startArray = this.readSerieFromFile();
-           int stagionality = computePearson(startArray);
+            int stagionality = computePearson(startArray);
             if(stagionality == 1)
             {
                 startArray = this.readSerieFromFile();
@@ -97,7 +97,7 @@ namespace DSSWebApp.Models.Prevision
             writeOnLog(file.ReadLine());
             while ((line = file.ReadLine()) != null)
             {
-                list.Add(Convert.ToDouble(line.Replace(",","")));
+                list.Add(Convert.ToDouble(line.Replace(",",".")));
                 writeOnLog(line);
             }
 
