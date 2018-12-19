@@ -23,6 +23,7 @@ namespace DSSWebApp.Models.Prevision
             this.fileName = fileName;
         }
 
+        /*Compute stagionality from outside*/
         public int computeStagionality()
         {
             Double[] startArray = this.readSerieFromFile();
@@ -31,6 +32,7 @@ namespace DSSWebApp.Models.Prevision
             {
                 startArray = this.readSerieFromFile();
                 stagionality = computePearson(this.computeLogScaleArray(startArray));
+
             }
 
             return stagionality;

@@ -25,8 +25,8 @@ namespace DSSWebApp.Models.Heuristics
             n = GAP.numcli;
             m = GAP.numserv;
             this.capacitiesLeft = (int[])GAP.cap.Clone();
-            writeOnLog("Numero di client: " + n);
-            writeOnLog("Numero di server: " + m);
+            //writeOnLog("Numero di client: " + n);
+            //writeOnLog("Numero di server: " + m);
         }
 
         /*Construct a random solution.*/
@@ -36,7 +36,7 @@ namespace DSSWebApp.Models.Heuristics
             for (int j = 0; j < n; j++)
             {
                 sol[j] = j;
-                writeOnLog("Client [" + j + "] assegnato a server [" + j + "]");
+               // writeOnLog("Client [" + j + "] assegnato a server [" + j + "]");
             }
               
             int z = checkSol(sol);
@@ -53,7 +53,7 @@ namespace DSSWebApp.Models.Heuristics
 
             for (int j = 0; j < n; j++)
             {
-                writeOnLog("[Constructive] Assegnamento di Client " + j);
+                //writeOnLog("[Constructive] Assegnamento di Client " + j);
                 /*Per ogni client vado a salvare in keys[i] il costo tra i e j e metto in index l'indice del server*/
                 for (int i = 0; i < m; i++)
                 {
@@ -65,18 +65,18 @@ namespace DSSWebApp.Models.Heuristics
                 for (ii = 0; ii < m; ii++)
                 {
                     int i = index[ii];
-                    writeOnLog("[Constructive] Server esaminato " + i);
+                    //writeOnLog("[Constructive] Server esaminato " + i);
                     //Se la capacità del server i è sufficente -> allora diminuisco la capacità del server e vado ad assegnare il client a quel server
                     if (capleft[i] >= GAP.req[i, j])
                     {
-                        writeOnLog("[Constructive]Client " + j + " viene assegnato a server " + i);
+                       // writeOnLog("[Constructive]Client " + j + " viene assegnato a server " + i);
                         capleft[i] -= GAP.req[i, j];
-                        writeOnLog("[Constructive]Capacità server " + i + " rimane " + capleft[i]);
+                        //writeOnLog("[Constructive]Capacità server " + i + " rimane " + capleft[i]);
                         sol[j] = i;
                         break;
                     } else
                     {
-                        writeOnLog("[Constructive] Server esaminato " + i + "non poteva ospitare client " + j);
+                        //writeOnLog("[Constructive] Server esaminato " + i + "non poteva ospitare client " + j);
                     }
                    
                 }
@@ -109,12 +109,6 @@ namespace DSSWebApp.Models.Heuristics
             {
                 z += cost[sol[j], j];
             }
-
-            if(z == k )
-            {
-                writeOnLog("[Opt1-0]: Ciclo for del calcolo di z inutile");
-            }
-
 
             while (isImproved) {
                 isImproved = false;
@@ -209,52 +203,7 @@ namespace DSSWebApp.Models.Heuristics
                 }
             }
             return z;
-        }
-
-        /*1. Genera una soluzione iniziale ammissibile S,
-           inizializza S* = S e il parametro temperatura T.
-          2. Genera S’∈N(S).
-          3. se z(S') < z(S) allora S=S', if (z(S*) > z(S)) S* = S
-             altrimenti accetta di porre S=S' con probabilità p = e-(z(S')-z(S))/kT.
-          4. se (annealing condition) cala T.
-          5. se not(end condition) go to step 2.          */
-        private int[] annealing(int[] solution, double temperature, int step)
-        {
-            System.Threading.Thread.Sleep(100);
-            writeOnLog("Lunghezza di sol al passo " + step +" risulta: " + solution.Length.ToString());
-            if(step % COOLING_SCHEDULE_CONSTANT == 0)
-            {
-                temperature *= TEMPERATURE_COOLING_CONSTANT;
-            }
-            if(step == MAX_ANNEALING_STEPS)
-            {
-                return solution;
-            }
-            int randomServerIndex = new Random().Next(m);
-            int randomClientIndex = new Random().Next(n);
-
-            int[] tmpsol = (int[])sol.Clone();
-            tmpsol[randomClientIndex] = randomServerIndex;
-
-           
-                int cost = checkSol(tmpsol);
-                int oldcost = checkSol(solution);
-                if (cost < oldcost)
-                {
-                    solution = null;
-                    return annealing(tmpsol, temperature, step + 1);
-                }
-                double p = Math.Exp(-(cost - oldcost) / (double)temperature);
-                if (new Random().Next() < p)
-                {
-                    solution = null;
-                    return annealing(tmpsol, temperature, step + 1);
-                }
-                    
-            
-            tmpsol = null;
-            return annealing(solution, temperature, step + 1);
-        }        // See this algorithm should not try an illegal configuration and should change capacities        private int[] nonRecorsiveAnnealing(int[] solution, double temperature, int step, int totalSteps, double temperatureDecrease, int coolingScheduleSteps, int initialCost)
+        }        //OK        private int[] nonRecorsiveAnnealing(int[] solution, double temperature, int step, int totalSteps, double temperatureDecrease, int coolingScheduleSteps, int initialCost)
         {
             int cost = initialCost;
             Random r = new Random();
@@ -415,14 +364,6 @@ namespace DSSWebApp.Models.Heuristics
                 this.capacitiesLeft = (int[])nextCapleft.Clone();
                 //Il costo della soluzione che prendo in considerazione al prossimo passo sarà pari a bestLocalSolution.
                 z = bestLocalSolution;
-                writeOnLog("Tabu List: ");
-                string tl = "[";
-                for( int i = 0; i < tabuQueue.list.Count; i++)
-                {
-                    tl += "pos(" + tabuQueue.getValues().ElementAt(i).getFirstElem().ToString() + ", " +
-                        tabuQueue.getValues().ElementAt(i).getSecondElem().ToString() + "), ";
-                }
-                writeOnLog(tl);
                 step++;
             }
             return solution;
