@@ -51,8 +51,8 @@ namespace DSSWebApp.Controllers
             w.toCSVFile();
             PearsonCompute p = new PearsonCompute(fileName);
             int stagionality = p.computeStagionality();
-            //return new SimpleRScriptsWrapper(stagionality, stagionality*4 ,fileName).forecastComputation();
-            return p.computeStagionality().ToString();
+            return new SimpleRScriptsWrapper(stagionality, stagionality*4 ,fileName).forecastComputation();
+            //return p.computeStagionality().ToString();
         }
 
         [HttpGet]
